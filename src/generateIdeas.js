@@ -2,26 +2,29 @@ import { log, bold, blue } from "./utils/log.js";
 
 import fs from "fs";
 import slugify from "slugify";
-import { openAI } from "./utils/openai.js";
-import { parseTable } from "./utils/parseTable.js";
-import { saveToSpreadSheet } from "./utils/googleSheetsService.js";
 import { Sema } from "async-sema";
 import { RateLimit } from "async-sema";
+
+import { openAI } from "./utils/openai.js";
+import { parseTable } from "./utils/parseTable.js";
+// import { saveToSpreadSheet } from "./utils/googleSheetsService.js";
 
 const lim = RateLimit(100, { timeUnit: 60 * 1000, uniformDistribution: true });
 
 // import { audience_list } from "./audience_list.js";
 
-log(blue("Starting\n"));
+log(blue("Starting"));
 
 try {
 	const data = getProblems();
+	// console.log(data);process.exit();
+	
 	const count_total = data.length;
 	const s = new Sema(10, { capacity: count_total });
 	await Promise.all(
-		data.map(async ({problem, need}) => {
+		data.map(async ({ problem, need }) => {
 			await s.acquire();
-			await generageIdeas({ problem, need, waiting: s.nrWaiting() });
+			await generageIdeas({ problem, need}); //, waiting: s.nrWaiting()
 			s.release();
 		}),
 	);
@@ -29,20 +32,20 @@ try {
 	console.log(e);
 }
 
-log(blue("\nDone"));
+log(blue("Done"));
 
-async function generageIdeas({ problem, need, waiting }) {
+async function generageIdeas({ problem, need }) {
 	await lim();
 
-	log(`${waiting} - ${bold("Problem:")} ${problem} → ${bold("details:")} ${need}`);
+	log(`${bold("Problem:")} ${problem} → ${bold("details:")} ${need}`);
 	const message = `Users with ${problem} problem and want ${need}`;
 	const message_slug = slugify(message, { replacement: "_", lower: true, trim: true });
-	
+
 	const result = await openAI(message);
-	
+
 	fs.writeFileSync(`../results/${message_slug}.json`, JSON.stringify(result, null, 2));
 
-	await saveToSpreadSheet(message_slug, result);
+	// await saveToSpreadSheet(message_slug, result);
 }
 
 function getProblems() {
@@ -53,7 +56,7 @@ function getProblems() {
 		for (const details of problem[1]) {
 			data.push({
 				problem: problem[0],
-				need: details,
+				need: details.slice(3),
 			});
 		}
 	}

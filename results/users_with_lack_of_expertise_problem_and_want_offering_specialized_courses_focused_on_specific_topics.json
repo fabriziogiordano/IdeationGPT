@@ -1,0 +1,4 @@
+{
+  "role": "assistant",
+  "content": "[\n  {\n    \"problem\": \"Users with Lack of expertise problem and want Offering specialized courses focused on specific topics\",\n    \"importance\": 5,\n    \"required_expertise\": 1,\n    \"no_code_solution\": \"Create an online platform using no-code tools like Bubble or Webflow to host and sell the courses.\",\n    \"content_solution\": \"Create video-based courses or eBook guides that can be sold on platforms like Udemy or Gumroad.\",\n    \"competitors\": \"Coursera, Udemy, Skillshare\",\n    \"differentiator\": \"Offer a more personalized learning experience with smaller class sizes and one-on-one interaction with the instructor.\"\n  }\n]"
+}

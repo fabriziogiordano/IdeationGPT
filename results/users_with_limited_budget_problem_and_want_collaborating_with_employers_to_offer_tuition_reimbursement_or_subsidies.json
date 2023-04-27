@@ -1,0 +1,4 @@
+{
+  "role": "assistant",
+  "content": "[\n  {\n    \"problem\": \"Limited budget individuals struggle to pay for tuition or education expenses\",\n    \"importance\": 4,\n    \"required_expertise\": 1,\n    \"no_code_solution\": \"A platform that connects individuals with employers who offer tuition reimbursement or subsidies\",\n    \"content_solution\": \"An online course on how to negotiate tuition reimbursement with employers\",\n    \"competitors\": \"EdAssist, Guild Education, Bright Horizons\",\n    \"differentiator\": \"Our platform focuses specifically on connecting individuals with low budgets to employers offering tuition assistance, and our content product provides actionable steps to successfully negotiate tuition reimbursement\"\n  }\n]"
+}

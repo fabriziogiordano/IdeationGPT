@@ -1,0 +1,4 @@
+{
+  "role": "assistant",
+  "content": "[\n  {\n    \"problem\": \"Users with lack of time problem and want providing condensed courses that focus on key concepts\",\n    \"importance\": 5,\n    \"required_expertise\": 1,\n    \"no_code_solution\": \"Create a series of video courses using a platform like Udemy or Teachable\",\n    \"content_solution\": \"Write short ebooks or blog posts that summarize key concepts in various fields\",\n    \"competitors\": \"Udacity, Coursera, Masterclass\",\n    \"differentiator\": \"Focus on courses that can be completed in under an hour and emphasize practical applications\"\n  }\n]"
+}

@@ -6,7 +6,6 @@ import { Sema } from "async-sema";
 import { RateLimit } from "async-sema";
 
 import { openAISimple } from "./utils/openai.js";
-import { parseTable } from "./utils/parseTable.js";
 
 const lim = RateLimit(100, { timeUnit: 60 * 1000, uniformDistribution: true });
 
@@ -33,15 +32,13 @@ function getPrompts() {
 	return data;
 }
 
-log(blue("\nDone"));
-
 try {
 	const data = getPrompts();
 	const s = new Sema(10, { capacity: data.length });
 	await Promise.all(
 		data.map(async ({ problem }) => {
 			await s.acquire();
-			await generageIdeas({ problem, waiting: s.nrWaiting() });
+			await generageIdeas({ problem });
 			s.release();
 		}),
 	);
@@ -49,7 +46,9 @@ try {
 	console.log(e);
 }
 
-async function generageIdeas({ problem, waiting }) {
+log(blue("\nDone"));
+
+async function generageIdeas({ problem }) {
 	await lim();
 
 	log(`${bold("Problem:")} ${problem}`);

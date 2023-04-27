@@ -1,12 +1,15 @@
-import { log, blue } from "./utils/log.js";
+import { log, green } from "./utils/log.js";
 import fs from "fs";
 
 import { openAISimple } from "./utils/openai.js";
 import { parseTable } from "./utils/parseTable.js";
 
-log(blue("Starting"));
+log(green("Starting"));
 
-const prompt = `You are an entrepreneur. For each of the problem below suggest 3 possible audience pain point to solve:
+const prompt = `
+You are an entrepreneur.
+
+For each of the problem below suggest 3 possible audience pain point to solve in the {PROBLEM}:
 - Lack of time
 - Lack of expertise
 - Limited access to resources
@@ -20,17 +23,19 @@ const prompt = `You are an entrepreneur. For each of the problem below suggest 3
 
 Generate a table with 2 columns:
 - one with the problem
-- one with the 3 solutions each one separated in a new line
+- one with the 3 solutions each one separated by a <br> tag
 
 `;
 
-const data = await openAISimple(prompt);
+const space = "online education space";
+
+const data = await openAISimple(prompt.trim().replace("{PROBLEM}", space) + '\n');
+data.space = space;
 const table = data.content;
 
 const dataTable = parseTable(table);
 console.log(dataTable);
 
-fs.writeFileSync("./results/problems.json", JSON.stringify(data, null, 2));
+fs.writeFileSync("../problems/problems.json", JSON.stringify(data, null, 2));
 
-log(array);
-log(blue("\nDone"));
+log(green("Done"));
