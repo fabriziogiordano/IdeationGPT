@@ -1,8 +1,0 @@
-{
-  "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| Tech Support for E-Learning | A one-stop-shop for on-demand technical support for students enrolled in online courses, with the aim of providing fast and efficient troubleshooting solutions., reducing the risk of tech-related disruptions to course completion. | 1. 24/7 Availability 2. Remote Assistance 3. Trained Technicians 4. Subscription-based 5. Multi-platform Technical Support | 1. Chegg 2. TutorMe 3. InstaEDU 4. Skooli 5. Wyzant  | Unlike its competitors, Tech Support for E-Learning focuses exclusively on addressing the technical issues that hinder online learning experiences. By doing so, Tech Support for E-Learning provides a more specialized and personalized service.|",
-  "problem_id": 6,
-  "audience": "online education",
-  "pain_point_short": "limited technical support",
-  "pain_point_description": "online classes can have technical difficulties that can disrupt the learning experience. a business that offers on-demand technical support can help students quickly address any technical issues and get back on track with their coursework."
-}

@@ -40,7 +40,7 @@ log(blue("Starting"));
 
 try {
 	await sqlite.open(DB_FILE);
-	const problems = await getProblems();
+	const problems = await getPainPoints();
 	// console.log(data); process.exit();
 
 	const count_total = problems.length;
@@ -82,7 +82,7 @@ PAIN POINT: ${pain_point_short} - ${pain_point_description}
 	fs.writeFileSync(`../solutions/${slug}.json`, JSON.stringify(solutions, null, 2));
 }
 
-async function getProblems() {
+async function getPainPoints() {
 	const problems = await sqlite.all(`
 		SELECT
 			id,
@@ -90,7 +90,7 @@ async function getProblems() {
 			pain_point_short,
 			pain_point_description
 		FROM
-			problems
+			pain_points
 	`);
 	return problems;
 }

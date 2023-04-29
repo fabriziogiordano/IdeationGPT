@@ -15,33 +15,46 @@ async function mainApp() {
 
         let table = "";
 
-        table = "problems";
+        table = "audiences";
         await sqlite.run(`
           CREATE TABLE ${table} (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            audience text,
-            audience_slug text,
-            pain_point_short text,
-            pain_point_short_slug text,
-            pain_point_description text
+            title text,
+            slug text,
+            status integer
           )
         `);
         console.log(`Table **${table}** created`);
-        await sqlite.run(`CREATE INDEX audience_slug_index ON ${table} (audience_slug);`);
+        // await sqlite.run(`CREATE INDEX audience_slug_index ON ${table} (audience_slug);`);
+        // await sqlite.run(`CREATE INDEX space_index ON ${table} (audience);`);
+
+        table = "pain_points";
+        await sqlite.run(`
+          CREATE TABLE ${table} (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            audience_id integer,
+            
+            title text,
+            slug text,
+            description text
+          )
+        `);
+        console.log(`Table **${table}** created`);
+        // await sqlite.run(`CREATE INDEX audience_slug_index ON ${table} (audience_slug);`);
         // await sqlite.run(`CREATE INDEX space_index ON ${table} (audience);`);
 
         table = "solutions";
         await sqlite.run(`
           CREATE TABLE ${table} (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
+            problem_id integer,
+
             title text,
             title_slug text,
             description text,
             features text,
             competitors text,
-            differentiator text, 
-
-            problem_id integer
+            differentiator text
           )
         `);
         console.log(`Table **${table}** created`);

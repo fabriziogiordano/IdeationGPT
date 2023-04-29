@@ -1,15 +1,17 @@
 import { log, bold, blue } from "./utils/log.js";
 import fs from "fs";
-import slugify from "slugify";
 
 import { Sema } from "async-sema";
 import { RateLimit } from "async-sema";
 
 import { openAI } from "./utils/openai.js";
 
-const lim = RateLimit(100, { timeUnit: 60 * 1000, uniformDistribution: true });
+import { AUDIENCE_STATUS, PAIN_POIN_STATUS } from "./utils/index.js";
 
-log(blue("Starting"));
+import * as sqlite from "./db/index.js";
+const DB_FILE = "./db/DB.db";
+
+const lim = RateLimit(100, { timeUnit: 60 * 1000, uniformDistribution: true });
 
 const system_prompt = `
 CONTEXT:
@@ -43,34 +45,46 @@ Generate a table with 2 columns:
 `;
 
 try {
-	const data = getPrompts();
-	const s = new Sema(10, { capacity: data.length });
+	log(blue("Starting"));
+	await sqlite.open(DB_FILE);
+	const audiences = await getAudiences();
+	//console.log(audiences); process.exit();
+	
+	const s = new Sema(10, { capacity: audiences.length });
 	await Promise.all(
-		data.map(async ({ audience }) => {
+		audiences.map(async (audience) => {
 			await s.acquire();
-			await generageIdeas({ audience });
+			await generageIdeas(audience);
 			s.release();
 		}),
 	);
+	await sqlite.close();
+	log(blue("Done"));
 } catch (e) {
 	console.log(e);
 }
 
-log(blue("Done"));
 
-function getPrompts() {
-	const data = [];
-	data.push({ audience: "online education" });
-	data.push({ audience: "scuba diving" });
-	return data;
+
+async function getAudiences() {
+	const audiences = await sqlite.all(`SELECT id, title, slug FROM audiences WHERE status = ${AUDIENCE_STATUS.EMPTY}`);
+	return audiences;
 }
 
-async function generageIdeas({ audience }) {
+async function generageIdeas(audience) {
 	await lim();
-	log(`${bold("Audience:")} ${audience}`);
-	const user_prompt = `AUDIENCE: ${audience}`;
+
+	await sqlite.run("UPDATE audiences SET status = ? WHERE id = ?", [AUDIENCE_STATUS.INPROGRESS, audience.id]);
+	
+	log(`${bold("Audience:")} ${audience.title}`);
+	const user_prompt = `AUDIENCE: ${audience.title}`;
 	const data = await openAI(system_prompt, user_prompt);
-	const slug = slugify(audience, { replacement: "_", remove: ":", lower: true, trim: true });
-	data.audience = audience;
-	fs.writeFileSync(`../problems/overall.${slug}.json`, JSON.stringify(data, null, 2));
+	data.status = PAIN_POIN_STATUS.NEW;
+	data.audience_title = audience.title;
+	data.audience_slug = audience.slug;
+	data.audience_id = audience.id;
+	await fs.promises.writeFile(`./pain_points/${audience.slug}.json`, JSON.stringify(data, null, 2));
+	
+	await sqlite.run("UPDATE audiences SET status = ? WHERE id = ?", [AUDIENCE_STATUS.COMPLETED, audience.id]);
+
 }
