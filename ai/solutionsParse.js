@@ -1,48 +1,68 @@
 import { log, bold, blue } from "./utils/log.js";
 
 import fs from "fs";
+import slugify from "slugify";
 
 import * as sqlite from "./db/index.js";
 const DB_FILE = "./db/DB.db";
 
-import { parseTable } from "./utils/parseTable.js";
+import { SOLUTIONS_STATUS } from "./utils/index.js";
 
-log(blue("Starting"));
+import { parseTableSolutions } from "./utils/parseTable.js";
 
-await sqlite.open(DB_FILE);
+try {
+	log(blue("Starting"));
 
-const solutionsFiles = fs.readdirSync("../solutions");
+	await sqlite.open(DB_FILE);
 
-for (const file of solutionsFiles) {
-	// if(file !=="scuba_diving_difficulty_finding_spectacular_dive_locations.json") continue;
-	log(`FILE: ${blue(file)}`);
-	let solutions = fs.readFileSync(`../solutions/${file}`, "utf8");
-	solutions = JSON.parse(solutions);
-	solutions.content = parseTable(solutions.content);
+	const SOLUTIONS_PATH = "./solutions";
+	const solutionsFiles = await fs.promises.readdir(SOLUTIONS_PATH);
 
-	console.log(solutions.content);
+	for (const file of solutionsFiles) {
+		// if(file !=="scuba_diving_difficulty_finding_spectacular_dive_locations.json") continue;
+		log(`FILE: ${blue(file)}`);
+		const SOLUTIONS_PATH_FILE = `${SOLUTIONS_PATH}/${file}`;
+		const data = JSON.parse(await fs.promises.readFile(SOLUTIONS_PATH_FILE, "utf8"));
 
+		// Skip if not new
+		if (data.status !== SOLUTIONS_STATUS.NEW) continue;
 
-	for (const solution of solutions.content) {
-		solution[0] = solution[0]?.replaceAll(/\d.*?\. /g, "").trim();
-		solution[2] = solution[2]?.replaceAll(/\d.*?\. /g, "").replaceAll("- ", "").trim();
-		solution[3] = solution[3]?.replaceAll(/\d.*?\. /g, "").replaceAll("<br>-", "").trim();
-		const query = {
-			title: solution[0].toLowerCase(),
-			title_slug: slugify(solution[0], { remove: ":", lower: true, trim: true }),
-			description: solution[1],
-			features: solution[2],
-			competitors: solution[3],
-			differentiator: solution[4],
+		data.content = parseTableSolutions(data.content);
 
-			problem_id: solutions.problem_id,
-			// audience: solutions.audience,
-			// pain_point_short: solutions.pain_point_short,
-			// pain_point_description: solutions.pain_point_description,
-		};
-		
-		await sqlite.insertRow("solutions", query);
+		// If result is a table with right structure then save it
+		if (data.content[0][0].toLowerCase().replaceAll('*', '') === "title") {
+			data.content = data.content.slice(2); // remove title and separator
+
+			for (const solution of data.content) {
+				solution[0] = solution[0]?.replaceAll(/\d.*?\. /g, "").trim();
+				solution[2] = solution[2]?.replaceAll(/\d.*?\. /g, "").replaceAll("- ", "").trim();
+				solution[3] = solution[3]?.replaceAll(/\d.*?\. /g, "").replaceAll("<br>-", "").trim();
+
+				const query = {
+					title: solution[0].toLowerCase(),
+					slug: slugify(solution[0], { remove: ":", lower: true, trim: true }),
+					description: solution[1],
+					features: solution[2],
+					competitors: solution[3],
+					differentiator: solution[4],
+
+					pain_point_id: data.pain_point_id,
+					audience_id: data.audience_id,
+				};
+				//console.log(query);
+				await sqlite.insertRow("solutions", query);
+			}
+		}
+		else {
+			console.log(`${file} is not a table`);
+		}
+
+		data.status = SOLUTIONS_STATUS.PARSED;
+		await fs.promises.writeFile(SOLUTIONS_PATH_FILE, JSON.stringify(data, null, 2));
 	}
-}
 
-await sqlite.close();
+	await sqlite.close();
+	log(blue("Done"));
+} catch (e) {
+	console.log(e);
+}

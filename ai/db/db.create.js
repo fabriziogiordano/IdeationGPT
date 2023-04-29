@@ -48,10 +48,11 @@ async function mainApp() {
         await sqlite.run(`
           CREATE TABLE ${table} (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            problem_id integer,
+            pain_point_id integer,
+            audience_id integer,
 
             title text,
-            title_slug text,
+            slug text,
             description text,
             features text,
             competitors text,
@@ -59,8 +60,8 @@ async function mainApp() {
           )
         `);
         console.log(`Table **${table}** created`);
-        await sqlite.run(`CREATE INDEX problem_id_index ON ${table} (problem_id);`);
-        await sqlite.run(`CREATE INDEX title_slug_index ON ${table} (title_slug);`);
+        // await sqlite.run(`CREATE INDEX problem_id_index ON ${table} (problem_id);`);
+        // await sqlite.run(`CREATE INDEX title_slug_index ON ${table} (title_slug);`);
 
         await sqlite.close();
     } catch (e) {

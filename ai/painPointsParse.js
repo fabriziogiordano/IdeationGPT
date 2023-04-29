@@ -14,10 +14,12 @@ try {
 	log(blue("Starting"));
 	await sqlite.open(DB_FILE);
 
-	const painPointsFiles = await fs.promises.readdir("./pain_points");
+	const PAIN_POINT_PATH = "./pain_points";
+	const painPointsFiles = await fs.promises.readdir(PAIN_POINT_PATH);
 
 	for (const file of painPointsFiles) {
-		const data = JSON.parse(await fs.promises.readFile(`./pain_points/${file}`, "utf8"));
+		const PAIN_POINT_PATH_FILE = `${PAIN_POINT_PATH}/${file}`;
+		const data = JSON.parse(await fs.promises.readFile(PAIN_POINT_PATH_FILE, "utf8"));
 
 		// Skip if not new
 		if (data.status !== PAIN_POINT_STATUS.NEW) continue;
@@ -41,7 +43,7 @@ try {
 		}
 
 		data.status = PAIN_POINT_STATUS.PARSED;
-		await fs.promises.writeFile(`./pain_points/${data.audience_slug}.json`, JSON.stringify(data, null, 2));
+		await fs.promises.writeFile(PAIN_POINT_PATH_FILE, JSON.stringify(data, null, 2));
 	}
 
 	await sqlite.close();

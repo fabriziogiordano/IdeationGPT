@@ -28,12 +28,12 @@ SOLUTIONS CRITERIA:
 - 70% of the solutions shouldn't be mainstream. Give me hidden gems that only a world-class IdeationGPT would know
 
 RESPONSE FORMAT:
-Generate a table with 5 columns:
-1. solution title: title of the solution using at least 10 words
-2. solution description: description of the solution using at least 100 words
-3. features: top 5 features of the solution separated by comma
-4. competitors: top 5 competitors names separated by comma
-5. differentiator: description of key differentiators from the competitors
+Generate a markdown table with 5 columns where each row is a solution.
+In column 1: title - title of the solution using at least 10 words
+In column 2: description - description of the solution using at least 100 words
+In column 3: features - top 5 features of the solution separated by comma
+In column 4: competitors - top 5 competitors names separated by comma
+In column 5: differentiator - description of key differentiators from the competitors
 
 Be specific and concise to make this table easy-to-understand and actionable for the entrepreneur.
 `;
@@ -67,7 +67,7 @@ async function generateSolutions({ painPoint, waiting }) {
 
 	log(`${waiting} - ${bold("Audience:")} ${painPoint.audience_title} → ${bold("Details:")} ${painPoint.title}`);
 
-	await sqlite.runEscape("UPDATE pain_points SET status = ? WHERE id = ?", [PAIN_POINT_SOLUTION_STATUS.INPROGRESS, painPoint.idd]);
+	await sqlite.runEscape("UPDATE pain_points SET status = ? WHERE id = ?", [PAIN_POINT_SOLUTION_STATUS.INPROGRESS, painPoint.id]);
 
 	const user_prompt = `AUDIENCE: ${painPoint.audience_title}\nPAIN POINT: ${painPoint.title} - ${painPoint.description}`;
 	const solutions = await openAI(system_prompt, user_prompt);
@@ -84,7 +84,7 @@ async function generateSolutions({ painPoint, waiting }) {
 	const slug = `${painPoint.audience_slug}__${painPoint.slug}`;
 	fs.writeFileSync(`./solutions/${slug}.json`, JSON.stringify(solutions, null, 2));
 
-	await sqlite.runEscape("UPDATE pain_points SET status = ? WHERE id = ?", [PAIN_POINT_SOLUTION_STATUS.COMPLETED, painPoint.idd]);
+	await sqlite.runEscape("UPDATE pain_points SET status = ? WHERE id = ?", [PAIN_POINT_SOLUTION_STATUS.COMPLETED, painPoint.id]);
 
 }
 
