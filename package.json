@@ -5,7 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "",
+    "clear:files": "npm run basePath && rm -rf ./problems/* && rm -rf ./solutions/*",
+    "clear:db": "npm run basePath && cd src/db && node db.create.js",
+    "basePath": "cd /Users/fabgio/Projects/IdeationGPT",
+    "problems": "npm run basePath && rm -rf ./problems/* && cd src && node problemsGenerate && node problemsParse",
+    "solutions": "npm run basePath && rm -rf ./solutions/* && cd src && node solutionsGenerate && node solutionsParse",
+    "all": "npm run clear:db && npm run problems && npm run solutions",
     "test": ""
   },
   "dependencies": {
@@ -15,7 +20,8 @@
     "googleapis": "^118.0.0",
     "openai": "^3.2.1",
     "ora": "^6.3.0",
-    "slugify": "^1.6.6"
+    "slugify": "^1.6.6",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "rome": "12.0.0"

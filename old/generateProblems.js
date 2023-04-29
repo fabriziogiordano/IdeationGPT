@@ -1,8 +1,8 @@
-import { log, green } from "./utils/log.js";
+import { log, green } from "../src/utils/log.js";
 import fs from "fs";
 
-import { openAISimple } from "./utils/openai.js";
-import { parseTable } from "./utils/parseTable.js";
+import { openAISimple } from "../src/utils/openai.js";
+import { parseTable } from "../src/utils/parseTable.js";
 
 log(green("Starting"));
 
