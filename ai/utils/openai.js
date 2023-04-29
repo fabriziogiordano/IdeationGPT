@@ -12,7 +12,7 @@ export async function openAI(system, user) {
 		// log(blue(`Sending message to OpenAI for ${white(user)}`));
 		const completion = await openai.createChatCompletion({
 			model: "gpt-3.5-turbo",
-			temperature: 1,
+			temperature: 0.9,
 			messages: [
 				{ role: "system", content: system.trim() },
 				{ role: "user", content: user.trim() },

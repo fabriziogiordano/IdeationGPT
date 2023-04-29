@@ -17,3 +17,21 @@ export function parseTable(table) {
 		});
 	}
 }
+
+export function parseTableSolutions(table) {
+	if (table.charAt(0) === "|") {
+		const regexp = /^\|(.*)\|\n/gim;
+		const results = [...table.matchAll(regexp)].map((match) => {
+			const row = match[0].split("|").map((x) => x.trim());
+			row.shift();
+			row.pop();
+			return row;
+		});
+		return results;
+	} else {
+		return table.split("\n").map((match) => {
+			const row = match.split("|").map((x) => x.trim());
+			return row;
+		});
+	}
+}
