@@ -1,4 +1,0 @@
-{
-  "role": "assistant",
-  "content": "[\n  {\n    \"problem\": \"Providing access to online forums for peer-to-peer learning\",\n    \"importance\": 4,\n    \"required_expertise\": 1,\n    \"no_code_solution\": \"Create a forum on existing platforms like Facebook or Reddit\",\n    \"content_solution\": \"Write articles or create videos on how to best use these forums for learning\",\n    \"competitors\": [\"Coursera\", \"Udemy\", \"Skillshare\"],\n    \"differentiator\": \"Offer a more personalized and community-driven learning experience\"\n  }\n]"
-}
