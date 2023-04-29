@@ -19,7 +19,9 @@ for (const file of problemsFiles) {
 	for (const results of dataTable) {
 		const query = {
 			audience: problem.audience,
+			audience_slug: slugify(problem.audience, { remove: ":", lower: true, trim: true }),
 			pain_point_short: results[0].toLowerCase(),
+			pain_point_short_slug: slugify(results[0].toLowerCase(), { remove: ":", lower: true, trim: true }),
 			pain_point_description: results[1].toLowerCase(),
 		};
 		console.log(`${blue(query.audience)}\n${query.pain_point_short}\n${bold(query.pain_point_description)}`);

@@ -1,5 +1,7 @@
 import { log, bold, blue } from "./utils/log.js";
+
 import fs from "fs";
+
 import * as sqlite from "./db/index.js";
 const DB_FILE = "./db/DB.db";
 
@@ -26,7 +28,8 @@ for (const file of solutionsFiles) {
 		solution[2] = solution[2]?.replaceAll(/\d.*?\. /g, "").replaceAll("- ", "").trim();
 		solution[3] = solution[3]?.replaceAll(/\d.*?\. /g, "").replaceAll("<br>-", "").trim();
 		const query = {
-			title: solution[0],
+			title: solution[0].toLowerCase(),
+			title_slug: slugify(solution[0], { remove: ":", lower: true, trim: true }),
 			description: solution[1],
 			features: solution[2],
 			competitors: solution[3],

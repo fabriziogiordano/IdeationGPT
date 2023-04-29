@@ -68,9 +68,9 @@ function getPrompts() {
 async function generageIdeas({ audience }) {
 	await lim();
 	log(`${bold("Audience:")} ${audience}`);
-	const user_prompt = `AUDIENCE: ${audience}`
+	const user_prompt = `AUDIENCE: ${audience}`;
 	const data = await openAI(system_prompt, user_prompt);
-	const slug = slugify(audience, { replacement: "_", remove:":", lower: true, trim: true });
+	const slug = slugify(audience, { replacement: "_", remove: ":", lower: true, trim: true });
 	data.audience = audience;
 	fs.writeFileSync(`../problems/overall.${slug}.json`, JSON.stringify(data, null, 2));
 }
