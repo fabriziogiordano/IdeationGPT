@@ -1,7 +1,7 @@
 {
   "role": "assistant",
   "content": "| Short Description | Long Description |\n| --- | --- |\n| Subscription tracking | Difficulty in keeping track of multiple subscriptions leading to overspending and waste of resources. |\n| Subscription cancellation | Difficulty and time consumption in cancelling unwanted subscriptions leading to unnecessary charges. |\n| Subscription optimization | Lack of knowledge and expertise to optimize subscriptions leading to suboptimal usage and wastage of budgets. |\n| Subscription switch assistance | Difficulty in finding and executing subscription switches leading to overspending and suboptimal resource allocation. |\n| Subscription security | Concerns and risks related to subscription security leading to apprehension and uncertainty regarding subscription usage. |\n| Subscription management education | Lack of knowledge and education regarding subscription management leading to suboptimal subscription usage and wastage of resources. |\n| Subscription expiration notification | Forgetting subscription expiration leading to missed renewal deadlines and unnecessary charges. |\n| Subscription customization | Difficulty in finding subscriptions suited to individual needs leading to suboptimal usage and budgets. |\n| Subscription consolidation | Difficulty in consolidating and managing multiple subscriptions leading to clutter and confusion. |\n| Subscription billing disputes | Disputes regarding subscription charges leading to unnecessary charges and stress. |",
-  "status": 0,
+  "status": 1,
   "audience_title": "manage subscriptions",
   "audience_slug": "manage-subscriptions",
   "audience_id": 9

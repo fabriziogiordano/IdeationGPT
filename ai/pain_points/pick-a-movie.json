@@ -1,7 +1,7 @@
 {
   "role": "assistant",
   "content": "Sure, the target audience is people who love horror movies.",
-  "status": 0,
+  "status": 1,
   "audience_title": "pick a movie",
   "audience_slug": "pick-a-movie",
   "audience_id": 12
