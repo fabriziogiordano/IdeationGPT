@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| Scuba Ocean Cleanup Service | This solution offers a platform uniting scuba divers with environmental agencies to conduct ocean cleanup activities to reduce ocean pollution caused by debris and pollution. Scuba divers will identify the areas experiencing pollution, collect and separate debris while prioritizing debris removal in a sustainable and eco-friendly method. Environmental agencies will provide key cleaning tools for the activity, the data acquired from cleanup activities will enable monitoring of ocean pollution trends, thus contributing to research work. | \n| 1. Platform for Scuba Divers & Environmental Agencies Connection | 2. Monitoring and Evaluation of Cleanup Activities | 3. Training Sessions for Efficient and Effective Debris Collection | 4. Eco-friendly Debris Disposal Techniques | 5. Engagement of Local Communities in Ocean Cleanup Activities | \n| 1. Ocean Cleanup | 2. Project AWARE Foundation | 3. 4Ocean | 4. 5 Gyres Institute | 5. Plastic Ocean Project | \n| Scuba Ocean Cleanup Service offers a win-win solution that connects scuba divers with environmental agencies committed to reducing ocean pollution. Our focus on eco-friendly debris collection and disposal and training sessions to improve efficient debris collection strategies sets us apart from the competition. Additionally, we engage locals in cleanup activities that encourage community participation in keeping the oceans healthy.|",
+  "pain_point_id": 78,
+  "pain_point_title": "dealing with ocean pollution",
+  "pain_point_description": "oceanic debris and pollution have a massive impact on marine biodiversity and can cause harm to sea creatures. scuba divers may have difficulty identifying and cleaning up pollution that can threaten the aquatic environment. introducing a service that connects scuba divers with environmental agencies and organizations willing to engage in ocean cleanups would benefit both the divers and the environment",
+  "pain_point_slug": "dealing-with-ocean-pollution",
+  "audience_id": 2,
+  "audience_title": "scuba diving",
+  "audience_slug": "scuba-diving",
+  "status": 0
+}

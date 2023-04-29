@@ -8,7 +8,7 @@ const DB_FILE = "./db/DB.db";
 
 import { parseTable } from "./utils/parseTable.js";
 
-import { PAIN_POIN_STATUS } from "./utils/index.js";
+import { PAIN_POINT_STATUS } from "./utils/index.js";
 
 try {
 	log(blue("Starting"));
@@ -20,7 +20,7 @@ try {
 		const data = JSON.parse(await fs.promises.readFile(`./pain_points/${file}`, "utf8"));
 
 		// Skip if not new
-		if (data.status !== PAIN_POIN_STATUS.NEW) continue;
+		if (data.status !== PAIN_POINT_STATUS.NEW) continue;
 
 		const dataTable = parseTable(data.content);
 
@@ -40,7 +40,7 @@ try {
 			await sqlite.insertRow("pain_points", query);
 		}
 
-		data.status = PAIN_POIN_STATUS.PARSED;
+		data.status = PAIN_POINT_STATUS.PARSED;
 		await fs.promises.writeFile(`./pain_points/${data.audience_slug}.json`, JSON.stringify(data, null, 2));
 	}
 

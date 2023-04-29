@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| Allergy-Free Grocery | Allergy-Free Grocery is a service that helps grocery shoppers find products that are safe for consumers with allergies and intolerances. Our service offers a quick and easy solution for anyone who is confused about which products they can consume safely. | 1. Customized shopping lists based on dietary restrictions. 2. AI tool that analyzes ingredient labels. 3. Product recommendations by registered dietitians. 4. User-friendly mobile app. 5. Real-time updates on product availability. | 1. Spokin. 2. Allergy Amulet. 3. Knoow Foods. 4. LiveSafe. 5. Food Safety Net Services. | Allergy-Free Grocery has an AI tool that can analyze all ingredients on any product and inform users if there are any allergens present. This solution is tailored to specific dietary requirements and offers real-time updates on product availability. |",
+  "pain_point_id": 16,
+  "pain_point_title": "allergies & intolerances",
+  "pain_point_description": "grocery shoppers who have allergies or intolerances need help finding products that are safe for them to consume. they often have to spend lots of time reading labels, but still are not confident that they are completely safe. they need a service that does the research for them and provides them with the safest products for their eating requirements",
+  "pain_point_slug": "allergies-and-intolerances",
+  "audience_id": 10,
+  "audience_title": "buy groceries",
+  "audience_slug": "buy-groceries",
+  "status": 0
+}

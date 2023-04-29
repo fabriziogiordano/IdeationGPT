@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "Solution Title: SubsReminder - Automatic Subscription Expiration Notification and Management\n\nSolution Description:\nSubsReminder is a web-based application that helps users manage and keep track of their subscription renewals to avoid missed deadlines and unnecessary charges. With SubsReminder, users can easily store and manage their subscriptions in one place, set up automatic payment reminders, and track their payment history.\n\nFeatures:\n1. Subscription management dashboard for organizing subscriptions, renewal dates, and payment details\n2. Automatic payment reminder notifications via email or SMS\n3. Payment history tracker to monitor subscription usage and billing cycles\n4. Integration with popular payment channels such as PayPal or Stripe\n5. Secure login and data encryption for safe data storage and management\n\nCompetitors:\n1. Truebill\n2. Trim\n3. WalletFlo\n4. Bobby\n5. Subby\n\nDifferentiator:\nSubsReminder is a more user-friendly and cost-effective solution compared to its competitors. It offers a simple and intuitive dashboard that is easy to navigate, and it provides automatic payment reminders that help to avoid unwanted charges. Additionally, SubsReminder integrates with multiple payment channels, making payment processing quick and easy.",
+  "pain_point_id": 51,
+  "pain_point_title": "subscription expiration notification",
+  "pain_point_description": "forgetting subscription expiration leading to missed renewal deadlines and unnecessary charges",
+  "pain_point_slug": "subscription-expiration-notification",
+  "audience_id": 9,
+  "audience_title": "manage subscriptions",
+  "audience_slug": "manage-subscriptions",
+  "status": 0
+}

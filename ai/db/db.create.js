@@ -36,7 +36,8 @@ async function mainApp() {
             
             title text,
             slug text,
-            description text
+            description text,
+            status integer
           )
         `);
         console.log(`Table **${table}** created`);

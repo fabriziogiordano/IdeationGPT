@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "Solution Title  |  Solution Description  | Features | Competitors | Differentiator\n-------------- | --------------------- | -------- | ----------- | ---------------\nBudget-Friendly Date Restaurants | This solution is a comprehensive guide that provides low-cost dining options that are perfect for date nights. We will help you discover restaurants that offer excellent experiences without breaking the bank. Our guide takes into account factors such as location, ambiance, customer reviews, food quality, and the pricing of dishes on the menu. It allows you to narrow down your choices and find the best option to suit your taste and budget. | 1. Comprehensive guide, 2. Criteria-based selection, 3. Cost-effective dining options, 4. Wide restaurant coverage, 5. Ratings & reviews | 1. Yelp, 2. TripAdvisor, 3. Restaurant.com, 4. OpenTable, 5. Groupon | Our solution is tailored specifically for budget-conscious individuals who are looking for affordable but impressive dining experiences that cater to date nights. Unlike our competitors who offer a broad range of dining options, our guide caters specifically to budget-friendly restaurants. By providing a comprehensive guide, we take the guesswork out of the decision-making process and help customers save time and money.",
+  "pain_point_id": 64,
+  "pain_point_title": "limited budget",
+  "pain_point_description": "the individual wants to impress their date with a nice restaurant, but they have a limited budget. they are looking for affordable options that still offer a great dining experience",
+  "pain_point_slug": "limited-budget",
+  "audience_id": 5,
+  "audience_title": "pick a good restaurant for a date",
+  "audience_slug": "pick-a-good-restaurant-for-a-date",
+  "status": 0
+}

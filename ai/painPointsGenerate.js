@@ -6,7 +6,7 @@ import { RateLimit } from "async-sema";
 
 import { openAI } from "./utils/openai.js";
 
-import { AUDIENCE_STATUS, PAIN_POIN_STATUS } from "./utils/index.js";
+import { AUDIENCE_STATUS, PAIN_POINT_STATUS } from "./utils/index.js";
 
 import * as sqlite from "./db/index.js";
 const DB_FILE = "./db/DB.db";
@@ -77,7 +77,7 @@ async function generageIdeas(audience) {
 	log(`${bold("Audience:")} ${audience.title}`);
 	const user_prompt = `AUDIENCE: ${audience.title}`;
 	const data = await openAI(system_prompt, user_prompt);
-	data.status = PAIN_POIN_STATUS.NEW;
+	data.status = PAIN_POINT_STATUS.NEW;
 	data.audience_title = audience.title;
 	data.audience_slug = audience.slug;
 	data.audience_id = audience.id;

@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "1. Solution Title: Bike Commute Concierge\n2. Solution Description: Bike Commute Concierge is a one-person business that helps bike commuters plan the safest and most convenient route to work. The concierge will provide customized route planning based on the user's starting location, destination, and preferred biking terrain. Additionally, the concierge will help riders navigate tricky bike lanes and intersections. The service will also offer a bike maintenance program to keep commuters' bikes in top condition. The concierge will coordinate with local businesses to create bike-friendly workplaces by providing safe and secure bike parking and locker storage. Bike Commute Concierge will also provide on-demand bicycle pickup and drop-off service in case of a breakdown or accident. \n3. Features: Customized route planning, Bike maintenance program, Secure bike parking, On-demand emergency pickup and drop-off service, Biking terrain recommendation. \n4. Competitors: RideReport, BikeMaps, Strava, Citymapper, Google Maps.\n5. Differentiator: Bike Commute Concierge's key differentiators are its personalized and on-demand services, as well as its focus on creating bike-friendly workplaces in coordination with local businesses. It also offers a maintenance program to keep bikes in top condition, which is not provided by many competitors.",
+  "pain_point_id": 1,
+  "pain_point_title": "inadequate biking infrastructure",
+  "pain_point_description": "lack of proper bike lanes, traffic safety measures, and bike-friendly workplaces make it difficult for commuters to safely and conveniently bike to work",
+  "pain_point_slug": "inadequate-biking-infrastructure",
+  "audience_id": 7,
+  "audience_title": "bike to work",
+  "audience_slug": "bike-to-work",
+  "status": 0
+}

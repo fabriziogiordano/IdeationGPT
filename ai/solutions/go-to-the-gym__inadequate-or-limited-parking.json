@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "Solution Title | Gym Parking Finder\n--- | ---\nSolution Description | Gym Parking Finder is a mobile app that helps gym-goers find parking spots near their gyms. Users can search for parking by selecting their gym's location and receive real-time updates on the availability of nearby parking. The app also allows users to reserve parking spots, view parking rates, and navigate to their gym from the parking lot. With Gym Parking Finder, gym-goers no longer need to worry about limited, inconvenient, or inadequate parking spaces discouraging them from working out.\nFeatures | Real-time parking availability, reservation system, parking rate information, navigation to gym, user-friendly interface\nCompetitors | ParkWhiz, SpotHero, ParkMobile, BestParking, ParkMe\nDifferentiator | Gym Parking Finder is the only app that is specifically designed to help gym-goers find parking spots near their gyms, as opposed to general parking apps that may not have information on parking near gyms. The app provides real-time updates and a reservation system, making the parking process more convenient for users.",
+  "pain_point_id": 40,
+  "pain_point_title": "inadequate or limited parking",
+  "pain_point_description": "limited, inconvenient, or inadequate parking can discourage individuals from going to the gym",
+  "pain_point_slug": "inadequate-or-limited-parking",
+  "audience_id": 8,
+  "audience_title": "go to the gym",
+  "audience_slug": "go-to-the-gym",
+  "status": 0
+}

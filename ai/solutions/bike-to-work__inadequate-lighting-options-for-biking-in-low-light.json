@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "Solution Title | Bike Beacon\n--- | ---\nSolution Description | Bike Beacon is an innovative lighting system designed specifically for commuters who bike to work early in the morning or late at night. The system consists of a small, battery-powered LED light that attaches to the front and back of the bike, as well as a smartphone app that allows riders to control the lights and customize their settings. The lights emit a bright, flashing signal that is highly visible to drivers and pedestrians, ensuring that commuters can safely navigate their bike routes in low light conditions.\nFeatures | 1) Battery-powered LED lights for front and back of bike, 2) Smartphone app control for custom settings, 3) Bright, flashing signal visible in low light conditions, 4) Long battery life, 5) Durable and weather-resistant design\nCompetitors | 1) Lumos Helmet, 2) Cygolite Metro Bike Light, 3) NiteRider Lumina Micro Bike Light, 4) Blackburn DayBlazer 800 Bike Light, 5) CatEye Volt 6000 Bike Light\nDifferentiator | Unlike competitors that offer lighting solutions only for the helmet or bike, Bike Beacon's front and back LED lights and smartphone app control provide a comprehensive and customizable lighting system. Additionally, Bike Beacon's bright, flashing signal is distinct and highly visible in low light conditions, ensuring the safety of riders.",
+  "pain_point_id": 7,
+  "pain_point_title": "inadequate lighting options for biking in low light",
+  "pain_point_description": "commuters who bike to work early in the morning or late at night may struggle to find safe and adequate lighting options on their bike routes",
+  "pain_point_slug": "inadequate-lighting-options-for-biking-in-low-light",
+  "audience_id": 7,
+  "audience_title": "bike to work",
+  "audience_slug": "bike-to-work",
+  "status": 0
+}

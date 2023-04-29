@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n|1. Custom Access Equipment| Design, manufacture, and install made-to-measure equipment for accessing difficult areas of skyscrapers  | Custom-fitted, innovative design, durability, safety features, ease of use| Rostek-UK, Spider, Tractel, Sky Climber LLC, Gondola Store | Tailored equipment to fit specific building needs & minimizing set-up time for completing projects |\n|2. Rope Access Cleaning | Implementing rope access cleaning for skyscraper windows | Cost-effective, time-saving, customizable | Abseilon USA, DK Rope Access, Level 5 Access, Alliance Abseiling, CSR Rooftop | Time-efficient, safe and secure | \n|3. Robotics | Implementing robotic systems for window cleaning | Automation, Customizability, and Time-Saving | Ecovacs Robotics, Husky Intelligence, Ezyreach Asia Pacific, Sky Pro  | Precision-controlled robotic systems & swift cleaning process while minimizing physical harm |\n|4. Drones| Using Drones to Clean Skyscraper Windows- Implementing high-tech drones for quick & safe cleaning of windows| Efficient, safe, and time-saving | Aerones, Ikhana  | Cleaning windows at greater heights, high-resolution camera technology & trained operators |\n|5. Magnetic Cleaning Systems | Implementing magnetic cleaning systems for high-rise window cleaning | Time-efficient, versatile, easy to use | WCR, Cleansonic, Unger Global, XTELARY | Easy to operate, safe, and secure cleaning with minimal equipment setup |",
+  "pain_point_id": 24,
+  "pain_point_title": "building access limitations",
+  "pain_point_description": "some buildings have unique designs or other architectural elements that require specialized equipment or techniques to gain access for cleaning. these situations can lead to increased costs and more project time",
+  "pain_point_slug": "building-access-limitations",
+  "audience_id": 3,
+  "audience_title": "cleaning skyscrapper windows",
+  "audience_slug": "cleaning-skyscrapper-windows",
+  "status": 0
+}

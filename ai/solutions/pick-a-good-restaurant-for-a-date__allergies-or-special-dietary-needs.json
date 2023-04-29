@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "1. Solution Title: Allergy-Friendly Restaurant Finder\n2. Solution Description: An app or website that connects users with restaurants that can cater to their specific dietary needs. Users can select their allergies or dietary restrictions and view a list of restaurants that can accommodate them. They can also read reviews and see photos of dishes from other users with similar needs. The platform can also offer a feature for users to make a reservation or order takeout directly from the app or website.\n3. Features: \n- Customizable search filters for different allergies and dietary needs\n- User-generated reviews and photos of dishes\n- Direct booking and ordering capabilities\n- Integration with food delivery services, such as Grubhub or Uber Eats\n- Option for users to save their favorite allergy-friendly restaurants for future reference\n4. Competitors: \n- AllergyEats\n- HappyCow\n- OpenTable (limited filter options)\n- Find Me Gluten Free\n- Yelp (limited filter options)\n5. Differentiator: \n- Unlike competitors, the Allergy-Friendly Restaurant Finder offers customized filters for a broad range of allergies and dietary restrictions, making it easier for users to find tailored dining options. Additionally, the platform integrates with popular delivery services and offers direct booking and ordering capabilities, streamlining the user experience. The user-generated reviews and photos of dishes also provide an extra layer of transparency and confidence for users with allergies or dietary needs.",
+  "pain_point_id": 65,
+  "pain_point_title": "allergies or special dietary needs",
+  "pain_point_description": "the individual or their date has food allergies or specific dietary needs that limit where they can eat. they need to find a restaurant that can accommodate their requirements",
+  "pain_point_slug": "allergies-or-special-dietary-needs",
+  "audience_id": 5,
+  "audience_title": "pick a good restaurant for a date",
+  "audience_slug": "pick-a-good-restaurant-for-a-date",
+  "status": 0
+}

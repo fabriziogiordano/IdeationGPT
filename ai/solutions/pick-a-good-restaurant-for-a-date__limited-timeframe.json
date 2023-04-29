@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "Solution Title: Date Night Concierge Service  \nSolution Description: The Date Night Concierge Service is a personalized restaurant recommendation service that helps busy individuals find the perfect restaurant for their date night. Our team of experts will take into account the individual's preferences, budget, the location of the restaurant, and the type of cuisine they prefer. Customers will receive one or more restaurant recommendations that meet their criteria and will make sure that they have a memorable date night experience. \n\nFeatures: \n1. Personalized recommendations \n2. Quick turnaround time \n3. Expert advice from food industry professionals \n4. Option for customized date packages \n5. Special pricing for repeat customers \n\nCompetitors: \n1. OpenTable \n2. Yelp \n3. TripAdvisor \n4. Zomato \n5. Foursquare \n\nDifferentiator: \nThe Date Night Concierge Service stands out from its competitors due to its personalized services and the expert advice provided by food industry professionals. While other recommendation services use algorithms, we rely on our expert human touch to deliver customized recommendations that meet the specific needs of our customers. Additionally, we offer customized date packages that provide a unique experience and make the date night more memorable.",
+  "pain_point_id": 63,
+  "pain_point_title": "limited timeframe",
+  "pain_point_description": "the individual has a busy schedule and doesn't have the time to research and find the perfect restaurant for their date. they need a quick and reliable solution",
+  "pain_point_slug": "limited-timeframe",
+  "audience_id": 5,
+  "audience_title": "pick a good restaurant for a date",
+  "audience_slug": "pick-a-good-restaurant-for-a-date",
+  "status": 0
+}

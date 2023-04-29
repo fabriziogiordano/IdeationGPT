@@ -1,0 +1,12 @@
+{
+  "role": "assistant",
+  "content": "Solution Title | MedAssist\n\nSolution Description | MedAssist is a medication administration assistance service that provides support to individuals with disabilities, elderly adults, or those with complex medication regimens who struggle to manage their medications independently. Our business model is centered around the promotion of patient safety, independence and adherence to medication regimens. We offer services such as medication reminders, medication dispensing, medication organization and medication administration. Our services are delivered by trained and licensed healthcare professionals, who ensure that medication is administered according to prescribed schedules, without drug interactions or other complications. We provide flexible scheduling and personalized care plans to meet the unique needs of our clients.\n\nFeatures | \n1. Medication reminders \n2. Medication dispensing \n3. Medication organization \n4. Medication administration \n5. Personalized care plans\n\nCompetitors | \n1. Right at home \n2. Homewatch caregivers \n3. Comfort Keepers \n4. Always Best Care \n5. Home Instead Senior Care\n\nDifferentiator | MedAssist provides personalized care plans to every client to ensure that their unique needs are met. Our services are delivered by trained and licensed healthcare professionals. We use cutting-edge technology to provide medication reminders, medication dispensing and medication organization services. Our flexible scheduling accommodates the needs of our clients, 24 hours a day, 7 days a week, and we offer an on-call service for urgent requests. Additionally, we offer medication administration services, which differentiates us from our competitors who focus only on medication reminders and medication organization.",
+  "pain_point_id": 95,
+  "pain_point_title": "need for medication administration assistance",
+  "pain_point_description": "individuals with disabilities, elderly adults, or those with complex medication regimens often struggle to manage their medications independently. a business that provides medication administration assistance could be a profitable solution to this ongoing issue",
+  "pain_point_slug": "need-for-medication-administration-assistance",
+  "audience_id": 11,
+  "audience_title": "take medicines",
+  "audience_slug": "take-medicines",
+  "status": 0
+}
