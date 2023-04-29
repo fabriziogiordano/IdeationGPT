@@ -49,7 +49,7 @@ try {
 	await sqlite.open(DB_FILE);
 	const audiences = await getAudiences();
 	//console.log(audiences); process.exit();
-	
+
 	const s = new Sema(10, { capacity: audiences.length });
 	await Promise.all(
 		audiences.map(async (audience) => {
@@ -64,8 +64,6 @@ try {
 	console.log(e);
 }
 
-
-
 async function getAudiences() {
 	const audiences = await sqlite.all(`SELECT id, title, slug FROM audiences WHERE status = ${AUDIENCE_STATUS.EMPTY}`);
 	return audiences;
@@ -74,8 +72,8 @@ async function getAudiences() {
 async function generageIdeas(audience) {
 	await lim();
 
-	await sqlite.run("UPDATE audiences SET status = ? WHERE id = ?", [AUDIENCE_STATUS.INPROGRESS, audience.id]);
-	
+	await sqlite.runEscape("UPDATE audiences SET status = ? WHERE id = ?", [AUDIENCE_STATUS.INPROGRESS, audience.id]);
+
 	log(`${bold("Audience:")} ${audience.title}`);
 	const user_prompt = `AUDIENCE: ${audience.title}`;
 	const data = await openAI(system_prompt, user_prompt);
@@ -84,7 +82,6 @@ async function generageIdeas(audience) {
 	data.audience_slug = audience.slug;
 	data.audience_id = audience.id;
 	await fs.promises.writeFile(`./pain_points/${audience.slug}.json`, JSON.stringify(data, null, 2));
-	
-	await sqlite.run("UPDATE audiences SET status = ? WHERE id = ?", [AUDIENCE_STATUS.COMPLETED, audience.id]);
 
+	await sqlite.runEscape("UPDATE audiences SET status = ? WHERE id = ?", [AUDIENCE_STATUS.COMPLETED, audience.id]);
 }
