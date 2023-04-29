@@ -1,0 +1,35 @@
+---
+import Layout from "~/layouts/Layout.astro";
+
+interface IdeaPath {
+  params: {
+    slug_short_description: string;
+    audience: string;
+    id: string;
+  };
+  props: {};
+}
+
+export async function getStaticPaths(): Promise<IdeaPath[]> {
+  const idea: IdeaPath[] = [];
+  idea.push({
+    params: {
+      slug_short_description: "a",
+      audience: "b",
+      id: "1",
+    },
+    props: {
+      slug_short_description: "a",
+      audience: "b",
+      id: "1",
+    },
+  });
+  return idea;
+}
+
+const { data } = Astro.props;
+console.log(data);
+
+---
+
+<Layout title="Welcome">Ciao</Layout>

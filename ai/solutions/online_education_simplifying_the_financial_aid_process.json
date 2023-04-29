@@ -1,0 +1,8 @@
+{
+  "role": "assistant",
+  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| AidMax | AidMax is a consulting service that simplifies the financial aid process for students. Our experts guide students through the application process and identify all available funding opportunities to maximize eligibility for aid. | 1. Personalized aid eligibility assessment <br> 2. Assistance with FAFSA application <br> 3. Identification of scholarship opportunities <br> 4. Guidance on loan negotiation <br> 5. Ongoing financial aid support | 1. Edvisors <br> 2. Scholarships.com <br> 3. NerdWallet <br> 4. Student Loan Hero <br> 5. Sallie Mae | AidMax provides a personalized approach to financial aid consulting that takes into account each student's unique financial situation, academic needs, and career goals, resulting in greater funding for students. |",
+  "problem_id": 4,
+  "audience": "online education",
+  "pain_point_short": "simplifying the financial aid process",
+  "pain_point_description": "applying for financial aid can be a daunting and confusing process for many students. a business that offers consulting services to help students navigate the financial aid process and maximize their eligibility for funding can be a valuable resource."
+}

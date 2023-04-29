@@ -1,29 +1,31 @@
 {
-  "name": "ideationgpt",
-  "description": "IdeationGPT",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "clear:files": "npm run basePath && rm -rf ./problems/* && rm -rf ./solutions/*",
-    "clear:db": "npm run basePath && cd src/db && node db.create.js",
-    "basePath": "cd /Users/fabgio/Projects/IdeationGPT",
-    "problems": "npm run basePath && rm -rf ./problems/* && cd src && node problemsGenerate && node problemsParse",
-    "solutions": "npm run basePath && rm -rf ./solutions/* && cd src && node solutionsGenerate && node solutionsParse",
-    "all": "npm run clear:db && npm run problems && npm run solutions",
-    "test": ""
-  },
-  "dependencies": {
-    "async-sema": "^3.1.1",
-    "chalk": "^5.2.0",
-    "dotenv": "^16.0.3",
-    "googleapis": "^118.0.0",
-    "openai": "^3.2.1",
-    "ora": "^6.3.0",
-    "slugify": "^1.6.6",
-    "sqlite3": "^5.1.6"
-  },
-  "devDependencies": {
-    "rome": "12.0.0"
-  }
+	"name": "ideationgpt",
+	"description": "IdeationGPT",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"basePath": "cd /Users/fabgio/Projects/IdeationGPT",
+		"clear:files": "npm run basePath && cd ai && rm -rf ./problems/* && rm -rf ./solutions/*",
+		"clear:db": "npm run basePath && cd ai/src/db && node db.create.js",
+		"problems": "npm run basePath && cd ai && rm -rf ./problems/* && node problemsGenerate && node problemsParse",
+		"solutions": "npm run basePath && cd ai && rm -rf ./solutions/* && node solutionsGenerate && node solutionsParse",
+		"copy:db": "npm run basePath && cp ./ai/src/db/DB.db ./astro/source/DB.db",
+		"all": "npm run clear:db && npm run problems && npm run solutions"
+	},
+	"dependencies": {
+		"@astrojs/sitemap": "^1.2.2",
+		"@astrojs/tailwind": "^3.1.1",
+		"async-sema": "^3.1.1",
+		"chalk": "^5.2.0",
+		"dotenv": "^16.0.3",
+		"googleapis": "^118.0.0",
+		"openai": "^3.2.1",
+		"ora": "^6.3.0",
+		"slugify": "^1.6.6",
+		"sqlite3": "^5.1.6"
+	},
+	"devDependencies": {
+		"rome": "12.0.0"
+	}
 }

@@ -1,0 +1,70 @@
+---
+import Layout from "~/layouts/Layout.astro";
+
+interface Problem {
+  id: number;
+  pain_point_short: string;
+}
+
+interface ProblemsPainPoint {
+  [key: string]: Problem[];
+}
+
+import { runQuery } from "~/libs/query";
+
+const problems = await runQuery("problems");
+
+const problems_pain_point: ProblemsPainPoint = {};
+
+for (const { id, audience, pain_point_short } of problems) {
+  if (!problems_pain_point[audience]) {
+    problems_pain_point[audience] = [];
+  }
+  problems_pain_point[audience].push({ id, pain_point_short });
+}
+---
+
+<Layout title="Welcome">
+  {
+    Object.entries(problems_pain_point).map(async ([audience, solutions]) => {
+      console.log(solutions);
+      return (
+        <div>
+          <h1>{audience}</h1>
+          <ul class="ml-2">
+            {solutions.map(async ({ id, pain_point_short }) => {
+              const details = await runQuery("solutions", { id });
+              const list = details.map(({ title, description, features, competitors, differentiator }) => {
+                return (
+                  <>
+                    <li class="mt-6">
+                      <span class="font-semibold">title:</span> {title}
+                    </li>
+                    <li>
+                      <span class="font-semibold">description:</span> {description}
+                    </li>
+                    <li>
+                      <span class="font-semibold">features:</span> <Fragment set:html={features?.split(",").join("<br>")} />
+                    </li>
+                    <li>
+                      <span class="font-semibold">competitors:</span> <Fragment set:html={competitors?.split(",").join("<br>")} />
+                    </li>
+                    <li>
+                      <span class="font-semibold">differentiator:</span> {differentiator}
+                    </li>
+                  </>
+                );
+              });
+              return (
+                <li>
+                  {pain_point_short}
+                  <ul class="ml-2">{list}</ul>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      );
+    })
+  }
+</Layout>
