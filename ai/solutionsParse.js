@@ -36,9 +36,9 @@ for (const file of solutionsFiles) {
 			differentiator: solution[4],
 
 			problem_id: solutions.problem_id,
-			audience: solutions.audience,
-			pain_point_short: solutions.pain_point_short,
-			pain_point_description: solutions.pain_point_description,
+			// audience: solutions.audience,
+			// pain_point_short: solutions.pain_point_short,
+			// pain_point_description: solutions.pain_point_description,
 		};
 		
 		await sqlite.insertRow("solutions", query);

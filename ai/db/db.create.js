@@ -41,10 +41,7 @@ async function mainApp() {
             competitors text,
             differentiator text, 
 
-            problem_id integer,
-            audience text,
-            pain_point_short text,
-            pain_point_description text
+            problem_id integer
           )
         `);
         console.log(`Table **${table}** created`);
