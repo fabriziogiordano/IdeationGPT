@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Bike Beacon\n--- | ---\nSolution Description | Bike Beacon is an innovative lighting system designed specifically for commuters who bike to work early in the morning or late at night. The system consists of a small, battery-powered LED light that attaches to the front and back of the bike, as well as a smartphone app that allows riders to control the lights and customize their settings. The lights emit a bright, flashing signal that is highly visible to drivers and pedestrians, ensuring that commuters can safely navigate their bike routes in low light conditions.\nFeatures | 1) Battery-powered LED lights for front and back of bike, 2) Smartphone app control for custom settings, 3) Bright, flashing signal visible in low light conditions, 4) Long battery life, 5) Durable and weather-resistant design\nCompetitors | 1) Lumos Helmet, 2) Cygolite Metro Bike Light, 3) NiteRider Lumina Micro Bike Light, 4) Blackburn DayBlazer 800 Bike Light, 5) CatEye Volt 6000 Bike Light\nDifferentiator | Unlike competitors that offer lighting solutions only for the helmet or bike, Bike Beacon's front and back LED lights and smartphone app control provide a comprehensive and customizable lighting system. Additionally, Bike Beacon's bright, flashing signal is distinct and highly visible in low light conditions, ensuring the safety of riders.",
+  "content": [
+    [
+      "Smart Bike Light with Turn Signals",
+      "A bike light that has turn signals, brake indicators, and a built-in sensor that adjusts brightness based on ambient light. It also comes with a wireless remote that can be mounted on the bike's handlebar for easy control. The turn signals signal to drivers the direction the rider is heading, enhancing their safety.",
+      "Turn signals, brake indicators, built-in sensor, wireless remote control, easy installation",
+      "NiteRider Lumina 1200 Boost, Cygolite Metro Pro 1100, BrightRoad Dual Beam, Lezyne Mega Drive 1800i, Cateye Volt 1700",
+      "The turn signals feature sets this light apart from the competitors, enhancing the cyclist's visibility and safety in low light conditions."
+    ],
+    [
+      "LED Strip Lights for Bikes",
+      "A set of LED strip lights that can be attached to the bike frame or wheels, making the bike more visible in low light conditions. The lights come with different modes, such as flashing or static, and can be powered by rechargeable batteries.",
+      "Easy to install, waterproof, rechargeable, multiple modes, lightweight",
+      "MonkeyLectric, Luminoodle Bike Bundle, Activ Life LED Bicycle Wheel Lights, Cycle Torch Bolt Combo, BLITZU Gator 320",
+      "The flexible attachment options and rechargeable feature make this a standout product for bike commuters who want a customizable lighting solution."
+    ],
+    [
+      "Reflective Decals for Bikes",
+      "Reflective decals that adhere to the bike frame and increase the bike's visibility in low light conditions. The decals can be customized to fit the bike's design and come in various shapes and sizes.",
+      "Customizable, durable, easy to install, affordable, multiple shapes and sizes",
+      "Fiks:Reflective, Pro Viz, ReflecToes, Nathan Reflective Run Laces, SAWNZM Reflective Tape",
+      "The ability to customize the decals to suit the bike's design sets this product apart and makes it an attractive solution for fashion-conscious bike commuters."
+    ],
+    [
+      "Phone Mount with Built-in Light",
+      "A phone mount that attaches to the bike's handlebar and has a built-in light that illuminates the phone screen, making it easier to use while biking in low light conditions. The mount is adjustable and can fit various phone sizes.",
+      "Built-in light, adjustable, fits various phone sizes, easy to install, lightweight",
+      "Quad Lock, Rokform, Tackform, SP Connect, Bike Tie Pro",
+      "The built-in light feature that illuminates the phone screen is a unique selling point that sets this product apart from the competition."
+    ]
+  ],
   "pain_point_id": 7,
   "pain_point_title": "inadequate lighting options for biking in low light",
   "pain_point_description": "commuters who bike to work early in the morning or late at night may struggle to find safe and adequate lighting options on their bike routes",
@@ -8,5 +37,5 @@
   "audience_id": 7,
   "audience_title": "bike to work",
   "audience_slug": "bike-to-work",
-  "status": 0
+  "status": 1
 }

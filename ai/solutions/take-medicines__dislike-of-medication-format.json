@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| Chewable Medicine Tablets | Chewable medication tablets offer an easy solution for those who dislike the taste, texture or size of traditional medicine delivery formats. This solution can be targeted towards both children and adults, and the tablets can be flavored to make them more appealing. | Different flavors available, easy to swallow, fast-acting, easy to transport, no liquid needed | Advil Children's Chewables, Tylenol Chewables, Flintstones Chewables, CVS Health Children's Chewable Tablets, Walgreens Children's Chewable Tablets | Wider flavor options, customizable dosage, includes allergy-friendly options |\n| Capsule Medicines | Capsules offer an alternative solution for medication delivery, which may be a better option for those who dislike traditional tablet or liquid formats. The medication is contained within a small, easy-to-swallow capsule that can alleviate any negative experiences associated with the taste or size of traditional medication forms. | Small, easy to swallow, customizable dosage, no taste or texture, quick release | Advil Liqui-Gels, Tylenol Extra Strength Caplets, Aleve Soft Grip Pills, CVS Health Softgel Capsules, Walgreens Softgel Capsules | More customizable to individual needs, more discreet in public settings, provides easy multi-medication consumption |\n| Liquid Medication | Liquid medication is another alternative solution for those who dislike traditional tablet or capsule formats. This solution can be particularly useful for individuals who have difficulty swallowing or require smaller dose sizes. Flavors can be added to liquid medication to make it more appealing. | Easy to swallow, customizable dosage, flavored, easy to transport, no strong taste or smell | Children's Motrin Oral Suspension, Benadryl Liquid, Nyquil, Delsym Cough Syrup, CVS Health Children's Allergy Relief Liquid | Easy dosing system, customizable dosage, wider flavor options, allergy-friendly options |\n| Medicated Chocolates | A unique solution that combines the benefits of medication with indulgent chocolate flavors. Individuals who dislike traditional medication formats may be more likely to try these, providing a profitable market for entrepreneurs. Medicated chocolates could be marketed towards individuals who experience anxiety, pain, or difficulty sleeping. | Natural ingredients, customizable dosage, easy to transport, disguised, indulgent | Lord Jones, Flourish, Not Pot, Goodship, Défoncé Chocolatier | Indulgent, customizable dosage, discreet, wider variety of flavors, provides a unique market offering |\n| Medicated Water | An alternative medication delivery solution offered in the form of water. Individuals who dislike traditional medication formats or have difficulty swallowing pills may be interested in this solution. This solution can also be marketed towards athletes who require hydration and electrolytes during exercise. | Easy to drink, customizable dosage, flavor options, hydrating, easy to transport | Hydrant, Arbonne Fizz Sticks, Vital Proteins Collagen Water, Seek Dry Goods, Trader Joe's Electrolyte Water | Easy dosing system, hydration, customizable dosage, wider flavor options, provides a unique market offering |",
+  "content": [
+    [
+      "Flavored Capsules",
+      "Capsules filled with medicine are a popular delivery method. However, they can have an unpleasant aftertaste. Flavored capsules are an alternative that can make taking medication more palatable.",
+      "Variety of flavors, easy to swallow, portable, customizable dosage, can be made with natural ingredients",
+      "Capsule Connection, Capsuline, ACG Capsules",
+      "Use of natural ingredients"
+    ],
+    [
+      "Gummy Medicines",
+      "Gummy medicines are chewable, chewy candies that contain medicine. Gummies are a popular alternative to traditional pills and liquids.",
+      "Chewable, enjoyable flavor, customizable dosage, can be made with natural ingredients, easy to swallow",
+      "Vitafusion, Zarbee's Naturals, Nordic Naturals",
+      "Use of natural ingredients"
+    ],
+    [
+      "Medicated Lollipops",
+      "Medicated lollipops are sweetened hard candies that have medicine added to them. They are ideal for people who have difficulty swallowing large pills or liquids.",
+      "Enjoyable flavor, customizable dosage, easy to swallow, discreet, can be made with natural ingredients",
+      "Tyme, Leafly, Candy Head",
+      "Use of natural ingredients"
+    ],
+    [
+      "Medicated Beverages",
+      "Medicated beverages are liquids that have medicine added to them. They have gained popularity in recent years as an alternative to pills. Common examples include teas, coffees, and juices.",
+      "Enjoyable taste, customizable dosage, easy to swallow, can be taken hot or cold, variety of beverage options available",
+      "Cannabiniers, Canna Hemp, Cannabis Energy Drink",
+      "Variety of beverage options available"
+    ]
+  ],
   "pain_point_id": 94,
   "pain_point_title": "dislike of medication format",
   "pain_point_description": "individuals sometimes dislike the format in which medication is provided such as taste, texture, or size. offering alternative forms of medication delivery such as chewable tablets, capsules, or liquid options, can provide individuals with a better experience and create a profitable market",
@@ -8,5 +37,5 @@
   "audience_id": 11,
   "audience_title": "take medicines",
   "audience_slug": "take-medicines",
-  "status": 0
+  "status": 1
 }

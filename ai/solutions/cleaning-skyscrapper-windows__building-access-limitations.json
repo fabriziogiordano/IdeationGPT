@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n|1. Custom Access Equipment| Design, manufacture, and install made-to-measure equipment for accessing difficult areas of skyscrapers  | Custom-fitted, innovative design, durability, safety features, ease of use| Rostek-UK, Spider, Tractel, Sky Climber LLC, Gondola Store | Tailored equipment to fit specific building needs & minimizing set-up time for completing projects |\n|2. Rope Access Cleaning | Implementing rope access cleaning for skyscraper windows | Cost-effective, time-saving, customizable | Abseilon USA, DK Rope Access, Level 5 Access, Alliance Abseiling, CSR Rooftop | Time-efficient, safe and secure | \n|3. Robotics | Implementing robotic systems for window cleaning | Automation, Customizability, and Time-Saving | Ecovacs Robotics, Husky Intelligence, Ezyreach Asia Pacific, Sky Pro  | Precision-controlled robotic systems & swift cleaning process while minimizing physical harm |\n|4. Drones| Using Drones to Clean Skyscraper Windows- Implementing high-tech drones for quick & safe cleaning of windows| Efficient, safe, and time-saving | Aerones, Ikhana  | Cleaning windows at greater heights, high-resolution camera technology & trained operators |\n|5. Magnetic Cleaning Systems | Implementing magnetic cleaning systems for high-rise window cleaning | Time-efficient, versatile, easy to use | WCR, Cleansonic, Unger Global, XTELARY | Easy to operate, safe, and secure cleaning with minimal equipment setup |",
+  "content": [
+    [
+      "AI-powered Window Cleaning Drones",
+      "An innovative solution leveraging AI technology to operate drones for cleaning skyscraper windows in high-risk and hard-to-reach places. The drones are designed to navigate through complex building designs and architectures while cleaning at a precise level. The solution reduces the need for labor-intensive scaffolding and limit the risk of injuries for workers.",
+      "AI-powered Drones, Navigation System, Precise Cleaning, High-risk Safety, Scalability",
+      "Sky Pro, Xcellent, Inova, SkySaver, The High Rise Window Cleaners",
+      "This solution leverages AI technology to create drones perfectly customized for cleaning windows of intricate designs, allowing efficient cleaning in high-risk areas without the risk of injury to workers."
+    ],
+    [
+      "Magnetic Window Cleaning System",
+      "A solution that utilizes magnetic technology to clean windows from the inside of a skyscraper, eliminating the need for exterior access. The device is made up of two magnetic cleaners that move simultaneously with one placed on each side of the glass. The system is more affordable, efficient, and safe compared to traditional window cleaning procedures.",
+      "Magnetic Technology, Dual Cleaners, Efficient, Safe, Affordable",
+      "Tyroler Bright Tools, Gecko, Holikme, Fosinz, Original Grillinator",
+      "This solution offers a cost-effective way of cleaning skyscraper windows by using magnetic technology, reducing the risk of accidents and the need for expensive equipment."
+    ],
+    [
+      "Self-Retracting Rope System",
+      "A specialized solution that uses a self-retracting rope system to allow for cleaning of hard-to-reach areas on skyscrapers without the need for scaffolding. The system makes it easier and safer for workers to reach windows at height, reducing the risk of work accidents. The system also saves on project time and costs.",
+      "Self-Retracting Rope, Safe and Secure, Time-Saving, Cost-Effective, Easy Installation",
+      "Rigid Lifelines, FallTech, Gorbel, Miller, Guardian Fall Protection",
+      "This solution is reliable, fast, and safe for workers as it allows the cleaning team to access hard-to-reach areas without the need for external scaffolding. Additionally, it is easy to install, making the process straightforward and quick."
+    ],
+    [
+      "Water-fed Pole Window Cleaning",
+      "A specialized pole that has purified water pumped through it to clean the outside of skyscraper windows quickly and efficiently. The solution eliminates the need for costly equipment or scaffolding, making it ideal for small one-person cleaning businesses.",
+      "Purified Water, Lightweight, Easy to Operate, Cost-Effective, Rapid Results",
+      "Unger, IPC Eagle, SkyClean, SimPole, Ionic Systems",
+      "This solution is advantageous as it eliminates the need for laborious and manual cleaning through purified water pumped through a lightweight pole, reducing the need for costly equipment and increasing the efficiency of the cleaning process."
+    ]
+  ],
   "pain_point_id": 24,
   "pain_point_title": "building access limitations",
   "pain_point_description": "some buildings have unique designs or other architectural elements that require specialized equipment or techniques to gain access for cleaning. these situations can lead to increased costs and more project time",
@@ -8,5 +37,5 @@
   "audience_id": 3,
   "audience_title": "cleaning skyscrapper windows",
   "audience_slug": "cleaning-skyscrapper-windows",
-  "status": 0
+  "status": 1
 }

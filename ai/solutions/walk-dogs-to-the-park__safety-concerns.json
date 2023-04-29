@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Solution Description | Features | Competitors | Differentiator\n--- | --- | --- | --- | ---\n1. GPS Pet Tracking System | A GPS pet collar that tracks the dog's location in real-time and sends the location to the owner's smartphone. In case of an emergency, such as the dog escaping or being lost, the owner can immediately pinpoint their location and retrieve them. | Real-time location tracking, Safe zones (configurable boundaries), Geo-fencing, Activity tracker, Longer battery life | Whistle, Paby, Findster, Link AKC, Tractive | Advanced safety features like configurable safe zones to ensure that the pet stays within safe boundaries \n2. DNA Testing | DNA testing to identify the ancestry and health issues of dogs. This can provide crucial information for dog safety practices, such as making the dog easier to identify in case they get lost, training breed-specific behaviours, and knowing what health issues to be aware of. | Ancestry analysis, Disease screening, Identification verification, Lifestyle plans, Breed-specific food recommendations | Embark, Wisdom Panel, Orivet, DNA My Dog, Mars Veterinary | Customized lifestyle and health plans based on the pet's DNA data\n3. Busy Road Awareness Service | A notification service that warns dog walkers of busy roads on their route. Users can provide a location and a list of roads to monitor, and the app will send notifications when the roads are busier than usual. | Road awareness, Traffic analysis, Route optimization, User-defined safe zones, Weather updates | DoggyDatez, Hound, GoFetch, Rover, Barkly | Personalization of the service to the user location and route\n4. Dog Aggregator App | A platform that connects dog-owners to verified dog walkers in their area. This allows dog owners to hire trusted individuals who are familiar with their dog's breed and can provide safer walking experiences. | Verified dog-walkers, Breed-specific experience feedback, In-app payments, Live tracking, Flexible scheduling | Wag, Rover, PetBacker, Swifto, Tails | Direct access to verified dog walkers with breed-specific experience \n5. Dog Behaviour Training Classes | A behavioural training class for dogs that focuses on socialization, obedience and safety around other dogs, animals and children. Dogs will learn cues and commands, and the class will provide social support and expert advice from a professional dog behaviour trainer. | Basic obedience training, Expert advice, Social support, Small class sizes, Positive reinforcement techniques | Good Citizen Dog Scheme, SIRIUS Puppy & Dog Training, Bark Busters, KikoPup, Royal Animals Training Academy | Individualized attention given to solving dog behavior problems and providing training for positive dog behavior.",
+  "content": [
+    [
+      "Dog Walking Safety App",
+      "A mobile application that connects dog owners with dog walkers who are trained in handling difficult or aggressive dogs, and indicate safe walking routes.",
+      "GPS tracking, in-app messaging, dog walker certification, real-time updates, emergency buttons",
+      "Wag!, Rover, Fetch! Pet Care, Pet sitters International, Care.com",
+      "Certified dog walkers with experience in handling aggressive dogs"
+    ],
+    [
+      "Portable Dog Safety Barrier",
+      "A foldable dog barrier that creates a barrier around the dog for safety during walks. It provides a safe space for dogs to play, rest or eat while protecting them from aggressive dogs or busy streets.",
+      "Lightweight, portable, easy to use, adjustable, durable",
+      "Carlson Pet Products, Richell USA, MidWest Homes for Pets, PAWLAND, PAWISE",
+      "Foldable design for easy storage and transportation"
+    ],
+    [
+      "Dog GPS Tracker",
+      "A GPS tracker that attaches to the dog's collar and sends real-time location alerts to the owner's mobile device. It allows owners to track their dog's location to ensure they stay safe during walks.",
+      "Real-time tracking, activity monitoring, waterproof, long battery life, lightweight",
+      "Whistle, FitBark, Garmin, Link AKC, Tractive",
+      "Waterproof design for all weather conditions"
+    ],
+    [
+      "LED Lighted Dog Vest",
+      "A high visibility dog vest with LED lights that ensures dogs are visible to vehicles and pedestrians during night walks.",
+      "Lightweight, adjustable, LED lights, reflective, washable",
+      "Nite Ize, Noxgear, Illumiseen, Ruffwear, BSEEN",
+      "Reflective and LED lights for increased visibility"
+    ]
+  ],
   "pain_point_id": 103,
   "pain_point_title": "safety concerns",
   "pain_point_description": "owners may worry about the safety of their dog on walks, such as encountering aggressive dogs or busy roads",
@@ -8,5 +37,5 @@
   "audience_id": 4,
   "audience_title": "walk dogs to the park",
   "audience_slug": "walk-dogs-to-the-park",
-  "status": 0
+  "status": 1
 }

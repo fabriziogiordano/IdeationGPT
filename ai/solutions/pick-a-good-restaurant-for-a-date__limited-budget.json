@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title  |  Solution Description  | Features | Competitors | Differentiator\n-------------- | --------------------- | -------- | ----------- | ---------------\nBudget-Friendly Date Restaurants | This solution is a comprehensive guide that provides low-cost dining options that are perfect for date nights. We will help you discover restaurants that offer excellent experiences without breaking the bank. Our guide takes into account factors such as location, ambiance, customer reviews, food quality, and the pricing of dishes on the menu. It allows you to narrow down your choices and find the best option to suit your taste and budget. | 1. Comprehensive guide, 2. Criteria-based selection, 3. Cost-effective dining options, 4. Wide restaurant coverage, 5. Ratings & reviews | 1. Yelp, 2. TripAdvisor, 3. Restaurant.com, 4. OpenTable, 5. Groupon | Our solution is tailored specifically for budget-conscious individuals who are looking for affordable but impressive dining experiences that cater to date nights. Unlike our competitors who offer a broad range of dining options, our guide caters specifically to budget-friendly restaurants. By providing a comprehensive guide, we take the guesswork out of the decision-making process and help customers save time and money.",
+  "content": [
+    [
+      "Menu Matchmaker",
+      "Menu Matchmaker is a personalized restaurant recommendation service that helps users find the perfect restaurant based on their budget, cuisine and ambience preferences.",
+      "Personalized recommendations, budget filter, cuisine filter, ambience filter, online booking",
+      "OpenTable, Yelp, Zomato, TripAdvisor, TheFork",
+      "Personalized recommendations based on budget and preferences"
+    ],
+    [
+      "Early Bird Specials",
+      "Early Bird Specials is a website and mobile app that curates a list of restaurants that offer discounted prices during specific hours of the day.",
+      "Discount filter, time filter, online booking, user reviews, location-based search",
+      "Groupon, LivingSocial, Grubhub, Uber Eats, DoorDash",
+      "Focuses on restaurants that offer discounted prices rather than the quality of food"
+    ],
+    [
+      "Date in a Box",
+      "Date in a Box is a subscription service that delivers a curated dining experience to your doorstep. Each box is a surprise and includes a meal kit for two, a themed ambiance and music playlist.",
+      "Meal kit for two, themed ambiance, music playlist, monthly delivery, online support",
+      "HelloFresh, Blue Apron, Plated, Sun Basket, Home Chef",
+      "Delivers a unique dining experience at home rather than going out to a restaurant"
+    ],
+    [
+      "Secret Menu Finder",
+      "Secret Menu Finder is a mobile app that helps users discover hidden or off-menu items at popular restaurants. This allows users to eat at their favorite restaurants on a budget as these menu items are often cheaper than regular menu items.",
+      "Secret menu filter, location-based search, user reviews, discount coupons, loyalty programs",
+      "Yelp, Zomato, TripAdvisor, Google Maps, Eater",
+      "Focuses on discovering menu items that are not commonly known to the general public"
+    ]
+  ],
   "pain_point_id": 64,
   "pain_point_title": "limited budget",
   "pain_point_description": "the individual wants to impress their date with a nice restaurant, but they have a limited budget. they are looking for affordable options that still offer a great dining experience",
@@ -8,5 +37,5 @@
   "audience_id": 5,
   "audience_title": "pick a good restaurant for a date",
   "audience_slug": "pick-a-good-restaurant-for-a-date",
-  "status": 0
+  "status": 1
 }

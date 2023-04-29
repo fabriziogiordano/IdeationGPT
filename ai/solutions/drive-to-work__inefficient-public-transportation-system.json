@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Solution Description | Features | Competitors | Differentiator\n---------------|---------------------|----------|-------------|--------------\nTransit Tracker | A mobile app that shows you real-time updates on the arrival and departure of buses, trains, and subways on your route. It helps commuters plan their journeys better, avoid delays, and reach their destinations on time. | Real-time Transit Updates, Customizable Route Planning, Early Arrival Notifications, Integration with Transit Payment Systems, Crowd-Sourced Transit Updates | Transit App, Citymapper, Google Maps, Moovit, TripGo | Our app provides more accurate and crowd-sourced transit updates that are specific to the user's location and destination.\nRide-Sharing Hub | A platform that connects commuters with drivers going on similar routes. The app matches users based on their pick-up and drop-off locations, time, and preferences. It can help commuters save money and time by sharing rides with others. | Customizable Ride Preferences, Flexible Payment Options, Driver and Passenger Ratings, Real-Time Tracking for Safety, In-App Chat System | Uber, Lyft, BlaBlaCar, Grab, Go-Jek | Our platform is exclusively for commuting and encourages regular ride-sharing, thus making the experience more reliable and pleasant.\nParking Finder | A tool that helps commuters find available parking spaces near their destination. Parking availability is displayed in real-time and users can pay for parking within the app. It saves time, money, and frustration by eliminating the need to circle around looking for parking. | Real-time Parking Updates, In-App Payment System, User Ratings for Parking Locations, Customizable Parking Preferences, Parking Reservation System | Parkopedia, SpotHero, ParkWhiz, BestParking, JustPark | Our app is specifically designed for commuters to help them find the best and most affordable parking options, eliminating the hassle of searching for parking.\nE-Scooter Sharing | A rental service that offers electric scooters for commuters in urban areas. Users can pick up and drop off the scooters from designated parking areas. This solution provides a faster, more efficient, and cost-effective alternative to walking or taking public transit for short commutes. | QR Code Unlocking System, Customizable Ride Preferences, In-App Payment System, Real-Time GPS Tracking, In-App Chat System | Lime, Bird, Spin, Bolt, Voi | We offer rental of electric scooters geared towards the specific commuting market, where users can easily book and pay for e-scooters then get on with their commute quickly and efficiently.\nTele-Commuting Hub | A platform that connects workers with remote job opportunities. Companies can post job openings, and candidates can submit their applications within the app. It's a great way for commuters to avoid the long and frustrating daily commute altogether. | Job Search Filters, Customizable Job Alerts, Resume Builder, In-App Video Interviewing System, Company Insights | Remote.co, FlexJobs, We Work Remotely, Jobspresso, Working Nomads | We cater to commuters and offer remote job opportunities specifically for them to eliminate commuting altogether, rather than simply improving it.",
+  "content": [
+    [
+      "Ride-Share Matchmaking Service",
+      "A platform that connects commuters with others in their area and schedule who are also looking for someone to share their commute with. The platform matches individuals who live or work in proximity, and share the same schedule, to reduce commute costs and cut down on travel time.",
+      "In-app messaging, verified profiles, calendar integration, payment system, user ratings",
+      "Waze carpool, Scoop, Carma, UberPool, Lyft Shared",
+      "Our platform is specifically designed for daily commuters and provides a sense of community and social interaction, which sets it apart from competitors."
+    ],
+    [
+      "On-Demand Shuttle Service",
+      "A shuttle service app that operates during peak commute hours in areas where public transportation is lacking or unreliable. Users can book rides, track the shuttle location in real-time, and pay through the app.",
+      "Real-time tracking, secure payment, user-friendly interface, door-to-door service, customizable route",
+      "Via, Chariot, Bridj, TheRide, Wi-Drive",
+      "Our shuttle service operates at peak hours and serves areas that are underserved by public transportation, providing a reliable and efficient alternative for commuters."
+    ],
+    [
+      "Personalized Commute Planning Service",
+      "A service that creates a tailored commute plan for individuals based on their work location and schedule, available public transportation options, and other preferences. The plan includes detailed instructions on the best routes, transfer points, and estimated travel time.",
+      "Personalized commute plan, real-time transit updates, customizable preferences, live support, emergency alerts",
+      "Transit app, Google Maps, Moovit, Routeshare, Citymapper",
+      "Our service takes into account individual preferences and provides real-time updates, helping commuters navigate the complex public transportation system with ease."
+    ],
+    [
+      "Subscription-Based Electric Bicycle Rental",
+      "A subscription-based electric bicycle rental service that allows commuters to rent a bike for a monthly fee. The service includes regular maintenance, theft insurance, and the option to swap bikes at any time.",
+      "Electric bicycles, flexible subscription plans, theft insurance, regular maintenance, bike swap option",
+      "LimeBike, JUMP, Bird, Spin, Ofo",
+      "Our service provides a sustainable and economical alternative to traditional transportation methods, while also promoting healthy living and reducing carbon footprint."
+    ]
+  ],
   "pain_point_id": 34,
   "pain_point_title": "inefficient public transportation system",
   "pain_point_description": "public transportation options that are unreliable, not frequent, or not available in certain areas can make commuting more difficult and expensive",
@@ -8,5 +37,5 @@
   "audience_id": 6,
   "audience_title": "drive to work",
   "audience_slug": "drive-to-work",
-  "status": 0
+  "status": 1
 }

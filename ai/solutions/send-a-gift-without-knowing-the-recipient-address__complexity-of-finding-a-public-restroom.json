@@ -1,6 +1,56 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| Gift-giving without Address | An online Gift-Sending platform that allows you to send a thoughtful gift to someone without knowing their physical address. Users can enter the recipient's phone number or email address and the gift will be delivered in coordination with the recipient to a location of their choosing | Send a gift without a physical address, Easy-to-use interface, Secure delivery process, Wide range of gift options, Customer support | 1-800-Flowers, Giftagram, Mystery Gift Box, Uncommon Goods, UrbanStems | Only platform that allows gift-givers to send a present to a recipient without knowing their address; range of gift options unparalleled in the market |\n| Safe & Clean Restrooms Locator | An app that uses GPS technology to locate the nearest, safest, and cleanest public restrooms while providing details about their hours of service, accessibility features, and cleanliness ratings. The app also enables users to rate the restrooms based on their experience, report any issues, and add new locations | GPS-enabled, Accurate, Real-time data, Cleanliness ratings, User-generated content | Charmin's SitOrSquat, Flushd, Public Restroom Near Me, Where is Public Toilet | Detailed cleanliness ratings and user-generated content that ensures the quality of the restrooms; ability to add new locations and report issues to improve accuracy |\n| Portable Outdoor Toilet Rental | A rental service that provides portable toilets for outdoor events, camping trips or any other outdoor activities. The company sets up, maintains and removes the facility, providing a convenient and hygienic solution to the lack of public restrooms in wilderness areas or remote locations | Portable, Hygienic, Hassle-free, Easy setup and removal, Customizable service | Go Potty, Johnny on the Spot, Royal Restrooms, United Site Services, VIP To Go | Customizable services tailored to the customer's unique event or requirements; hassle-free setup and removal processes |\n| Private Restroom Access Service | A subscription-based service that allows subscribers to access numerous private restrooms that are available at businesses throughout the city. Once subscribed, users can access a map of these public restrooms and receive an access code to unlock their location, ensuring privacy and security | Subscription-based, Secure access, Wide availability, Privacy, Convenience | Airpnp, Good2Go, Looie, PHLUSH, Whizz | Unparalleled security and privacy features; ability to use a variety of private restrooms throughout the city, enhancing convenience and accessibility |\n| Public Toilet Cleaning Service | A cleaning service that contracts with local businesses to ensure the cleaning and maintenance of their restrooms. The service employs a trained team of restroom cleaners who visit each location at regular intervals to perform cleaning and restock supplies, ultimately improving the overall sanitation quality of public restrooms | Professional cleaning services, Regular maintenance, 24/7 support, Customized solutions, Comprehensive services | Cintas, Jani-King, OpenWorks, ServiceMaster Clean, Vanguard Cleaning Systems | Customized cleaning solutions that cater to the needs of each individual business, comprehensive services that cover all cleaning needs, 24/7 customer support |",
+  "content": [
+    [
+      "Anonymous Gifting Platform",
+      "An online platform that allows people to send gifts to friends and loved ones without knowing their physical address. Users can choose a gift category, select a gift, and send it to the recipient via email or text message. The recipient then provides their preferred address for delivery.",
+      "Easy gift selection, gift categories, email and text message delivery, recipient address capture, sender tracking",
+      "Giftagram, Greetabl, BloomThat",
+      "Gift categories with unique items and sender tracking feature"
+    ],
+    [
+      "Public Restroom Finder",
+      "A mobile app that helps people find nearby public restrooms that are clean and accessible. The app uses GPS to locate the nearest public restrooms and provides users with ratings and reviews from other users. Users can also filter restroom options based on accessibility features, such as diaper-changing stations or wheelchair accessibility.",
+      "GPS location, ratings and reviews, accessibility filters, restroom details, user-updated information",
+      "Flush Toilet Finder, SitOrSquat, Charmin's Sit or Squat",
+      "Accessible restroom filter and user-updated information"
+    ],
+    [
+      "Car Maintenance Reminder Service",
+      "A subscription-based service that reminds car owners of their vehicle's upcoming maintenance needs based on their car's make, model, and year. Users receive notifications via email or text message and can schedule maintenance appointments directly through the service.",
+      "Personalized reminders, maintenance schedule, service booking, email and text message delivery, account dashboard",
+      "Openbay, RepairPal, Carfax",
+      "Personalized reminders and service booking feature"
+    ],
+    [
+      "Portable Gym Equipment Rental",
+      "An online rental service that provides portable gym equipment to people who prefer working out at home or when traveling. Users can select from various equipment options and have them delivered to their location. The service also provides instructional videos and workout plans to users.",
+      "Equipment rental, delivery, instructional videos, workout plans, equipment cleaning and sanitizing",
+      "Peloton, Mirror, Hyfit Gear",
+      "Portable equipment rental with cleaning and sanitizing feature"
+    ],
+    [
+      "Online mediation service",
+      "An online platform that connects people with professional mediators to help them resolve disputes and conflicts. Users can select from various mediation options, such as legal, family, or workplace mediation. The service provides virtual mediation sessions, secure document sharing, and access to legal resources.",
+      "Professional mediators, virtual mediation sessions, secure document sharing, legal resources, mediation options",
+      "Mediate.com, Modria, The Mediation Process",
+      "Virtual mediation sessions and access to legal resources"
+    ],
+    [
+      "Online Language Learning Platform",
+      "An online platform that provides personalized language learning courses for people who want to learn a new language. Users can select from various language options and proficiency levels and are matched with experienced language tutors who provide one-on-one instruction. The platform also provides interactive learning materials and progress tracking.",
+      "Personalized language learning courses, one-on-one instruction, interactive learning materials, progress tracking, language options",
+      "Duolingo, Rosetta Stone, Babbel",
+      "Personalized language learning courses with one-on-one instruction feature"
+    ],
+    [
+      "Personalized Vitamin Subscription Service",
+      "A subscription-based service that delivers personalized vitamin supplements to users based on their individual health and wellness needs. Users take a health assessment questionnaire, and the results are used to create a customized vitamin plan that is shipped to their home. The service also provides access to licensed nutritionists who can answer user questions.",
+      "Personalized vitamin plan, health assessment questionnaire, vitamin delivery, licensed nutritionists, user account dashboard",
+      "Care/of, Persona Nutrition, Baze",
+      "Personalized vitamin plan with access to licensed nutritionists feature"
+    ]
+  ],
   "pain_point_id": 85,
   "pain_point_title": "complexity of finding a public restroom",
   "pain_point_description": "people who are traveling, working, or just out and about often find it challenging to locate a safe and clean public restroom quickly. this can result in discomfort and can impact normal daily activities. an app or service that provides locations of nearby public restrooms and rates them based on their cleanliness and accessibility would be helpful",
@@ -8,5 +58,5 @@
   "audience_id": 13,
   "audience_title": "send a gift without knowing the recipient address",
   "audience_slug": "send-a-gift-without-knowing-the-recipient-address",
-  "status": 0
+  "status": 1
 }

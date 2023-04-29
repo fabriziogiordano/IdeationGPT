@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "1. Solution Title: Bike Commute Concierge\n2. Solution Description: Bike Commute Concierge is a one-person business that helps bike commuters plan the safest and most convenient route to work. The concierge will provide customized route planning based on the user's starting location, destination, and preferred biking terrain. Additionally, the concierge will help riders navigate tricky bike lanes and intersections. The service will also offer a bike maintenance program to keep commuters' bikes in top condition. The concierge will coordinate with local businesses to create bike-friendly workplaces by providing safe and secure bike parking and locker storage. Bike Commute Concierge will also provide on-demand bicycle pickup and drop-off service in case of a breakdown or accident. \n3. Features: Customized route planning, Bike maintenance program, Secure bike parking, On-demand emergency pickup and drop-off service, Biking terrain recommendation. \n4. Competitors: RideReport, BikeMaps, Strava, Citymapper, Google Maps.\n5. Differentiator: Bike Commute Concierge's key differentiators are its personalized and on-demand services, as well as its focus on creating bike-friendly workplaces in coordination with local businesses. It also offers a maintenance program to keep bikes in top condition, which is not provided by many competitors.",
+  "content": [
+    [
+      "Commuter Bike Lane App",
+      "A mobile app that uses crowdsourcing to identify and map the best routes for biking to work, highlighting bike lanes, safety features, and obstacles to avoid.",
+      "real-time crowd-sourced info, voice-guided navigation, route comparisons, safety alerts, bike-friendly business directory",
+      "Google Maps, Strava, Ride with GPS, MapMyRide, Komoot",
+      "Focuses exclusively on bike commuting, empowers users to contribute to the app's data and community"
+    ],
+    [
+      "Bike Lane Advocacy",
+      "A consulting service that helps bike commuters organize and advocate for better biking infrastructure in their communities, including lobbying local government, raising awareness, and improving communications between bikers and drivers.",
+      "advocacy strategy, community organizing, lobbying expertise, social media marketing, event planning",
+      "People for Bikes, League of American Bicyclists, Alliance for Biking & Walking, Bike Pittsburgh, Bike Austin",
+      "Specializes in bike commuting issues, works directly with local residents and governments, focus on practical and achievable goals"
+    ],
+    [
+      "On-Demand Bike Repair",
+      "A mobile bike repair service that comes to a bike commuter's workplace, home, or a convenient location, offering tune-ups, repairs, and maintenance during working hours.",
+      "mobile repair shop, pick-up and drop-off service, certified mechanics, on-site assembly, bike fitting",
+      "Velofix, Beeline Bikes, Bike Doctor, The Mobile Bike Man, Mobile Bicycle Service",
+      "Specializes in serving busy bike commuters, offers hassle-free and convenient service, competitive prices"
+    ],
+    [
+      "Bike-Friendly Employer Certification",
+      "A certification program that helps companies and organizations become more bike-friendly, including offering incentives, amenities, and support for bike commuters, such as secure bike storage, showers, and changing rooms.",
+      "needs assessment, program development, employee engagement, marketing and promotion, evaluation and feedback",
+      "League of American Bicyclists' Bicycle Friendly Business program, Eco-Counter, Commute Seattle's Bike-Friendly Workplace program, Bicycle Colorado's Workplace Certification program, Silicon Valley Bicycle Coalition's Bicycle Friendly Workplace program",
+      "Focuses exclusively on bike commuters and their unique needs, offers customized solutions, and provides ongoing support and feedback"
+    ]
+  ],
   "pain_point_id": 1,
   "pain_point_title": "inadequate biking infrastructure",
   "pain_point_description": "lack of proper bike lanes, traffic safety measures, and bike-friendly workplaces make it difficult for commuters to safely and conveniently bike to work",
@@ -8,5 +37,5 @@
   "audience_id": 7,
   "audience_title": "bike to work",
   "audience_slug": "bike-to-work",
-  "status": 0
+  "status": 1
 }

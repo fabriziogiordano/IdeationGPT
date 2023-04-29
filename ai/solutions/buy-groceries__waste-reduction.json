@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Solution Description | Features | Competitors | Differentiator\n--- | --- | --- | --- | ---\n1. Virtual Grocery Shopping Assistant | This solution provides shoppers with a grocery list-making tool that suggests smarter purchases and quantities that will minimize waste. It also includes a virtual pantry management feature that helps users keep tabs on their inventory to prevent overbuying. The tool will incorporate machine learning to suggest purchasing decisions that fit each user's preferences and buying history. | AI-based recommendations, virtual pantry management, waste tracking, integration with grocery stores, personalized shopping lists | Out of Milk, Cozi, Any.do, Our Groceries | Advanced AI and machine learning for personalized recommendations\n2. Community-Based Produce Exchange | An online platform where users can swap produce and groceries they no longer need or want with other members of the community. This solution encourages people to share surplus food instead of throwing it away while also promoting community engagement and building trust between neighbors. | Virtual swapping system, user profiles, social features, chat functionality, reputation system | Freecycle, Olio, Nextdoor, Facebook groups | Dedicated to reducing waste through community building and sharing\n3. Meal Planning Service | A meal-planning subscription service that uses seasonal ingredients and considers user preferences to suggest weekly meal options based on purchase prices and maximum usage of ingredients. The service offers a personalized dashboard where users can track their food waste and adjust their grocery orders to minimize future waste. The service also provides educational materials on best practices for storing and freezing groceries. | Meal plans, recipe recommendations, grocery list creation, waste-tracking, dashboard, educational materials | Blue Apron, HelloFresh, Freshly, Plated, Home Chef | Focuses on food waste prevention and education for customers\n4. Compost Pickup and Delivery Service | A service that picks up food waste from customers' homes and delivers it to composting facilities. The solution offers different subscription plans based on the amount of waste the customer produces and can provide educational material on how to produce less waste. | Scheduled pickup and delivery, composting services, educational materials | CompostNow, Compost Cab,  Compost Queens, Full Bloom | Provides education and foster better performing composts\n5. Package-Free Grocery Store | The solution involves opening a package-free grocery store that offers bulk and unpackaged foods and other household products to customers. Customers are encouraged to bring their own reusable containers, and the store provides reusable containers options like silicone bags, jars, and containers at affordable prices. The solution also includes educational materials on using and reusing items such as produce bags, jars, and containers. | Package-free store, bulk buying, reusable containers, educational materials | IN.GREDIENTS, Tare, Nude Market, Earth's General Store, Scoop Marketplace | Dedicated to reducing waste through package-free approach",
+  "content": [
+    [
+      "InformedGrocery",
+      "InformedGrocery is an online platform that educates grocery customers on how to buy groceries mindfully and sustainably to minimize waste and save money. Through the platform, customers can access information on how to reduce food waste, buy in bulk, and read product labels to make informed decisions.",
+      "Educational content on sustainable grocery shopping, Product label decoder, Bulk buying guide, Seasonal produce guide, Savings calculator",
+      "Imperfect Foods, Zero Market, Loop, Thrive Market, Good Eggs",
+      "InformedGrocery's emphasis on waste reduction and mindful shopping sets it apart from its competitors, who may not have as strong of a focus on reducing waste."
+    ],
+    [
+      "Wastebusters",
+      "Wastebusters is a mobile app that helps grocery customers track their waste and make data-driven decisions to reduce their environmental impact. The app creates shopping lists based on past purchases, suggests recipes to use up leftover ingredients, and provides a waste reduction score based on shopping habits.",
+      "Shopping list creator based on past purchases, Recipe suggestions, Waste reduction score, Barcode scanner for product information, Push notifications for expiring products",
+      "NoWaste, FoodKeeper, WasteNoMore, Too Good To Go, Olio",
+      "Wastebusters' focus on tracking waste and providing a personalized waste reduction score sets it apart from competitors who may not have as strong of a data-driven approach."
+    ],
+    [
+      "BulkMate",
+      "BulkMate is a web-based platform that connects grocery customers with local bulk stores to reduce waste and packaging. Customers can search for bulk stores in their area, compare prices, and place orders for pickup or delivery. The platform also provides educational resources on bulk shopping and ways to reduce waste.",
+      "Store locator, Price comparison tool, Order placement for pickup or delivery, Educational resources on bulk shopping, Personalized waste reduction tips",
+      "Zero Market, The Source Bulk Foods, Scoop, Life Without Plastic, The Refill Shoppe",
+      "BulkMate's focus on connecting customers with local bulk stores and providing personalized waste reduction tips sets it apart from competitors who may not have the same focus on local connections."
+    ],
+    [
+      "MenuMind",
+      "MenuMind is a mobile app that helps grocery customers plan meals and reduce waste by suggesting recipes based on ingredients they already have at home. Customers can input the ingredients they have on hand and the app will suggest recipes and generate shopping lists for any additional ingredients needed. The app also provides a pantry inventory feature to keep track of ingredients and expiration dates.",
+      "Recipe suggestion based on available ingredients, Shopping list generator, Pantry inventory tracker, Expiration date notifications, Meal planning calendar",
+      "Yummly, Mealime, Paprika, Cookpad, Whisk",
+      "MenuMind's focus on using existing ingredients to suggest recipes and generate shopping lists sets it apart from competitors who may not have as strong of a focus on reducing waste."
+    ]
+  ],
   "pain_point_id": 12,
   "pain_point_title": "waste reduction",
   "pain_point_description": "grocery customers may be looking for ways to reduce their waste, either because they are environmentally conscious or because they want to save money on groceries. they need education on how to make thoughtful and conscientious buying decisions",
@@ -8,5 +37,5 @@
   "audience_id": 10,
   "audience_title": "buy groceries",
   "audience_slug": "buy-groceries",
-  "status": 0
+  "status": 1
 }

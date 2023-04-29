@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Solution Description | Features | Competitors | Differentiator\n--- | --- | --- | --- | ---\n1. Virtual Personal Trainer | This solution connects gym-goers with certified trainers who specialize in injury prevention, rehabilitation, or sports-specific training through an online platform. Users can communicate with their trainers through video chat, text or email, and receive personalized training plans that fit their goals, fitness level, and schedule. The trainers can also monitor their performance and provide feedback, track progress, and suggest modifications to their workouts as needed. | Customizable training plans, video chat, text messaging, email support, progress tracking | Virtuagym, Worktrainers, Wexer | Specialization in injury prevention, rehabilitation, and sports-specific training\n2. Athletic Screening Program | This solution offers gym-goers a comprehensive screening program to identify their strengths, weaknesses, and imbalances, and prevent injuries before they happen. The program consists of a series of tests performed by certified therapists that assess the user's flexibility, balance, mobility, and stability. Based on the results, the user receives a personalized exercise program that targets their specific needs and goals. | Comprehensive screening program, personalized exercise program, certified therapists, data tracking, progress reporting | Allina Health, Athletico, EXOS | Emphasis on injury prevention through comprehensive screening and personalized exercise program\n3. Online Injury Rehabilitation Program | This solution provides gym-goers with a virtual rehabilitation program that guides them through the recovery process after an injury. Certified therapists design individualized rehab programs based on the user's diagnosis, symptoms, and medical history, which include a combination of stretches, exercises, and modalities. Users can access the program from their devices and track their progress, communicate with their therapists, and receive real-time feedback. | Individualized rehab program, virtual access, remote communication, progress tracking, real-time feedback | Hinge Health, Physitrack, Rehab Guru | Focus on personalized and convenient injury rehabilitation\n4. Sports-Specific Training App | This solution offers gym-goers a mobile app that provides sports-specific training programs tailored to their sport, position, and level. The app features video tutorials, progress tracking, game analysis, and communication with certified coaches who provide feedback and support. Users can also connect with other athletes, challenge them to training battles, and share their progress on social media. | Sports-specific training programs, video tutorials, progress tracking, game analysis, certified coaches, social features | TrainHeroic, Volt, MaxOne | Emphasis on sports-specific training and gamification for engagement\n5. Remote Strength Coaching | This solution provides gym-goers with remote strength coaching services from certified coaches who specialize in strength training. Users can communicate with their coaches through video chat, text or email, and receive personalized workout plans, nutrition advice, supplement recommendations, and progress tracking. The coaches can also offer form correction, exercise modification, and motivation. | Remote strength coaching, video chat, text messaging, email support, personalized workout plans, progress tracking | Renaissance Periodization, Kabuki Strength, Ironbeard Fitness | Specialization in strength training and personalized coaching.",
+  "content": [
+    [
+      "Virtual Personal Trainer",
+      "Offering personalized training programs through AI and machine learning algorithms, this virtual trainer helps customers with specific training needs. It enables customers to work on injury prevention, rehabilitation, or sports-specific training according to their goals and abilities. The trainer provides real-time feedback and adjusts the training program according to the customer's progress to reach their target effectively.",
+      "Customized training programs, Real-time feedback, AI and machine learning, Specialized training for injury prevention, rehabilitation or sports-specific training, Track progress",
+      "Trainiac, Future, Freeletics, Fitbod, Aaptiv",
+      "Provides tailored training programs for injury prevention, rehabilitation, or sports-specific training, as per the customer's abilities and goals, thus making it more effective."
+    ],
+    [
+      "Online Sports Coaching",
+      "Providing sports-specific coaching, this solution connects customers with expert coaches who design customized training programs. The coaches leverage their expertise to help customers improve their skills and focus on their specific goals, such as improving endurance, strength or flexibility. With online coaching, customers can have access to personalized training, progress tracking, and feedback that was once only accessible to professional athletes.",
+      "Expert coaching, Customized training programs, Online video sessions, Progress tracking, Continuous feedback",
+      "TrainHeroic, TrueCoach, My PT Hub, Trainerize, TrainerFu",
+      "Offers personalized training for sports-specific goals, providing access to expert coaches that was previously only available to professional athletes."
+    ],
+    [
+      "Injury Rehabilitation Center",
+      "This solution is an injury rehabilitation center that operates in-person combined with virtual physical therapy sessions. The center focuses on rehabilitating injuries and returning patients back to their pre-injury state, with the help of specialized equipment and expert physical therapists. The solution offers personalized rehabilitation programs for each customer, along with virtual sessions, which helps customers continue their recovery process remotely.",
+      "Specialized equipment for rehabilitation, Physical therapy sessions, Personalized rehabilitation programs, Virtual sessions, One-on-one consultations",
+      "ATI Physical Therapy, Kessler Rehabilitation Center, Physiotherapy Associates, NovaCare Rehabilitation, FYZICAL Therapy & Balance Centers",
+      "Provides personalized, comprehensive injury rehabilitation programs, and offers both in-person and virtual physical therapy sessions."
+    ],
+    [
+      "Sports-specific Training App",
+      "This solution offers a sports-specific training app that helps customers achieve their athletic goals by providing training programs, guided by expert coaches. The app focuses on a specific sport, catering to customer requirements and goals, whether it be running a marathon, participating in a triathlon or tennis, etc. The app includes customized workout plans, progress tracking, and real-time feedback from the coaches, which helps customers fine-tune their training program.",
+      "Customized training programs for specific sports, Expert coaching, Progress tracking, Real-time feedback, Guided workout plans",
+      "Nike Run Club, Strava, Peloton, Endomondo, Zwift",
+      "Provides specialized training programs for specific sports, combined with real-time feedback and guidance from expert coaches, making it more effective."
+    ]
+  ],
   "pain_point_id": 38,
   "pain_point_title": "lack of specialized trainers",
   "pain_point_description": "limited access to specialized trainers for injury prevention, rehabilitation, or sports-specific training",
@@ -8,5 +37,5 @@
   "audience_id": 8,
   "audience_title": "go to the gym",
   "audience_slug": "go-to-the-gym",
-  "status": 0
+  "status": 1
 }

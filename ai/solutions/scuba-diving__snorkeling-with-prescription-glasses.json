@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| Prescription Mask for Scuba Diving | Scuba diving enthusiasts with eye problems may find it difficult to snorkel with their prescription glasses. A specialized snorkeling mask can be the perfect solution for this audience segment. The mask provides an effective solution to the problem, ensuring that the divers can see clearly underwater. | Prescription-grade corrective lenses, Comfortable strap, Anti-fog and scratch-resistant, Durable materials, Stylish design | Octomask, Seavenger, ScubaMax, Promate, Splaqua | Our mask is made with premium quality materials that ensure comfort and durability, the prescription-grade corrective lenses prevent any underwater vision problems, and the design is stylish yet functional. |",
+  "content": [
+    [
+      "Prescription Scuba Diving Mask",
+      "This solution offers a specialized mask designed to help divers with eye problems see clearly underwater. The mask will be designed to accommodate prescription glasses, ensuring the diver can wear their glasses while scuba diving. This solution solves the problem of diving with blurry vision due to prescription glasses, which can cause accidents and prevent divers from enjoying the dive to its fullest.",
+      "Compatibility with prescription glasses, Anti-fogging technology, Comfortable fit, Wide range of adjustability, High-quality lenses",
+      "Promate, Oceanic, Cressi, Tusa, Mares",
+      "Our product offers the best fit for prescription glasses, with a wide range of adjustability options and high-quality lenses, ensuring a crystal-clear view underwater. The anti-fogging technology also sets us apart from competitors, preventing any vision obstruction due to fogging."
+    ],
+    [
+      "Scuba Diving Simulator",
+      "A simulator designed to help scuba divers practice underwater. This solution allows divers to hone their diving skills, regardless of whether they live near a diving center or not. This simulator will create a virtual underwater environment that simulates various diving scenarios, allowing divers to practice different techniques and make mistakes without any risks.",
+      "Realistic underwater environment simulation, Customizable scenarios and settings, Access to various diving techniques training, User-friendly controls, Cost-effective",
+      "PADI Open Water Diver Touch, Scuba Diver App, Steam Scuba Diving VR",
+      "Our product offers a more realistic underwater environment than our competitors' products, with a wide range of customizable scenarios and settings that cater to all levels of diving expertise. Our user-friendly controls and cost-effective pricing set us apart in this market."
+    ],
+    [
+      "Scuba Diving Planner",
+      "A tool designed to help scuba divers plan and organize their diving trips. This solution makes it easier for divers to find the best diving spots based on their diving level, preferences, and budget. The tool will also help divers organize their diving schedules, equipment, and transportations. This product helps reduce the stress and time-consuming aspects of planning a scuba diving trip, allowing divers to focus on their diving experience.",
+      "Access to various diving sites, Budget management tools, Equipment management tools, Transportation management tools, Detailed diving schedules",
+      "ScubaEarth, Divebooker, Diveboard, Dive Sites, Scuba Tribe",
+      "Our product offers a more comprehensive and detailed planning tool than competitors, with a wide range of budget, equipment, and transportation management tools. We provide a more personalized diving schedule for the user based on their level and preferences to ensure the best diving experience."
+    ],
+    [
+      "Scuba Diving Safety Device",
+      "A safety device designed to alert and assist scuba divers in case of emergencies. The device will be wearable and equipped with sensors to detect potential diving-related dangers such as sudden changes in water temperature, currents, and low air supply. The device will send alerts and emergency signals to nearby divers and diving centers for assistance when necessary.",
+      "Wearable safety device, Sensitive sensors, Real-time alerts and emergency signals, Long-lasting battery life, Connects with nearby diving centers",
+      "scubapro, Cressi, Tusa, Aqualung, Mares",
+      "Our product offers a wearable safety device that connects with nearby diving centers and other divers to ensure timely assistance in case of emergencies. The sensitive sensors and real-time alerts, along with the long-lasting battery life, set us apart from competitors."
+    ]
+  ],
   "pain_point_id": 75,
   "pain_point_title": "snorkeling with prescription glasses",
   "pain_point_description": "many keen scuba diving enthusiasts have eye problems. as a result, they may face challenges snorkeling when wearing diving masks over their prescription glasses. offering a specialized snorkeling mask that can help divers with eye issues see clearly underwater is an excellent solution this audience segment",
@@ -8,5 +37,5 @@
   "audience_id": 2,
   "audience_title": "scuba diving",
   "audience_slug": "scuba-diving",
-  "status": 0
+  "status": 1
 }

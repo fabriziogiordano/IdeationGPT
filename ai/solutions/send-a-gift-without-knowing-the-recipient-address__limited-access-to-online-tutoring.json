@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Solution Description | Features | Competitors | Differentiator \n-- | -- | -- | -- | --\nGift Address Locator | A service that helps people in sending gifts to their loved ones without knowing their address | 1. Easy to use 2. Affordable pricing 3. Reliable and secure 4. Quick turnaround time 5. 24/7 customer support | Giftagram, Bouqs, Cratejoy, Boxes of Love, Send a Cake | Our solution uses a proprietary algorithm that matches recipient’s social media handles and phone numbers to find their location, ensuring prompt delivery of gifts. \nReal-time Personalized Online Tutoring | A service that provides affordable and personalized online tutoring for students of all ages using real-time video conferencing and interactive whiteboards | 1. Affordable pricing 2. Live video conferencing 3. Interactive whiteboards 4. Certified and experienced tutors 5. Personalized lesson plans | TutorMe, Skooli, Club Z!, Wyzant, Chegg | Our solution stands apart thanks to the use of  artificial intelligence which assists tutors in identifying areas where the student may struggle and customize lesson plans that cater to the student’s learning style. The tutoring sessions prioritize real-time communication to ensure the student receives in-depth explanations of key points. \nMobile Grocery Delivery | A service that delivers groceries to the doorstep of customers by partnering with local supermarkets and grocery stores. | 1. User-friendly mobile app 2. Wide range of products 3. Affordable pricing 4. Multiple payment options 5. Efficient delivery network | Instacart, Shipt, FreshDirect, Peapod, GoPuff | Our solution is different because it offers a subscription-based model that provides customers with reduced delivery charges and additional discounts, making it the most affordable grocery delivery option available. \nVirtual Personal Shopping | A service that offers customers personalized styling advice and curated product recommendations through online stylist sessions. | 1. Live video sessions with stylists 2. Personalized style recommendations 3. Affordable pricing 4. Access to exclusive deals and discounts 5. Free shipping and easy returns | Stitch Fix, Trunk Club, Bombfell, Ralph Lauren, Nordstrom | Our solution differentiates itself by providing customers a face-to-face video chat with experienced stylists, creating personalized looks based on their specific taste, and inculcating learning experiences. Our stylists have the freedom to select a comprehensive range of brands, making virtual personal shopping an affordable luxury. \nVirtual Interior Design Services | A service that provides affordable and accessible interior designing services to homeowners and renters using virtual consultations with professional interior designers. | 1. 3D room modeling 2. Personalized design plans 3. Affordable pricing 4. Virtual material sourcing 5. Access to budget-friendly brands | Modsy, Havenly, Laurel & Wolf, Decorist, Homepolish | Our solution differentiates itself by offering a unique \"try before you buy\" service that allows customers to walk through their room in virtual reality before implementing the design. Our interior designing services include a 3D model of the personalized design, making it easier for customers to visualize the final result.",
+  "content": [
+    [
+      "Giftly",
+      "Giftly is a service that allows users to send a gift to someone without having to know their address. Users can purchase a gift card, and the recipient can choose from a list of participating merchants to redeem their gift.",
+      "Purchase gift cards without needing recipient address, wide range of participating merchants to choose from, easy redemption process, customizable gift message, no expiration date",
+      "Giftagram, Bouqs, Harry & David, Greetabl",
+      "Giftly allows for more flexibility in gift-giving, as the recipient can choose the merchant they prefer to redeem their gift card."
+    ],
+    [
+      "LearnLive",
+      "LearnLive is an online tutoring service that provides affordable, personalized one-on-one instruction. Tutors are available in a variety of subjects, and students can schedule sessions at their convenience.",
+      "Affordable pricing, personalized instruction, one-on-one attention, real-time communication, flexible scheduling",
+      "Varsity Tutors, Chegg Tutors, TutorMe, Wyzant, Skooli",
+      "LearnLive focuses on providing personalized attention and real-time communication with its tutors, setting it apart from other online tutoring services."
+    ],
+    [
+      "SkillSwap",
+      "SkillSwap is a platform that allows users to exchange tutoring services with each other. Users can offer their own skills in exchange for tutoring in a subject they need help with.",
+      "Free service, wide range of subjects available, personalized attention, flexible scheduling, opportunity to learn new skills",
+      "Preply, Tutors.com, HeyTutor, Tutorful, Club Z!",
+      "SkillSwap offers a unique approach to tutoring by allowing users to exchange skills and knowledge with each other, creating a collaborative learning environment."
+    ],
+    [
+      "BrainBoost",
+      "BrainBoost is an online tutoring service that focuses on academic coaching and skill development. Tutors work with students to develop strategies for success in their coursework and beyond.",
+      "Academic coaching, skill development, personalized instruction, one-on-one attention, real-time communication",
+      "TutorMe, Varsity Tutors, Skooli, Wyzant, Chegg Tutors",
+      "BrainBoost sets itself apart by focusing on long-term skill development and coaching, rather than just short-term academic performance."
+    ]
+  ],
   "pain_point_id": 88,
   "pain_point_title": "limited access to online tutoring",
   "pain_point_description": "many students struggle to find affordable and accessible tutoring services, which can affect their academic performance. traditional tutoring services can be expensive, and online tutoring services may lack personal touch or real-time communication. a service that provides affordable online tutoring with real-time, personalized attention could be invaluable to parents and students alike",
@@ -8,5 +37,5 @@
   "audience_id": 13,
   "audience_title": "send a gift without knowing the recipient address",
   "audience_slug": "send-a-gift-without-knowing-the-recipient-address",
-  "status": 0
+  "status": 1
 }

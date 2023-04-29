@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| 1. \"Date Night Box\" | Customers can subscribe to receive a monthly box filled with unique date ideas and curated items to enhance the experience. Ideas can range from outdoor picnics to virtual cooking classes to scavenger hunts. | Monthly subscription, personalized recommendations, curated items, variety of date ideas, affordability | Unbox Love, DateBox Club, Crated with Love, Night In Boxes, Happily | Focus on providing unique and personalized experiences, rather than just generic date ideas |\n| 2. \"Scavenger Hunt Date Planning\" | A service that creates personalized scavenger hunts for couples in their city, with clues and challenges tailored to their interests and preferences. | Customized to the couple's interests, additional extras available (photography, catering), surprise element, affordable | The Official Tourist, Watson Adventures, Let's Roam, Stray Boots, Puzzling Adventures | Incorporating additional surprises and personalized elements for an unforgettable experience |\n| 3. \"Themed Date Planning\" | A service that creates themed experiences for couples, such as \"80s Night Out\" or \"Movie Marathon\" with customized itineraries, locations, and activities. | Customized itineraries, variety of themes, affordability, surprise elements, discounts for multiple bookings | Vimbly, Airbnb Experiences, Yelp Events, Fever, Groupon | Providing a wide variety of unique and customizable themes to fit any couple's preferences |\n| 4. \"Date Planning Concierge\" | A personalized service that works with the individual to plan a unique and memorable date, from start to finish, including transportation, reservations, and special touches. | Personalized service, complete date coordination, attention to detail, variety of ideas, convenience | The Monthsary, The Romantic Concierge, Colella Concierge, Yellow Hat Concierge, UrbanContessa | Offering a completely personalized and stress-free experience for the individual |\n| 5. \"Adventure Date Box\" | Similar to a Date Night Box, but with a focus on adventure and outdoor activities. Each box includes a new adventure idea, along with necessary equipment or resources. | Outdoor adventure focus, affordability, variety of ideas, curated items, surprise element | Outside Days, Adventurous World, Bold Expeditions, Hiker Crate, Cairn | Providing unique and exciting outdoor adventure ideas that go beyond the typical restaurant date |",
+  "content": [
+    [
+      "Experience-Based Date Planning",
+      "This solution is all about creating unique and memorable date experiences tailored to the individual's personality and budget. It takes the pressure off of just picking a restaurant and instead focuses on planning an entire experience from start to finish. The service includes a personalized questionnaire to get to know the individual's likes and dislikes, a curated list of experience-based date ideas, and the option to book and coordinate the entire experience.",
+      "Personalized questionnaire, curated date ideas, booking coordination, budget-friendly options, tailored to individual's personality",
+      "Date night subscription boxes (e.g. Datelivery, The Fantasy Box), online date experience booking platforms (e.g. IfOnly, Cloud 9 Living)",
+      "Customizable for each individual's preferences and budget"
+    ],
+    [
+      "Scavenger Hunt Date Planning",
+      "This solution is all about adding an element of adventure and excitement to a date through a scavenger hunt. The service includes creating a customized scavenger hunt route based on the individual's interests and budget, providing all necessary materials, and coordinating the entire experience.",
+      "Customized scavenger hunt route, all necessary materials provided, budget-friendly options, coordinated experience",
+      "Scavenger hunt companies (e.g. ScavengerHunt.com, Urban Adventure Quest), escape rooms",
+      "Offers a unique and creative way to experience a date"
+    ],
+    [
+      "Outdoor Adventure Date Planning",
+      "This solution is all about planning an outdoor adventure date that is tailored to the individual's interests and budget. The service includes a personalized questionnaire to get to know the individual's likes and dislikes, a curated list of outdoor adventure date ideas, and the option to book and coordinate the entire experience.",
+      "Personalized questionnaire, curated outdoor adventure date ideas, booking coordination, budget-friendly options, tailored to individual's interests",
+      "Outdoor adventure booking platforms (e.g. Viator, GetYourGuide), local outdoor adventure companies",
+      "Provides a unique and memorable way to experience a date in nature"
+    ],
+    [
+      "DIY Date Planning Guide",
+      "This solution is all about providing the individual with the tools and resources to plan a unique and memorable date on their own. The guide includes a variety of DIY date ideas, budget-friendly options, and tips for making the date personalized and special.",
+      "DIY date ideas, budget-friendly options, personalized tips, easy-to-use guide",
+      "Date night subscription boxes (e.g. Datelivery, The Fantasy Box), online date experience booking platforms (e.g. IfOnly, Cloud 9 Living)",
+      "Empowers the individual to plan a unique and personalized date on their own"
+    ]
+  ],
   "pain_point_id": 66,
   "pain_point_title": "unique date ideas",
   "pain_point_description": "the individual wants to plan a unique and memorable date that goes beyond just dinner. they need help coming up with creative ideas that fit their personality and budget",
@@ -8,5 +37,5 @@
   "audience_id": 5,
   "audience_title": "pick a good restaurant for a date",
   "audience_slug": "pick-a-good-restaurant-for-a-date",
-  "status": 0
+  "status": 1
 }

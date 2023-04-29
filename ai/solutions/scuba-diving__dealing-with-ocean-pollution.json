@@ -1,6 +1,28 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| Scuba Ocean Cleanup Service | This solution offers a platform uniting scuba divers with environmental agencies to conduct ocean cleanup activities to reduce ocean pollution caused by debris and pollution. Scuba divers will identify the areas experiencing pollution, collect and separate debris while prioritizing debris removal in a sustainable and eco-friendly method. Environmental agencies will provide key cleaning tools for the activity, the data acquired from cleanup activities will enable monitoring of ocean pollution trends, thus contributing to research work. | \n| 1. Platform for Scuba Divers & Environmental Agencies Connection | 2. Monitoring and Evaluation of Cleanup Activities | 3. Training Sessions for Efficient and Effective Debris Collection | 4. Eco-friendly Debris Disposal Techniques | 5. Engagement of Local Communities in Ocean Cleanup Activities | \n| 1. Ocean Cleanup | 2. Project AWARE Foundation | 3. 4Ocean | 4. 5 Gyres Institute | 5. Plastic Ocean Project | \n| Scuba Ocean Cleanup Service offers a win-win solution that connects scuba divers with environmental agencies committed to reducing ocean pollution. Our focus on eco-friendly debris collection and disposal and training sessions to improve efficient debris collection strategies sets us apart from the competition. Additionally, we engage locals in cleanup activities that encourage community participation in keeping the oceans healthy.|",
+  "content": [
+    [
+      "Scuba Tank Reuse Service",
+      "A service that cleans, inspects, and reuses scuba tanks, reducing waste and mitigating the environmental impact of disposable scuba tanks. Scuba divers can exchange their used tanks for clean tanks, and the used tanks will undergo testing and cleaning before being reused.",
+      "Cleaning and testing used scuba tanks. Offering exchange services for used tanks. Reducing waste from disposable tanks. Providing high-quality tanks for scuba divers. Ensuring safety and compliance with scuba diving regulations.",
+      "Tusa, Aqua Lung, Scuba Pro, Mares, Cressi",
+      "The focus on reusing scuba tanks and minimizing waste sets this service apart from traditional scuba tank manufacturers. The emphasis on safety and compliance with regulations also ensures that scuba divers can continue to enjoy their sport in a sustainable way."
+    ],
+    [
+      "Ocean Conservation Education Course",
+      "A course that educates scuba divers on how to minimize their impact on the ocean environment and how to actively contribute to ocean conservation. The education covers various topics such as ocean pollution, marine biology, and sustainable diving practices.",
+      "Providing in-depth education on ocean conservation. Offering practical guidelines on sustainable diving practices. Raising awareness on ocean pollution and marine biodiversity. Encouraging active contribution to ocean conservation efforts. Supporting environmental organizations through donations.",
+      "PADI, National Geographic, Reef Check, Green Fins, Project Aware",
+      "A comprehensive course that focuses on both theoretical and practical aspects of ocean conservation sets this service apart from traditional scuba diving education programs. Furthermore, supporting environmental organizations through donations encourages scuba divers to contribute to a greater cause beyond their personal interests."
+    ],
+    [
+      "Dive Site Cleaning Tool",
+      "A tool that allows scuba divers to collect ocean debris while they dive, without disrupting the natural environment. The tool attaches to the scuba diver's body and has a net that can capture debris effectively.",
+      "Allowing scuba divers to collect ocean debris without disrupting the environment. Easy to attach and use during a dive. Lightweight and compact. Durable and long-lasting. Effective in capturing various types of ocean debris.",
+      "Seasearch, Ocean Conservancy, Ghost Fishing",
+      "The design of the tool focuses on minimizing disturbance to the natural environment while effectively capturing ocean debris. Its ease of use and durability also make it more accessible and reliable than some other alternatives."
+    ]
+  ],
   "pain_point_id": 78,
   "pain_point_title": "dealing with ocean pollution",
   "pain_point_description": "oceanic debris and pollution have a massive impact on marine biodiversity and can cause harm to sea creatures. scuba divers may have difficulty identifying and cleaning up pollution that can threaten the aquatic environment. introducing a service that connects scuba divers with environmental agencies and organizations willing to engage in ocean cleanups would benefit both the divers and the environment",
@@ -8,5 +30,5 @@
   "audience_id": 2,
   "audience_title": "scuba diving",
   "audience_slug": "scuba-diving",
-  "status": 0
+  "status": 1
 }

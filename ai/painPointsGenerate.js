@@ -39,9 +39,9 @@ You can use these criteria to help guide the pain points but feel free to use ot
 - Need for education or guidance
 
 RESPONSE FORMAT:
-Generate a table with 2 columns:
-- short: one with a short description of the pain point
-- long: one with a longer description of the pain point
+Generate a markdown table with 2 columns:
+- short: short description of the pain point
+- long: long description of the pain point
 `;
 
 try {

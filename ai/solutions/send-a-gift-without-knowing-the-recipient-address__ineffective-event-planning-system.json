@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| SendGift | SendGift is a one-stop-shop solution for people who want to send gifts but don't know the recipient's address. Customers can choose from preselected gift baskets, add a personalized note, and pay for shipping to a designated city. The recipient will then be notified that they have a gift waiting for them at a designated location, such as a nearby coffee shop, hotel, or office building. | Preselected gift baskets, personalized notes, designated city delivery, gift notification, online payment | Loop & Tie, Parcelly, Picker | Designated city delivery and gift notification system |\n| PlanPerfect | PlanPerfect is a comprehensive event planning service that provides guidance, tools, and resources to help individuals plan events efficiently and effectively. Customers can choose from different event types, such as birthdays, weddings, or corporate events, and receive customized templates, checklists, and vendor recommendations. Additionally, customers have access to a team of trained event professionals who can provide one-on-one consultations and support throughout the planning process. | Customized templates, checklists, vendor recommendations, one-on-one consultations, support | Honeybook, Eventbrite, Bizzabo | Personal consultations and support from trained event professionals |\n| DashParty | DashParty is an event planning platform that streamlines the planning and coordination of group events. Customers can create customizable event pages, send invitations, collect RSVPs, and share event details with guests in one convenient location. The platform also offers collaborative planning tools, such as a shared calendar, task lists, and vendor directories, to help hosts stay organized and on track. | Customizable event pages, invitations, RSVP collection, collaborative planning tools, vendor directories | Evite, Paperless Post, RSVPify | Collaborative planning tools and shared event page |\n| HappyMail | HappyMail is a personalized gift and card service that helps customers show they care by sending thoughtful messages and small gifts to loved ones. Customers can choose from preselected gift sets, such as self-care, congratulatory, or sympathy sets, create custom messages, and schedule deliveries to coincide with special occasions or just because. The service also offers an annual reminder feature to help customers stay on top of important occasions. | Preselected gift sets, custom messages, scheduled deliveries, annual reminders, online payment | Minted, Paper Source, Hallmark | Customized gift sets and annual reminder feature |\n| EventEase | EventEase is an event management software that simplifies and automates the planning and coordination of events. Customers can use the software to create online event pages, send invitations, sell tickets, manage RSVPs, and collect donations. Additionally, the software offers real-time analytics and reporting to help hosts track attendance, revenue, and engagement. | Online event pages, invitations, ticket sales, RSVP management, real-time analytics | Cvent, EventMobi, Eventzilla | Real-time analytics and reporting feature |",
+  "content": [
+    [
+      "Gift Box Surprise",
+      "A gift delivery service that allows you to surprise your loved ones without the need for their physical address. The recipient will receive an email inviting them to provide their address and select their preferred gift box.",
+      "Ability to customize gift boxes based on occasion and recipient preferences. Flexible pricing options. Easy-to-use website and order process. Timely delivery. High-quality gift items.",
+      "Giftagram, Bouqs, Greetabl, Unwrapit, Boxfox",
+      "Unique feature of not requiring the recipient's address."
+    ],
+    [
+      "Event Planning Virtual Assistant",
+      "A virtual assistant service that assists individuals with event planning by providing guidance, tools, and resources to plan events efficiently and effectively. The service includes a comprehensive event planning checklist, access to a library of resources and templates, and personalized support from an experienced event planner.",
+      "Comprehensive event planning checklist. Access to a library of resources and templates. Personalized support from an experienced event planner. Customizable service packages. Affordable pricing.",
+      "Eventbrite, Honeybook, Allseated, Cvent, Social Tables",
+      "Personalized support from an experienced event planner."
+    ],
+    [
+      "Event Planning Software",
+      "An event planning software that provides a one-stop-shop solution for event planning, including guest management, budget tracking, vendor management, project management, and event promotion. The software is user-friendly and allows individuals to plan events efficiently and effectively.",
+      "User-friendly interface. Comprehensive guest management tools. Budget tracking and vendor management features. Project management tools. Event promotion features.",
+      "Eventbrite, Honeybook, Allseated, Cvent, Social Tables",
+      "All-in-one solution for event planning."
+    ],
+    [
+      "Virtual Event Platform",
+      "A virtual event platform that provides a customizable solution for hosting virtual events, including webinars, conferences, and workshops. The platform offers features such as live streaming, chat rooms, and personalized branding, and allows event organizers to engage with their attendees in real-time.",
+      "Customizable branding options. User-friendly interface. Live streaming and chat room features. Real-time engagement with attendees. Robust analytics and reporting tools.",
+      "Zoom, Eventbrite, GoToWebinar, Hopin, Remo",
+      "Customizable branding options for virtual events."
+    ]
+  ],
   "pain_point_id": 89,
   "pain_point_title": "ineffective event planning system",
   "pain_point_description": "event planning can be challenging for individuals who don't have extensive experience with planning or coordinating events. poor planning can lead to confusion, last-minute stress, and unsatisfied attendees. people would be willing to pay for a service that provides guidance, tools, and resources to help them plan events efficiently and effectively",
@@ -8,5 +37,5 @@
   "audience_id": 13,
   "audience_title": "send a gift without knowing the recipient address",
   "audience_slug": "send-a-gift-without-knowing-the-recipient-address",
-  "status": 0
+  "status": 1
 }

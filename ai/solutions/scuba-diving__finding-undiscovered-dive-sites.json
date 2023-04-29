@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| DiveSiteDiscover | DiveSiteDiscover is a service that offers research on undiscovered or less explored dive sites and provides equipment rental, transportation, and setup. It helps scuba divers find new and exciting dive sites to explore without the complexity of research and planning. | 1. Research on undiscovered dive sites. 2. Equipment rental. 3. Transportation to the dive site. 4. Dive site setup. 5. 24/7 customer support. | Divebooker, Divein, Dive The World, PADI, Scuba Diversion | DiveSiteDiscover offers a more personalized experience with the provision of dive site setup and 24/7 customer support. It allows divers to fully immerse themselves in the experience without the added hassle of planning and preparation. |\n| AquaAdventures | AquaAdventures offers scuba diving excursions to less traveled dive sites. These sites are carefully researched and selected, based on factors such as natural beauty and unique marine life. Equipment rental, transportation, and setup are included in the package. | 1. Careful research on less traveled dive sites. 2. Professional and experienced guides. 3. Equipment rental. 4. Transportation to the dive site. 5. Dive site setup. | Dive The World, Aggressor Adventures, Divebooker, Blue O Two, PADI | AquaAdventures offers a more specialized experience with its carefully selected and less traveled dive sites. It offers a unique and memorable experience that is not readily available with other dive excursion providers. |\n| DiveXploration | DiveXploration offers customized dive trips for scuba divers who want to explore new and exotic dive sites around the world. The service provides personalized research, equipment rental, transportation, and setup for each individual's dive preferences. | 1. Personalized research based on individual dive preferences. 2. Equipment rental. 3. Transportation to the dive site. 4. Dive site setup. 5. Flexibility in dive duration and location. | Blue O Two, Aggressor Adventures, Divebooker, PADI, Dive The World | DiveXploration offers a completely customizable experience for scuba divers who want to explore new and exotic dive sites. It allows divers to tailor their trips to their specific needs, ensuring a truly unique and satisfying experience. |\n| DiveRush | DiveRush offers a subscription service that sends scuba divers to exclusive and less traveled dive sites around the world every month. The service provides equipment rental, transportation, and setup. | 1. Exclusive and less traveled dive sites. 2. Monthly subscription service. 3. Equipment rental. 4. Transportation to the dive site. 5. Dive site setup. | Divebooker, Aggressor Adventures, Blue O Two, Scuba Consultant, Aquasport | DiveRush offers a unique subscription service that allows scuba divers to discover new and exclusive dive sites around the world every month. It offers a completely personalized and convenient service for those who want to explore new destinations on a regular basis. |\n| DiveAdventureFinder | DiveAdventureFinder is an online platform that connects scuba divers with experienced guides who are knowledgeable about less traveled dive sites. The platform offers equipment rental, transportation, and setup. Divers can choose from a variety of destinations and customize their trips based on their interests and preferences. | 1. A wide range of less traveled dive sites. 2. Experienced and knowledgeable guides. 3. Equipment rental. 4. Transportation to the dive site. 5. Dive site setup. | Divebooker, PADI, Dive The World, Divein, Scuba Consultant | DiveAdventureFinder offers a user-friendly online platform that connects divers with experienced and knowledgeable guides. It allows users to tailor their trips to their specific needs and preferences, ensuring a satisfying and memorable experience. |",
+  "content": [
+    [
+      "DiveSite Scout",
+      "DiveSite Scout is an all-in-one service that provides scuba divers with researched information on undiscovered dive sites and offers equipment rental, transportation, and setup.",
+      "Scuba diving research service, Equipment rental, Transport and setup, Dive site exploration guide, Expert consultancy",
+      "Divebook, ScubaEarth, DiveAdvisor, ScubaTribe, DiveBuddy",
+      "DiveSite Scout provides researched information on undiscovered dive sites, making it unique in comparison to its competitors."
+    ],
+    [
+      "DiveRadar",
+      "DiveRadar is a mobile app that allows scuba divers to find undiscovered dive sites in their local area. The app provides a database of dive sites and a map with filters for dive site location and features.",
+      "Dive site database, Map with location filters, Dive site rating system, User-created dive site recommendations, Equipment rental and transport booking.",
+      "Divebook, ScubaEarth, DiveAdvisor, ScubaTribe, DiveBuddy.",
+      "DiveRadar's user-generated content separates it from its competitors by providing genuine recommendations from fellow scuba divers."
+    ],
+    [
+      "DiveTrak",
+      "DiveTrak provides scuba divers with a personalized dive site research service that matches their preferences and abilities. The service includes a team of experienced dive scouts that find the best diving spots.",
+      "Customized dive research, Personalized dive site preference matching, Experienced dive scouts, Equipment rental and transport booking, In-depth dive briefing.",
+      "Divebook, ScubaEarth, DiveAdvisor, ScubaTribe, DiveBuddy.",
+      "DiveTrak's personalized service provides scuba divers with a tailored experience that is unique in comparison to its competitors."
+    ],
+    [
+      "DeepSense",
+      "DeepSense is a social network for scuba divers who want to explore undiscovered dive sites. The platform connects scuba divers with experienced local guides who provide equipment rental, transportation, and setup services. Additionally, DeepSense offers a rating and review system for dive sites and diving companies.",
+      "Social network for scuba divers, Connection with experienced local guides, Equipment rental, Transport and setup, Rating and review system.",
+      "Divebook, ScubaEarth, DiveAdvisor, ScubaTribe, DiveBuddy",
+      "DeepSense emphasizes a community-driven, social experience which sets it apart from competitors."
+    ]
+  ],
   "pain_point_id": 74,
   "pain_point_title": "finding undiscovered dive sites",
   "pain_point_description": "scuba divers often look for new and exciting dive sites to explore, but extensively researching and analyzing the terrain and the right equipment can be time-consuming and complex. a service that offers research on undiscovered or less explored dive sites and provides equipment rental, transportation, and setup can be a valuable solution to this issue",
@@ -8,5 +37,5 @@
   "audience_id": 2,
   "audience_title": "scuba diving",
   "audience_slug": "scuba-diving",
-  "status": 0
+  "status": 1
 }

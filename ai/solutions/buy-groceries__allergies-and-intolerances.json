@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n| --- | --- | --- | --- | --- |\n| Allergy-Free Grocery | Allergy-Free Grocery is a service that helps grocery shoppers find products that are safe for consumers with allergies and intolerances. Our service offers a quick and easy solution for anyone who is confused about which products they can consume safely. | 1. Customized shopping lists based on dietary restrictions. 2. AI tool that analyzes ingredient labels. 3. Product recommendations by registered dietitians. 4. User-friendly mobile app. 5. Real-time updates on product availability. | 1. Spokin. 2. Allergy Amulet. 3. Knoow Foods. 4. LiveSafe. 5. Food Safety Net Services. | Allergy-Free Grocery has an AI tool that can analyze all ingredients on any product and inform users if there are any allergens present. This solution is tailored to specific dietary requirements and offers real-time updates on product availability. |",
+  "content": [
+    [
+      "SafeGrocery",
+      "SafeGrocery is a personalized grocery shopping service for individuals with allergies and intolerances. Our platform takes the guesswork out of grocery shopping and provides you with a tailored list of products that are safe for you to consume.",
+      "Personalized grocery shopping, Tailored list of products, Safe for allergies and intolerances, Easy to use platform, Saves time",
+      "Spokin, Allergies At Home, AllergyEats, Allergy Amulet",
+      "SafeGrocery goes beyond just providing a list of safe products. We use our expert knowledge and research to provide you with the safest options that meet your eating requirements."
+    ],
+    [
+      "Alleviate Foods",
+      "Alleviate Foods is a subscription-based service that delivers customized meal kits to individuals with allergies and intolerances. Our meal kits are prepared in an allergen-free facility and are tailored to meet your specific dietary requirements.",
+      "Customized meal kits, Allergen-free facility, Safe for allergies and intolerances, Easy to prepare recipes, Flexible subscription",
+      "Cook It, Freshly, Green Chef, Sun Basket, Blue Apron",
+      "Alleviate Foods' meal kits are prepared in an allergen-free facility, eliminating the risk of cross-contamination. Our recipes are easy to prepare and are tailored to meet your specific dietary requirements."
+    ],
+    [
+      "AllergyRX",
+      "AllergyRX is a mobile application that scans product labels and provides you with an easy-to-read report of potential allergens. Our AI-powered technology detects even the slightest trace of allergens, providing you with complete peace of mind while grocery shopping.",
+      "AI-powered technology, Scans product labels, Easy-to-read reports, Detects even slightest traces of allergens, Saves time",
+      "Spoon Guru, Allerguarder, FoodMaestro, Is It Gluten Free, Scan Halal",
+      "AllergyRX has a more advanced allergy detection system than its competitors, detecting even the slightest traces of allergens that others may miss. It also provides easy-to-read reports that can be accessed quickly on your mobile device."
+    ],
+    [
+      "Allergy-Free Pantry",
+      "Allergy-Free Pantry is an online marketplace that offers a wide range of allergy-friendly products. We carefully select each product, ensuring that it meets all safety requirements for allergies and intolerances.",
+      "Wide range of products, Carefully selected, Safe for allergies and intolerances, Easy to navigate website, Competitive pricing",
+      "Thrive Market, Pure Encapsulations, Nuts.com, GoodnessMe Box, Lucky Vitamin",
+      "Allergy-Free Pantry's products are carefully selected to ensure that they meet all safety requirements for allergies and intolerances. Our website is easy to navigate, making it quick and simple to find the products you need."
+    ]
+  ],
   "pain_point_id": 16,
   "pain_point_title": "allergies & intolerances",
   "pain_point_description": "grocery shoppers who have allergies or intolerances need help finding products that are safe for them to consume. they often have to spend lots of time reading labels, but still are not confident that they are completely safe. they need a service that does the research for them and provides them with the safest products for their eating requirements",
@@ -8,5 +37,5 @@
   "audience_id": 10,
   "audience_title": "buy groceries",
   "audience_slug": "buy-groceries",
-  "status": 0
+  "status": 1
 }

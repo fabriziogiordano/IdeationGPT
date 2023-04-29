@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "| Solution Title | Solution Description | Features | Competitors | Differentiator |\n\n| Waterless Window Cleaning Service | This solution utilizes a special cleaning solution that doesn't require water to clean windows. The solution is actually more effective than traditional water-based cleaning methods as it leaves no streaks, spots, or film behind. It's also 100% eco-friendly, meaning no harsh chemicals are used that could cause harm to the environment or building occupants. | 1. Waterless cleaning solution, 2. Eco-friendly, 3. No water required, 4. Streak-free results, 5. Safe for all occupants of the building | Washos, Shine Window Care, Window Genie, Fish Window Cleaning, JLL | Waterless solutions save time and resources from transporting and storing water. Additionally, using eco-friendly cleaning solutions can appeal to environmentally conscious clients looking for green alternatives. |\n\n| Robot Window Cleaner | This solution involves a specialized robot that autonomously cleans windows using a scrubbing pad and specialized cleaning solution. The robot is controlled remotely by an operator on the ground, allowing for efficient and precise cleaning of hard-to-reach windows without requiring water as part of the cleaning process. | 1. No water required, 2. Autonomous operation, 3. Precise cleaning, 4. Remote operation, 5. Efficient cleaning | Windoro, Hobot, Alfawise, Mamibot, Gladwell | Robot technology eliminates the need for water and can clean windows more efficiently than manual methods, making it a cost-effective solution. |\n\n| Dry Ice Blasting | This solution uses dry ice (frozen carbon dioxide) pellets that are blasted at high speeds to remove dirt and grime from windows. Dry ice sublimates after use, leaving no residue or waste. This method is ideal for hard-to-reach windows and is eco-friendly since it doesn't use any water or chemicals. | 1. No water required, 2. Eco-friendly, 3. Efficient cleaning, 4. Safe for all occupants of the building, 5. Precision cleaning | American Dry Ice Blasting, Cold Jet, Polar Clean, Aqua Blast Corp, Ecoblast | Dry ice blasting is a unique and eco-friendly solution that efficiently cleans windows at high speeds, making it ideal for skyscraper cleaning needs. |\n\n| Magnetic Window Cleaner | This solution involves two cleaning units with magnetic properties that sandwich a window pane, allowing for efficient cleaning without requiring water. This method is safe and effective for use on high-rise buildings with limited water access since it utilizes magnetic technology rather than relying on water pressure. | 1. No water required, 2. Magnetic technology, 3. Safe and effective, 4. Efficient cleaning, 5. Two-sided cleaning | Tyroler Bright Tools, Hiware, AKOAK, Baffect, GUGUGI | Magnetic technology is a unique way to clean windows without requiring water and doesn't require a lot of equipment or setup, making it cost-effective as a one-person business. |\n\n| Ultrasonic Window Cleaning | This solution uses high-frequency sound waves to create microscopic bubbles that explode upon contact with the window surface, lifting away dirt and grime without using water. The technique requires little physical effort and is ideal for use on high-rise buildings since water access isn't necessary. | 1. No water required, 2. Eco-friendly, 3. Precise cleaning, 4. Little physical effort required, 5. Safe for all occupants of the building | ClearView Ultrasonics, Eglomise Window Cleaning Services, Ultrasonic Blind Cleaning Services, Renew ME, Ultra Clean Window Cleaning | Ultrasonic technology saves time and money by cleaning windows efficiently without the use of water or chemicals. It's also highly precise and safe for use on all types of buildings. |",
+  "content": [
+    [
+      "Mobile Water Recycling Unit",
+      "A portable and self-contained water recycling unit that can be easily transported to job sites to recycle used water on-the-go. The unit uses a multi-stage filtration system to clean the water, ensuring that it is safe and effective for reuse.",
+      "Portable, easy-to-use, self-contained, multi-stage filtration system, sustainable",
+      "ZipJet, HiPoint, Lavender, Sky Pro, Aquamen",
+      "Our unit is the only self-contained and portable solution on the market, making it easy for companies to transport and use anywhere."
+    ],
+    [
+      "Water Tanker Delivery Service",
+      "A service that delivers clean water to job sites, reducing the need for window cleaning companies to rely on local water sources. The service uses large tanker trucks to transport water directly to the job site, making it easy to refill water tanks on the spot.",
+      "Convenient, reliable, time-saving, sustainable, customizable",
+      "GreenLeaf Water, AquaTanker, Water2Go, H2O Solutions, WaterBoy",
+      "Our service offers customizable delivery options and can be scheduled for regular or one-time deliveries, making it easy for companies to get the water they need when they need it."
+    ],
+    [
+      "Waterless Cleaning Solution",
+      "An eco-friendly and waterless cleaning solution that can effectively clean windows without the need for large amounts of water. The solution is safe for use in all types of weather and can help reduce water usage and overall costs for window cleaning companies.",
+      "Eco-friendly, effective, all-weather, cost-saving, easy-to-use",
+      "Fish Window Cleaning, Pure Water Cleaning, Shine Windows, Performance Window Cleaning, Glass Doctor",
+      "Our waterless solution is the only one on the market that is effective in all types of weather and can help companies reduce their water usage and costs."
+    ],
+    [
+      "High-Pressure Air Cleaning System",
+      "A system that uses high-pressure air to clean windows without the need for water. The system can effectively remove dirt, debris, and grime from even the highest floors of buildings, making it an ideal solution for window cleaning in urban areas with limited water access.",
+      "High-pressure, efficient, versatile, eco-friendly, low-maintenance",
+      "ABC Window Cleaners, AquaClean, Sky High Window Cleaning, ProClean, Elite Window Cleaning",
+      "Our high-pressure air cleaning system is the most efficient and versatile solution on the market, making it easy for companies to clean windows without the need for water."
+    ]
+  ],
   "pain_point_id": 22,
   "pain_point_title": "limited water access",
   "pain_point_description": "many high-rise buildings are in urban areas with limited water access, and that can pose a challenge for window cleaning companies that rely on water for cleaning. figuring out a way to efficiently transport and store enough water for the job can be difficult",
@@ -8,5 +37,5 @@
   "audience_id": 3,
   "audience_title": "cleaning skyscrapper windows",
   "audience_slug": "cleaning-skyscrapper-windows",
-  "status": 0
+  "status": 1
 }

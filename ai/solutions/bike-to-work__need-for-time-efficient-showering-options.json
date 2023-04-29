@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Solution Description | Features | Competitors | Differentiator\n--- | --- | --- | --- | ---\n1. Portable Shower Kit | A portable shower kit that allows bikers to quickly and easily clean themselves after arriving at work. The kit includes a compact showerhead, hose, and a water tank, which can be easily filled and wheeled into the bathroom for use. Bikers can also add essential oils to the water tank for a refreshing boost. | Portable, compact, easy to use, essential oil compatible, water-efficient | Rinsekit, Nemo Helio, Simple Shower, Sea to Summit Pocket Shower, Geyser Portable Shower | This portable shower kit is specifically designed for bikers on-the-go, and it comes with its own water tank, ensuring that bikers won't have to rely on potentially limited or unavailable bathroom facilities.\n2. Body Wipes Subscription | A monthly subscription box that includes specially formulated body wipes that are designed for post-workout use. These wipes are large, fragrance-free, and have a high moisture content, allowing bikers to refresh and clean themselves without the need for a shower. Subscribers receive a month's worth of wipes at a time, and can choose from different scents and ingredients to suit their preferences. | Subscription-based, customizable, all-natural ingredients, fragrance-free, large size | Yuni, Busy Beauty, Goodwipes, Epic Wipes, Herban Essentials | This subscription is tailored specifically for busy bikers, and offers all-natural ingredients and customizable options, which competitors may not have.\n3. Infrared Sauna Blanket | An infrared sauna blanket that allows bikers to sweat out toxins and promote circulation, all while relaxing and listening to music or audiobooks. It heats up quickly and can be used at home or at work, and can be easily stowed away when not in use. | Portable, easy to use, fast heating time, relaxation, audio-friendly | HigherDOSE, Therasage, Sunlighten, Relax Sauna, Firzone | This sauna blanket is designed for time-starved bikers, and it promotes relaxation and wellness when time is limited.\n4. Waterless Shampoo | A specially formulated waterless shampoo that is designed to clean and refresh hair without the need for water. It is easy to apply and absorbs oils and sweat for a clean, refreshed look. The waterless shampoo is non-toxic and eco-friendly, making it a safe and sustainable choice. | Non-toxic, eco-friendly, easy to apply, absorbs oils and sweat, sustainable | Batiste, Psssst, Klorane, Drybar, Amika | This shampoo is designed specifically for bikers who need to quickly clean their hair without the need for water, and it is eco-friendly, which competitors may not be.\n5. Disposable Towels | A pack of biodegradable disposable towels that are specifically designed for quick cleanups after biking to work. The towels are large, absorbent, and can be composted after use. They are fragrance-free and gentle on skin, making them a safe and effective choice for bikers with sensitive skin. | Biodegradable, large size, fragrance-free, gentle on skin, compostable | Biodogradable Towel, Always Femme, ReadyBath, Kleenex, Seventh Generation | These towels are designed specifically for bikers who need to quickly clean up after arriving at work, and they are biodegradable and compostable, which competitors may not be.",
+  "content": [
+    [
+      "Mobile Shower System for Bike Commuters",
+      "A mobile shower system that caters to bike commuters who struggle to find time to shower before work. The system includes a compact shower stall, hot water shower head, and a battery-powered pump. This solution enables commuters to easily and quickly shower in a private, sanitary environment without having to travel to a gym or workplace shower. The mobile shower can be easily transported in a car trunk or a bike trailer.",
+      "Compact and portable shower system, uses a rechargeable battery rather than electricity, offers a hot water shower, privacy door, and ventilation.",
+      "Splish, RinseKit, Helio Pressure Shower, Road Shower, Bivystick",
+      "The mobile shower is designed for bike commuters who value privacy, portability, and time efficiency. Unlike competitors, it's specifically geared towards bike commuters and offers hot water to provide a refreshing experience."
+    ],
+    [
+      "Dry Shampoo for Bike Commuters",
+      "A natural, powder-based dry shampoo designed for bike commuters who don't have time to shower before work. The dry shampoo helps absorb excess oils, sweat, and dirt from the hair and scalp, leaving it clean, fresh, and revitalized. It's easy to apply and doesn't require any water, making it a convenient and eco-friendly alternative to traditional shampoos.",
+      "Powder-based formula, natural ingredients, eco-friendly, easy to apply, works on all hair types.",
+      "Batiste, Living Proof, Klorane, Bumble and Bumble, Amika",
+      "The dry shampoo is designed with bike commuters in mind who don't have time to shower before work. It's an eco-friendly and time-efficient solution that doesn't require water or a shower facility. Unlike competitors, this dry shampoo is formulated specifically for bike commuters and has natural ingredients that are safe for daily use."
+    ],
+    [
+      "Disposable Towels for Bike Commuters",
+      "A pack of disposable towels designed for bike commuters who don't have access to a shower before work. The towels are made from natural, biodegradable materials and are pre-moistened with a refreshing solution that helps clean and deodorize the skin. The towels are compact, easy-to-use, and can be discarded after use, making them an eco-friendly solution for bike commuters on the go.",
+      "Pre-moistened, eco-friendly, biodegradable, compact, refreshing scent.",
+      "Goodwipes, Nathan, Swipes, ShowerPill, YUNI",
+      "The disposable towels are designed for bike commuters who don't have time to shower before work. They're an easy-to-use and eco-friendly solution that doesn't require any water or a shower facility. The towels are pre-moistened with a refreshing solution that's safe for daily use and doesn't leave any residue on the skin. Unlike competitors, the towels are biodegradable and made from natural materials, making them an environmentally conscious option for commuters."
+    ],
+    [
+      "Portable Hair Dryer for Bike Commuters",
+      "A compact and portable hair dryer that caters to bike commuters who don't have access to a shower before work. The hair dryer uses a rechargeable battery and has a folding handle, making it easy to transport in a bike bag or backpack. The hair dryer offers a powerful airflow and multiple heat settings, ensuring that commuters can quickly dry and style their hair on the go.",
+      "Compact and portable, rechargeable battery, folding handle, powerful airflow, multiple heat settings.",
+      "Conair, Revlon, Dyson, BaBylissPRO, Remington",
+      "The portable hair dryer is designed for bike commuters who need a quick and convenient way to dry and style their hair before work. It's a compact and lightweight solution that can be easily transported in a bike bag or backpack. Unlike competitors, the hair dryer uses a rechargeable battery and has a folding handle, making it more versatile and travel-friendly. Additionally, it offers multiple heat settings and powerful airflow, ensuring that commuters can achieve their desired hairstyle without having to use a traditional hair dryer."
+    ]
+  ],
   "pain_point_id": 6,
   "pain_point_title": "need for time-efficient showering options",
   "pain_point_description": "commuters may struggle to find time to shower after biking to work, which can make it difficult for them to feel clean and refreshed before their workday",
@@ -8,5 +37,5 @@
   "audience_id": 7,
   "audience_title": "bike to work",
   "audience_slug": "bike-to-work",
-  "status": 0
+  "status": 1
 }

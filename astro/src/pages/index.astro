@@ -1,69 +1,52 @@
 ---
 import Layout from "~/layouts/Layout.astro";
-
-interface Problem {
-  id: number;
-  pain_point_short: string;
-}
-
-interface ProblemsPainPoint {
-  [key: string]: Problem[];
-}
+import type { DataItem } from "~/types";
 
 import { runQuery } from "~/libs/query";
 
-const problems = await runQuery("problems");
+const data: DataItem[] = [];
 
-const problems_pain_point: ProblemsPainPoint = {};
-
-for (const { id, audience, pain_point_short } of problems) {
-  if (!problems_pain_point[audience]) {
-    problems_pain_point[audience] = [];
+const audiences = await runQuery("audiences");
+for (const audience of audiences) {
+  const pain_points = await runQuery("pain_points", { audience_id: audience.id });
+  for (const pain_point of pain_points) {
+    const solutions = await runQuery("solutions", { audience_id: audience.id, pain_point_id: pain_point.id });
+    data.push({
+      audience,
+      pain_points: [
+        {
+          ...pain_point,
+          solutions,
+        },
+      ],
+    });
   }
-  problems_pain_point[audience].push({ id, pain_point_short });
 }
 ---
 
 <Layout title="Welcome">
   {
-    Object.entries(problems_pain_point).map(async ([audience, solutions]) => {
-      console.log(solutions);
+    data.map(({ audience, pain_points }) => {
       return (
-        <div>
-          <h1>{audience}</h1>
-          <ul class="ml-2">
-            {solutions.map(async ({ id, pain_point_short }) => {
-              const details = await runQuery("solutions", { id });
-              const list = details.map(({ title, description, features, competitors, differentiator }) => {
-                return (
-                  <>
-                    <li class="mt-6">
-                      <span class="font-semibold">title:</span> {title}
-                    </li>
-                    <li>
-                      <span class="font-semibold">description:</span> {description}
-                    </li>
-                    <li>
-                      <span class="font-semibold">features:</span> <Fragment set:html={features?.split(",").join("<br>")} />
-                    </li>
-                    <li>
-                      <span class="font-semibold">competitors:</span> <Fragment set:html={competitors?.split(",").join("<br>")} />
-                    </li>
-                    <li>
-                      <span class="font-semibold">differentiator:</span> {differentiator}
-                    </li>
-                  </>
-                );
-              });
-              return (
-                <li>
-                  {pain_point_short}
-                  <ul class="ml-2">{list}</ul>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+        <>
+          <div class="mb-2 text-lg font-semibold text-gray-900">Audience: {audience.title}</div>
+          {pain_points.map((pain_point) => {
+            return (
+              <>
+                <div class="mb-2 text-gray-900">Pain point: {pain_point.title}</div>
+
+                {pain_point.solutions.map((solution) => {
+                  return (
+                    <>
+                      <div class="mb-2 text-red-900">Solution title: {solution.title}</div>
+                      <div class="mb-2 text-blue-900">Solution description: {solution.description}</div>
+                    </>
+                  );
+                })}
+              </>
+            );
+          })}
+        </>
       );
     })
   }

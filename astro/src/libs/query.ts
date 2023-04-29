@@ -14,26 +14,53 @@ async function loadSqlite(query: string, other?: object) {
 	await sqlite.open(DB_FILE);
 
 	const queries = {
-		problems: `
+		audiences: `
 			SELECT
-				id,
-				audience,
-				pain_point_short
-			FROM 
-				problems
+				*
+			FROM
+				audiences
+		`,
+		pain_points: `
+			SELECT
+				*
+			FROM
+				pain_points
+			WHERE
+				audience_id = ${other?.["audience_id"]}
 		`,
 		solutions: `
 			SELECT
-				title,
-				description,
-				features,
-				competitors,
-				differentiator
-			FROM 
+				*
+			FROM
 				solutions
 			WHERE
-				problem_id = ${other?.id}
-	`,
+					audience_id = ${other?.["audience_id"]}
+				AND pain_point_id = ${other?.["pain_point_id"]}
+		`,
+		solutions2: `
+			SELECT
+				s.id as id,
+				s.title as title,
+				s.slug as slug,
+				s.description as description,
+				s.features as features,
+				s.competitors as competitors,
+				s.differentiator as differentiator,
+				a.id as audience_id,
+				a.title as audience_title,
+				a.slug as audience_slug,
+				p.id as pain_point_id,
+				p.title as pain_point_title,
+				p.slug as pain_point_slug,
+				p.description as pain_point_description 
+			FROM
+				solutions s
+			LEFT JOIN
+				pain_points p ON s.pain_point_id = p.id
+			LEFT JOIN
+				audiences a ON s.audience_id = a.id
+			ORDER BY a.id DESC, p.id DESC
+		`,
 	};
 
 	const queryText = queries[query];

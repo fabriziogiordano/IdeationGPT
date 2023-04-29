@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Solution Description | Features | Competitors | Differentiator\n--- | --- | --- | --- | ---\nCaninGo | CaninGo is a dog-walking app that matches busy pet owners with trusted, local dog walkers who can provide regular and flexible walks for their furry friends. With CaninGo, customers can schedule walks in advance, on-demand or even on a recurring basis, and get real-time updates on how their dog is doing via the app. | Scheduling and payment features, live tracking, in-app communication, GPS and mapping, dog profile customization | Rover, Fetch!, Wag!, PetBacker, Holidog | CaninGo offers a personalized dog walking experience with a community of vetted and trained walkers, easy scheduling and payment options, and 24/7 customer support.\nPawsitive | Pawsitive is a dog-walking and pet sitting service that provides personalized and high-touch services for busy dog owners. Pawsitive works with dog owners to create custom plans for their dog's needs, ensuring they maintain a consistent walking schedule, get socialization with other dogs and have the attention they need when their owners are away. | Personalized dog walking plan, advanced socialization techniques, pet sitting and boarding services, dog waste removal, medication administration | Rover, Wag!, Care.com, Fetch!, PetBacker | Pawsitive offers customized dog walking and pet sitting services that cater to the specific needs of both the dog and customer, with a focus on advanced socialization techniques and pet care.\nWalkMate | WalkMate is a smart dog collar and app that helps customers monitor and manage their dog's daily walking routine. With WalkMate, customers can track their dog's steps, location and walking duration, set fitness goals and receive real-time updates on their dog's progress. WalkMate also connects customers with a network of dog walking services for when they are unable to walk their dog themselves. | Smart dog collar with GPS and tracking sensors, real-time progress updates, fitness tracking, dog walking network, scheduling tools | Link AKC, Fi, Whistle, PitPat, FitBark | WalkMate offers a comprehensive and all-in-one solution for monitoring and managing a dog's walking routine, with a focus on health and fitness, as well as customizable dog walking services.\nFetchMate | FetchMate is a dog walking robot that provides a fun and interactive way for dogs to get exercise and play while their owners are at work. FetchMate can be programmed to lead dogs on different walking routes, play fetch and even dispense treats. With FetchMate, owners can monitor their dog's activity and interact with them remotely via video and audio features. | Interactive dog walking robot, customizable walking routes, treat dispensing feature, remote video/audio communication, activity tracking | PetSafe Smart Feed, PetSafe Automatic Ball Launcher, PetSafe Cheese Cat Toy, PetSafe Laser Chase Toy, PetSafe SmartDoor | FetchMate is a unique and fun solution for busy dog owners who want to ensure their dogs get the exercise and play they need during the day, with a focus on interactivity and remote connectivity.\nBark&Go | Bark&Go is a dog walking service that provides an on-demand marketplace of local dog walkers. With Bark&Go, customers can browse a verified network of dog walkers in their area, book walks in real time and receive live updates on their dog's progress. Bark&Go also offers a user-friendly mobile app for scheduling and payment management. | On-demand dog walker network, real-time bookings, live updates, mobile app, verified dog walkers | Rover, Wag!, Fetch!, Care.com, PetBacker | Bark&Go offers a convenient and reliable on-demand dog walking service with a quick and easy booking process, verified and vetted walkers, and live progress updates.",
+  "content": [
+    [
+      "On-demand dog walking service with a GPS tracking system",
+      "An on-demand dog walking service that connects busy dog owners with reliable dog walkers who are available to walk their furry friend anytime, anywhere. Dog owners can easily book a dog walker through an app or website, and track their dog's walk through a GPS system.",
+      "Book dog walkers on-demand using an app or website. GPS tracking system to monitor dog walks. Easy payment and scheduling system. Service available Dog walkers are vetted and trained.",
+      "Rover, Wag!, Fetch!, Care.com, Swifto",
+      "The GPS tracking system offers transparency and accountability, giving dog owners peace of mind that their dog is being walked as scheduled."
+    ],
+    [
+      "Personalized dog walking plans",
+      "A personalized dog walking plan created for the dog and the owner's unique needs. The dog walker will meet with the owner and dog to discuss the dog's needs and preferences, and create a customized exercise routine that fits into their schedule.",
+      "Personalized dog walking plans. Experienced and trained dog walkers. Flexible scheduling options. Easy payment system. Communication with owners.",
+      "Fetch!, Rover, Swifto, Tailster, Dog Walker",
+      "The personalized approach ensures that each dog receives the exercise and attention it needs, while accommodating the owner's schedule."
+    ],
+    [
+      "Dog walking group classes",
+      "A group dog walking class that is designed to provide an exercise routine for dogs and owners. The class meets at a dog-friendly park and is led by an experienced dog trainer who will guide the owners and dogs through a fun and engaging workout.",
+      "Group dog walking classes. Led by experienced dog trainers. Socialization opportunities for dogs. Healthy exercise routine for dogs and owners. Affordable pricing.",
+      "PetSmart, Petco, Off Leash K9 Training, Zoom Room, Karma Dog Training",
+      "The group class offers a socialization opportunity for dogs and owners, while also providing a healthy exercise routine for both."
+    ],
+    [
+      "Dog walking treadmill rental service",
+      "A dog walking treadmill rental service that allows owners to provide their dog with indoor exercise when they can't make it to the park. The company will deliver and set up the treadmill in the owner's home and provide a training session for the dog to get used to the equipment.",
+      "Treadmill rental for indoor exercise. Delivery and setup of equipment. Training session included for dogs. Easy payment system. Flexible rental options.",
+      "Fit Fur Life, Canine Treadmill, K9 Cruiser, Hayes Treadmill, GoPet",
+      "The treadmill rental service allows owners to provide their dog with exercise at any time, without leaving the house, and encourages healthy indoor exercise habits."
+    ]
+  ],
   "pain_point_id": 99,
   "pain_point_title": "limited time to walk their dog",
   "pain_point_description": "working professionals with busy schedules often struggle to find time to walk their dogs as frequently as they should",
@@ -8,5 +37,5 @@
   "audience_id": 4,
   "audience_title": "walk dogs to the park",
   "audience_slug": "walk-dogs-to-the-park",
-  "status": 0
+  "status": 1
 }

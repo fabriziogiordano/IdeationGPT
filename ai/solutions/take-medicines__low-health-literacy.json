@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "1. Solution Title: MedCoach for Low Health Literacy Patients\n2. Solution Description: MedCoach is an app designed to help patients with low health literacy better understand their medication instructions and health information. The app provides personalized medication schedules with reminders and alerts for when to take medications. Additionally, it includes easy-to-understand medication information, dosages, side-effects, and lifestyle changes that could be necessary for the medication to work efficiently. The app has a chatbot feature that allows people to ask questions regarding their medications 24/7. Users could connect with pharmacists or health advisors to seek further advice. MedCoach aims to empower individuals managing complex medication regimens with low health literacy, giving them the information they need to take control of their medication to reduce negative consequences like incorrect dosage, overdosing, or not taking the medication at all.\n3. Features: Personalized medication schedules, easy-to-understand medication instructions, chatbot feature, medication alerts, reliable health information database\n4. Competitors: Medisafe, Mango Health, MyTherapy, Round Health, and HealthPrize\n5. Differentiators: MedCoach differentiates itself from its competitors by offering an intuitive chatbot feature that addresses users' queries promptly with actionable insights. Furthermore, the app incorporates plain language and visual aids in medication instructions and side-effect descriptions, making it comprehensible for people with low health literacy. The personalized medication schedules and health coaching could help users develop healthy lifestyle habits in the long run to keep their bodies healthy.",
+  "content": [
+    [
+      "Personal Medication Coach",
+      "Web-based health platform that offers personalized medication management support to individuals with low health literacy.",
+      "Medication reminders, medication tracking, access to a consultative pharmacist or nurse, medication education resources, and symptom tracking.",
+      "Medisafe, Mango Health, PillPack, MyMeds",
+      "One-to-one support from consultative pharmacists or nurses."
+    ],
+    [
+      "Visual Instruction Guide",
+      "A guide that uses visuals such as pictures, videos, and diagrams to explain medication instructions and other health information.",
+      "Step-by-step medication instruction, customized visual aid creation, language options, medication tracker, and personalized health plan.",
+      "Healthy Interactions, Dosecast, Health Literacy Innovations, Visual Health Solutions",
+      "Customized visual aid creation based on patient needs."
+    ],
+    [
+      "Medication Audio Guidance",
+      "Audio guides that provide medication instructions and information in a clear, concise, and easy-to-understand manner, ideal for individuals with low health literacy.",
+      "Voice-activated medication reminders, medication education resources, medication tracker, language options, and side effect management.",
+      "Medcoach, Medsimple, MyTherapy, Medisafe, Mango Health",
+      "Voice-activated medication reminders and personalized education resources."
+    ],
+    [
+      "Health Advocate Services",
+      "Personalized coaching services that help individuals with low health literacy navigate and understand their medication instructions, dosage, and other health information.",
+      "Individualized care plan, medication reminder, access to a registered nurse or other medical professionals, medication education resources, and side effect management.",
+      "Health Advocate, Quantum Health, Health Assist, PinnacleCare, Accolade",
+      "Personalized coaching services and access to registered nurses or other medical professionals for support."
+    ]
+  ],
   "pain_point_id": 96,
   "pain_point_title": "low health literacy",
   "pain_point_description": "a lack of understanding of medication instructions or health information can hinder an individual's ability to manage their medications properly. supporting individuals with low health literacy in understanding medication regimens, side effects, or instructions can improve adherence and reduce negative consequences",
@@ -8,5 +37,5 @@
   "audience_id": 11,
   "audience_title": "take medicines",
   "audience_slug": "take-medicines",
-  "status": 0
+  "status": 1
 }

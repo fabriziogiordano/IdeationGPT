@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title: Date Night Concierge Service  \nSolution Description: The Date Night Concierge Service is a personalized restaurant recommendation service that helps busy individuals find the perfect restaurant for their date night. Our team of experts will take into account the individual's preferences, budget, the location of the restaurant, and the type of cuisine they prefer. Customers will receive one or more restaurant recommendations that meet their criteria and will make sure that they have a memorable date night experience. \n\nFeatures: \n1. Personalized recommendations \n2. Quick turnaround time \n3. Expert advice from food industry professionals \n4. Option for customized date packages \n5. Special pricing for repeat customers \n\nCompetitors: \n1. OpenTable \n2. Yelp \n3. TripAdvisor \n4. Zomato \n5. Foursquare \n\nDifferentiator: \nThe Date Night Concierge Service stands out from its competitors due to its personalized services and the expert advice provided by food industry professionals. While other recommendation services use algorithms, we rely on our expert human touch to deliver customized recommendations that meet the specific needs of our customers. Additionally, we offer customized date packages that provide a unique experience and make the date night more memorable.",
+  "content": [
+    [
+      "Date Night Delight",
+      "Date Night Delight is a personalized restaurant recommendation service. Our team of experts curate and suggest the best restaurants in town for your specific date preferences, budget, and dietary requirements, all within minutes.",
+      "Personalized recommendations, Quick service delivery, Dietary requirement filters, Budget filters, Expert curation",
+      "OpenTable, Yelp, Zomato, TripAdvisor, Google Maps",
+      "Our personalized recommendations based on your specific date preferences and dietary requirements."
+    ],
+    [
+      "Table for Two",
+      "Table for Two is a mobile app that simplifies the process of finding a restaurant for a date. Simply input your location, budget, and dietary preferences, and we'll suggest the top-rated restaurants in your area. You can also book a table with just a few clicks.",
+      "Easy-to-use interface, Dietary requirement filters, Quick table booking, Location-based search, Budget filters",
+      "OpenTable, Yelp, Zomato, TripAdvisor, Google Maps",
+      "Our unique search algorithm that returns only the top-rated restaurants in your area based on your preferences."
+    ],
+    [
+      "Let's Eat",
+      "Let's Eat is an AI-powered chatbot that helps you find the perfect restaurant for your date. Just message us with your budget, location, cuisine, and dietary preferences, and we'll suggest the best options. Our chatbot can also make a reservation for you.",
+      "AI-powered chatbot, Quick response time, Dietary requirement filters, Location-based search, Budget filters",
+      "OpenTable, Yelp, Zomato, TripAdvisor, Google Maps",
+      "Our innovative AI-powered chatbot that gives personalized recommendations in real-time."
+    ],
+    [
+      "Dining Duo",
+      "Dining Duo is a subscription service that sends personalized restaurant suggestions to your inbox every week. Our team of experts hand-picks restaurants based on your preferences and sends them to you before the weekend, saving you time and effort.",
+      "Weekly personalized recommendations, Expert curation, Dietary requirement filters, Email delivery, Budget filters",
+      "OpenTable, Yelp, Zomato, TripAdvisor, Google Maps",
+      "Our unique subscription service that saves you time and eliminates the need for research."
+    ]
+  ],
   "pain_point_id": 63,
   "pain_point_title": "limited timeframe",
   "pain_point_description": "the individual has a busy schedule and doesn't have the time to research and find the perfect restaurant for their date. they need a quick and reliable solution",
@@ -8,5 +37,5 @@
   "audience_id": 5,
   "audience_title": "pick a good restaurant for a date",
   "audience_slug": "pick-a-good-restaurant-for-a-date",
-  "status": 0
+  "status": 1
 }

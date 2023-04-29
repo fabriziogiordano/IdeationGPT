@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "|    Solution Title     |                       Solution Description                      |                  Features                 |          Competitors          |                           Differentiator                          |\n|:---------------------:|:-----------------------------------------------------------------:|:-----------------------------------------:|:------------------------------:|:-----------------------------------------------------------------:|\n| 1. DigitalPharma      | Providing safe, reliable and affordable remote access to pharmacy services   | Telehealth consultations, Medication delivery, Mobile app support, Prescription refill, Online appointment booking   | PillPack, Medly Pharmacy, NowRx, Honeybee Health, Zipdrug   | Affordable pricing, Easy-to-use-interface, Decentralized delivery system, 24/7 customer support, Accepts all major insurance  |\n| 2. PharmaLive          | A virtual consultation platform that connects patients to licensed pharmacists | Live consultations via video, Secure messaging, Medication delivery, Online prescription verification, 24/7 customer support    | Capsule, Blink Health, HealthWarehouse, Albertsons, Walgreens  | Fast, secure and reliable service, Personalized care, Access to licensed pharmacists, Flexible payment options, Prescription support services |\n| 3. QuickMeds            | Offering convenient access to affordable, generic medications online             | Fast medication delivery, Mail order prescriptions, Mobile app support, Prescription refill, Easy-to-use website  | Blink Health, HealthWarehouse, Honeybee Health, Ro Pharmacy, NowRx | Low-cost prescription drugs, No insurance required, Wide selection of generic drugs, 24/7 customer service, Fast turnaround time |\n| 4. RxConnect         | A full-service online pharmacy that offers medication delivery and consultation services | Online consultation, Customized medication packaging, Pill reminder service, Nationwide prescription delivery, Online account management | Capsule, Medly Pharmacy, HealthWarehouse, Honeybee Health, NowRx | Personalized service, Large selection of medications, Regular medication refill reminders, Free home delivery, Competitive prices |\n| 5. ePharma             | A digital platform that connects patients to multiple pharmacies to offer best price for medication | Comparison tool to find the cheapest medication, Free home delivery, Prescription reminders, Fast turnaround time, Mobile app interface | HealthWarehouse, Blink Health, Capsule, Medly Pharmacy, Honeybee Health | Lowest medication prices, Multiple pharmacy options, Comprehensive medication database, Regular drug interaction screenings, Easy-to-use interface |",
+  "content": [
+    [
+      "MyPharmacy",
+      "An online pharmacy service that offers remote access to prescription medications, virtual consultations with pharmacists, medication delivery, and medication management tools.",
+      "Virtual consultations with pharmacists, medication delivery, medication management tools, refill reminders, personalized dosage instructions",
+      "PillPack, Honeybee Health, HealthWarehouse, Capsule, Blink Health",
+      "Personalized dosage instructions and remote access to prescription medications set MyPharmacy apart from its competitors."
+    ],
+    [
+      "MedAccess",
+      "MedAccess is an online platform that connects patients with licensed pharmacists for medication counseling, prescription refills, and medication management. The service offers easy-to-use mobile apps, text and voice message reminders, and automatic prescription refills.",
+      "Medication counseling, prescription refills, medication management tools, mobile apps, text and voice message reminders",
+      "Medly Pharmacy, CVS Health, Walgreens, OptumRx, Humana Pharmacy",
+      "MedAccess is a cost-effective online platform that provides greater convenience and accessibility than traditional pharmacy services."
+    ],
+    [
+      "TeleRx",
+      "TeleRx provides remote access to pharmacy services with virtual consultations, medication delivery, and medication management tools. The platform also offers personalized medication reminders and dosage instructions.",
+      "Virtual consultations with pharmacists, medication delivery, medication management tools, personalized medication reminders, and dosage instructions",
+      "Capsule, Walgreens, CVS Health, Medly Pharmacy, Honeybee Health",
+      "TeleRx stands out from its competitors through personalized medication reminders and a user-friendly platform."
+    ],
+    [
+      "MedNow",
+      "MedNow is an online service that provides immediate access to licensed pharmacists for medication counseling, refills, and medication management. The platform also offers medication reminders, dosage instructions, and medication delivery.",
+      "Immediate access to pharmacists, medication counseling, medication delivery, medication reminders, dosage instructions",
+      "Walgreens, CVS Health, Express Scripts, Humana Pharmacy, OptumRx",
+      "MedNow's immediate access to licensed pharmacists is a key differentiator and provides a unique value proposition to its customers."
+    ]
+  ],
   "pain_point_id": 98,
   "pain_point_title": "remote access to pharmacy services",
   "pain_point_description": "with the covid-19 pandemic, individuals have become increasingly interested in telehealth and online support services for medication management. a business that offers safe and reliable remote access to pharmacy services through digital platforms can be a profitable solution to this growing need",
@@ -8,5 +37,5 @@
   "audience_id": 11,
   "audience_title": "take medicines",
   "audience_slug": "take-medicines",
-  "status": 0
+  "status": 1
 }

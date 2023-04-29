@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "|   Solution Title     | Solution Description | Features | Competitors | Differentiator |\n| :------------------: | :-----------------: | :------: | :---------: | :------------: |\n| CourseMatch           | An AI-powered platform that matches students with the best online courses based on their needs and goals. CourseMatch uses machine learning algorithms to analyze user data and provide personalized recommendations. | 1) Personalized Course Recommendations 2) Course Reviews and Ratings 3) Course Comparison Tool 4) Course Completion Tracking 5) Progress Report and Suggestions | Coursera, Udemy, edX, Khan Academy, Skillshare | CourseMatch's machine learning algorithms provide personalized recommendations for each student, ensuring they get the best course that fits their needs and goals. |\n\n| LearnNavigator        | A comprehensive online education guide that simplifies the overwhelming process of choosing the right course. LearnNavigator provides a user-friendly interface that categorizes courses by subject, level, and features real student reviews and ratings. | 1) Simplified Course Navigation 2) Real Student Reviews and Ratings 3) Comparison Tool 4) Course Completion Tracking 5) Progress Monitoring | E-learning Industry, Capterra, Class Central, CourseReport, G2 | LearnNavigator's user-friendly interface simplifies the course search process by categorizing courses by the subject, level, and features real student reviews and ratings. |\n\n| EduPilot             | A personalized educational guidance and consulting service that assists individuals in choosing the right online course. EduPilot provides a team of expert advisors that will evaluate a user's needs and preferences and offer recommendations on the best course. | 1) Personal Guidance from Experts 2) Tailored Course Recommendations 3) Course Reviews and Ratings 4) Course Comparison 5) Progress and Completion Tracking | The Muse, CollegeVine, Ivy Coach, CollegePlannerPro, Noodle Pros | EduPilot's personalized guidance from expert advisors ensures that the user receives tailored course recommendations that meet their specific needs and preferences. |\n\n| CourseCounselor         | An online course directory that connects students with a certified educational counselor who helps them choose the right course. CourseCounselor assesses the user's learning goals, academic background, and career aspirations, and recommends the best course of study. | 1) Certified Educational Counselors 2)Tailored Course Recommendations 3) Course Reviews and Ratings 4) Course Comparison Tool 5) Career Planning Assistance | Going Merry, CollegeVine, College Admissions Assistance, Cappex, PrepScholar | CourseCounselor's certified educational counselors offer tailored course recommendations and career planning assistance, providing a holistic approach to the user's educational needs. |\n\n| OnlineEdFinder     | An online course search engine that provides personalized course recommendations based on the user's needs and preferences. OnlineEdFinder allows users to filter courses by subject, level, duration, and cost, and enables them to compare courses side-by-side. | 1) Personalized Course Recommendations 2) Course Filtering 3) Course Comparison 4) Course Completion Tracking 5) Progress Monitoring | FindCourses, OpenEducationDatabase, StudyPortals, IceFramer, Catalyst | OnlineEdFinder's course filtering and side-by-side course comparison help users to find the best course that meets their educational needs more efficiently. |",
+  "content": [
+    [
+      "CourseFinder",
+      "CourseFinder is a personalized online course recommendation platform that helps students find the right online course that matches their needs, goals, and learning style.",
+      "Personalized recommendations, Skill-based matching, User reviews, Detailed course information, Learning materials",
+      "Class Central, Coursera, edX, Udacity, Skillshare",
+      "CourseFinder uses advanced algorithms and machine learning to match students with courses based on their individual needs and goals."
+    ],
+    [
+      "CourseCoach",
+      "CourseCoach is an online coaching service that helps students navigate the overwhelming number of online courses available and develop a personalized learning plan.",
+      "One-on-one coaching, Personalized learning plans, Goal setting, Accountability, Progress tracking",
+      "Coursera, Udemy, LinkedIn Learning, Skillsoft, FutureLearn",
+      "CourseCoach provides personalized guidance and accountability for students, helping them stay focused and motivated as they work towards their learning goals."
+    ],
+    [
+      "CourseScanner",
+      "CourseScanner is an AI-powered search engine that helps students find the best online courses based on their specific interests and career goals.",
+      "AI-powered search, Career-focused results, User ratings, Price comparison, Skill assessments",
+      "Coursera, edX, Udacity, Pluralsight, Treehouse",
+      "CourseScanner uses cutting-edge AI technology to deliver highly relevant search results that match students' career goals and learning preferences."
+    ],
+    [
+      "CourseCompare",
+      "CourseCompare is a comparison tool that allows students to compare online courses side-by-side based on key features such as price, course length, learning outcomes, and user reviews.",
+      "Side-by-side comparison, Price tracking, User reviews, Learning outcomes, Course features",
+      "Udemy, Skillshare, LinkedIn Learning, Pluralsight, FutureLearn",
+      "CourseCompare provides an easy way for students to compare and contrast different online courses, helping them make informed decisions about their learning journey."
+    ]
+  ],
   "pain_point_id": 54,
   "pain_point_title": "overwhelming choices",
   "pain_point_description": "the vast amount of online courses can leave students feeling overwhelmed and confused. there seems to be no effective way to choose the best course that matches their needs and goals",
@@ -8,5 +37,5 @@
   "audience_id": 1,
   "audience_title": "online education",
   "audience_slug": "online-education",
-  "status": 0
+  "status": 1
 }

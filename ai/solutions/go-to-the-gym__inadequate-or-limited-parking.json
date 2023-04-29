@@ -1,6 +1,35 @@
 {
   "role": "assistant",
-  "content": "Solution Title | Gym Parking Finder\n--- | ---\nSolution Description | Gym Parking Finder is a mobile app that helps gym-goers find parking spots near their gyms. Users can search for parking by selecting their gym's location and receive real-time updates on the availability of nearby parking. The app also allows users to reserve parking spots, view parking rates, and navigate to their gym from the parking lot. With Gym Parking Finder, gym-goers no longer need to worry about limited, inconvenient, or inadequate parking spaces discouraging them from working out.\nFeatures | Real-time parking availability, reservation system, parking rate information, navigation to gym, user-friendly interface\nCompetitors | ParkWhiz, SpotHero, ParkMobile, BestParking, ParkMe\nDifferentiator | Gym Parking Finder is the only app that is specifically designed to help gym-goers find parking spots near their gyms, as opposed to general parking apps that may not have information on parking near gyms. The app provides real-time updates and a reservation system, making the parking process more convenient for users.",
+  "content": [
+    [
+      "Gym Parking App",
+      "A mobile app that helps gym-goers find available parking spaces near their gym. The app provides real-time data on parking availability, location, and pricing, allowing users to plan their trips accordingly.",
+      "Real-time data, parking availability, location tracking, pricing, user reviews,",
+      "ParkMe, BestParking, SpotHero, ParkWhiz, Parkmobile",
+      "This app is specifically designed for gym-goers and their unique parking needs. It also features user reviews, allowing users to rate and provide feedback on parking options."
+    ],
+    [
+      "Carpooling for Gym-Goers",
+      "A carpooling service that connects gym-goers with car owners who park at or near the gym. The service allows individuals to save money on gas and parking and reduce their environmental impact.",
+      "Ride-sharing, carpool matching, scheduling, payment processing, user profiles",
+      "Lyft, Uber, Zipcar, Carma, Scoop",
+      "This service is designed specifically for gym-goers to address their parking needs. It offers a more sustainable and cost-effective alternative to driving alone."
+    ],
+    [
+      "Gym Parking Lot Franchise",
+      "A one-person business that provides parking solutions for gyms by leasing and operating nearby parking lots. The business owner can offer exclusive parking to gym members, as well as hourly, daily, and monthly parking options to the public.",
+      "Parking lot management, leasing, pricing, marketing, customer service",
+      "SP+ Parking, Laz Parking, Ace Parking, ParkWhiz, ABM Parking Services",
+      "This solution provides a dedicated parking solution for gym-goers and offers a profitable business opportunity for entrepreneurs."
+    ],
+    [
+      "Bike Valet Service",
+      "A bike valet service that provides safe and convenient bike parking for gym-goers. The service allows individuals to avoid the hassle of finding parking and the expense of driving or taking public transportation.",
+      "Bike parking, security, valet service, bike repair, user profiles",
+      "Bike-Spa, Velovault, Bikestation, Bike Valet Ltd, Cyclehoop",
+      "This service offers a sustainable and affordable parking solution for gym-goers, as well as bike repair services and user profiles for a personalized experience."
+    ]
+  ],
   "pain_point_id": 40,
   "pain_point_title": "inadequate or limited parking",
   "pain_point_description": "limited, inconvenient, or inadequate parking can discourage individuals from going to the gym",
@@ -8,5 +37,5 @@
   "audience_id": 8,
   "audience_title": "go to the gym",
   "audience_slug": "go-to-the-gym",
-  "status": 0
+  "status": 1
 }
