@@ -16,7 +16,9 @@
 		"flowbite": "^1.6.5",
 		"mock-aws-s3": "^4.0.2",
 		"nock": "^13.3.1",
-		"sqlite3": "^5.1.6"
+		"sqlite3": "^5.1.6",
+		"@astrojs/sitemap": "^1.2.2",
+		"@astrojs/tailwind": "^3.1.1"
 	},
 	"engines": {
 		"node": ">=18.0.0"
