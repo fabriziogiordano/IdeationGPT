@@ -1,9 +1,9 @@
 import path from "path";
-import { ROOT_PATH } from "~/config.js";
 import * as sqlite from "~/db/index.js";
 
-const BASE_DIR = process?.env?.BASE_DIR || ROOT_PATH;
-const DB_FILE = path.join(BASE_DIR, "src", "db", "DB.db");
+const DB_FILE = path.join("src", "db", "DB.db");
+
+console.log(DB_FILE);
 
 async function loadSqlite(query: string, other?: object) {
 	if (query === null) {
