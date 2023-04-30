@@ -22,6 +22,7 @@ for (const audience of audiences) {
     });
   }
 }
+
 ---
 
 <Layout title="Welcome">
@@ -40,6 +41,9 @@ for (const audience of audiences) {
                     <>
                       <div class="mb-2 text-red-900">Solution title: {solution.title}</div>
                       <div class="mb-2 text-blue-900">Solution description: {solution.description}</div>
+                      <div class="mb-2 text-blue-900">Solution features: {solution.features}</div>
+                      <div class="mb-2 text-blue-900">Solution competitors: {solution.competitors}</div>
+                      <div class="mb-2 text-blue-900">Solution differentiator: {solution.differentiator}</div>
                     </>
                   );
                 })}

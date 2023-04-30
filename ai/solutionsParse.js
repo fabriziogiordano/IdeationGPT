@@ -38,8 +38,11 @@ try {
 				solution[2] = solution[2]?.replaceAll(/\d.*?\. /g, "").replaceAll("- ", "").trim();
 				solution[3] = solution[3]?.replaceAll(/\d.*?\. /g, "").replaceAll("<br>-", "").trim();
 
+				let title = solution[0].toLowerCase()
+				title = title.charAt(0).toUpperCase() + title.slice(1);
+
 				const query = {
-					title: solution[0].toLowerCase(),
+					title,
 					slug: slugify(solution[0], { remove: ":", lower: true, trim: true }),
 					description: solution[1],
 					features: solution[2],

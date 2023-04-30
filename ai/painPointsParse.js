@@ -27,14 +27,18 @@ try {
 		const dataTable = parseTable(data.content);
 
 		for (const results of dataTable) {
+			let title = results[0].toLowerCase();
+			title = title.charAt(0).toUpperCase() + title.slice(1);
+
 			let description = results[1];
+			description = description.charAt(0).toUpperCase() + description.slice(1);
 			while (description[description.length - 1] === ".") description = description.slice(0, -1);
-			
+
 			const query = {
 				audience_id: data.audience_id,
-				title: results[0].toLowerCase(),
+				title,
 				slug: slugify(results[0], { remove: ":", lower: true, trim: true }),
-				description: description.toLowerCase(),
+				description,
 			};
 			console.log(
 				`${blue(`${data.audience_id} - ${data.audience_title}`)}\n${query.title}\n${bold(query.description)}`,
