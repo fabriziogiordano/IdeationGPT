@@ -50,6 +50,16 @@ export default defineConfig({
 			},
 		}),
 		sitemap(),
-		compress(),
+        compress({
+            outDir: "./build",
+            css: true,
+            html: {
+                removeAttributeQuotes: false,
+            },
+            img: false,
+            js: true,
+            svg: true,
+            logger: 1,
+        }),
 	],
 });
