@@ -6,7 +6,7 @@ import { Sema } from "async-sema";
 import { RateLimit } from "async-sema";
 
 import * as sqlite from "./db/index.js";
-const DB_FILE = "../../astro/src/db/DB.db";
+const DB_FILE = "../astro/src/db/DB.db";
 
 import { PAIN_POINT_SOLUTION_STATUS, SOLUTIONS_STATUS } from "./utils/index.js";
 

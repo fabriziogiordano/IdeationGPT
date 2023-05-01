@@ -9,7 +9,7 @@ import { openAI } from "./utils/openai.js";
 import { AUDIENCE_STATUS, PAIN_POINT_STATUS } from "./utils/index.js";
 
 import * as sqlite from "./db/index.js";
-const DB_FILE = "../../astro/src/db/DB.db";
+const DB_FILE = "../astro/src/db/DB.db";
 
 const lim = RateLimit(100, { timeUnit: 60 * 1000, uniformDistribution: true });
 

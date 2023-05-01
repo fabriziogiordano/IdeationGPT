@@ -1,6 +1,6 @@
 import fs from "fs";
 import * as sqlite from "./index.js";
-const DB_FILE = "DB.db";
+const DB_FILE = "../../astro/src/db/DB.db";
 
 try {
   fs.unlinkSync(DB_FILE);
