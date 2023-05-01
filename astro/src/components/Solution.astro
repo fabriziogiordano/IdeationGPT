@@ -1,0 +1,12 @@
+---
+const { audience, pain_point, solution } = Astro.props;
+---
+
+<h3>
+  <a href={`/${audience.slug}/${pain_point.slug}/${solution.slug}`}>{solution.title}</a>
+</h3>
+
+<div>{solution.description}</div>
+<div><strong>Features</strong> {solution.features}</div>
+<div><strong>Differentiator</strong> {solution.differentiator}</div>
+<div><strong>Competitors</strong> {solution.competitors}</div>

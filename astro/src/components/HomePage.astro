@@ -1,5 +1,7 @@
 ---
-import type { DataItem } from "~/types";
+import type { DataItem, PainPoint } from "~/types";
+
+import Solution from "~/components/Solution.astro";
 
 import { runQuery } from "~/libs/query";
 
@@ -7,42 +9,39 @@ const data: DataItem[] = [];
 
 const audiences = await runQuery("audiences");
 for (const audience of audiences) {
+  const pain_points_temp: PainPoint[] = [];
   const pain_points = await runQuery("pain_points", { audience_id: audience.id });
   for (const pain_point of pain_points) {
     const solutions = await runQuery("solutions", { audience_id: audience.id, pain_point_id: pain_point.id });
-    data.push({
-      audience,
-      pain_points: [
-        {
-          ...pain_point,
-          solutions,
-        },
-      ],
+    pain_points_temp.push({
+      ...pain_point,
+      solutions,
     });
   }
+  data.push({
+    ...audience,
+    pain_points: pain_points_temp,
+  });
 }
 ---
 
 {
-  data.map(({ audience, pain_points }) => {
+  data.map((audience) => {
+    console.log(audience);
     return (
       <>
-        <div class="mb-2 text-lg font-semibold text-gray-900">Audience: {audience.title}</div>
-        {pain_points.map((pain_point) => {
+        <h1>
+          <a href={`/${audience.slug}`}>{audience.title}</a>
+        </h1>
+
+        {audience.pain_points.map((pain_point) => {
           return (
             <>
-              <div class="mb-2 text-gray-900">Pain point: {pain_point.title}</div>
-
+              <h2>
+                <a href={`/${audience.slug}/${pain_point.slug}`}>Pain point: {pain_point.title}</a>
+              </h2>
               {pain_point.solutions.map((solution) => {
-                return (
-                  <>
-                    <div class="mb-2 text-red-900">Solution title: {solution.title}</div>
-                    <div class="mb-2 text-blue-900">Solution description: {solution.description}</div>
-                    <div class="mb-2 text-blue-900">Solution features: {solution.features}</div>
-                    <div class="mb-2 text-blue-900">Solution competitors: {solution.competitors}</div>
-                    <div class="mb-2 text-blue-900">Solution differentiator: {solution.differentiator}</div>
-                  </>
-                );
+                return <Solution audience={audience} pain_point={pain_point} solution={solution} />;
               })}
             </>
           );

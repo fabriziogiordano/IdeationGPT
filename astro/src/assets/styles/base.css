@@ -4,6 +4,35 @@
 
 @layer components {
   h1 {
-    @apply text-orange-900 font-extrabold text-2xl;
+    @apply text-gray-900 font-extrabold text-3xl mb-4;
   }
+
+  h2 {
+    @apply text-gray-900 font-extrabold text-2xl mb-4;
+  }
+
+  h3 {
+    @apply text-gray-900 font-extrabold text-xl mb-4;
+  }
+
+  #container {
+    @apply container mx-auto flex flex-wrap py-6;
+  }
+
+  main {
+    @apply w-full md:w-2/3 flex flex-col mb-0 px-3 md:mb-8;
+  }
+
+  footer {
+    @apply p-4 bg-white sm:p-6 dark:bg-darkBlue;
+  }
+
+  header nav {
+    @apply bg-darkBlue border-gray-200 px-2 sm:px-4 py-2.5;
+  }
+}
+
+a::before {
+  content: "⚓️ ";
+  font-size: 0.8em;
 }

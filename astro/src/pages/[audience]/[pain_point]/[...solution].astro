@@ -1,0 +1,58 @@
+---
+import type { SlugAudiencesPainPointsSolutions } from "~/types";
+
+import Layout from "~/layouts/Layout.astro";
+import Container from "~/layouts/Container.astro";
+import Main from "~/layouts/Main.astro";
+import Aside from "~/layouts/Aside.astro";
+
+import Solution from "~/components/Solution.astro";
+
+import { runQuery } from "~/libs/query";
+
+export async function getStaticPaths() {
+  const audiences = await runQuery("audiences");
+  const slug: SlugAudiencesPainPointsSolutions[] = [];
+  for (const audience of audiences) {
+    const pain_points = await runQuery("pain_points", { audience_id: audience.id });
+    for (const pain_point of pain_points) {
+      const solutions = await runQuery("solutions", { audience_id: audience.id, pain_point_id: pain_point.id });
+      for (const solution of solutions) {
+        slug.push({
+          params: {
+            audience: audience.slug,
+            pain_point: pain_point.slug,
+            solution: solution.slug,
+          },
+          props: {
+            audience,
+            pain_point,
+            solution,
+          },
+        });
+      }
+    }
+  }
+
+  return slug;
+}
+
+const { audience, pain_point, solution } = Astro.props;
+---
+
+<Layout title="Welcome" description="BASE">
+  <Container>
+    <Main>
+      <h1>
+        <a href={`/${audience.slug}`}>{audience.title}</a>
+      </h1>
+
+      <h2>
+        <a href={`/${audience.slug}/${pain_point.slug}`}>{pain_point.title}</a>
+      </h2>
+
+      <Solution audience={audience} pain_point={pain_point} solution={solution} />
+    </Main>
+    <Aside title="Sidebar">Some nice stats here would be great</Aside>
+  </Container>
+</Layout>
