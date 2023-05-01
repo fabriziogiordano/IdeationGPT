@@ -4,7 +4,7 @@ import fs from "fs";
 import slugify from "slugify";
 
 import * as sqlite from "./db/index.js";
-const DB_FILE = "./db/DB.db";
+const DB_FILE = "../../astro/src/db/DB.db";
 
 import { parseTable } from "./utils/parseTable.js";
 
