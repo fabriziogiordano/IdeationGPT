@@ -1,0 +1,13 @@
+---
+
+export interface Props {
+  title?: string | null;
+  extraClass?: string | null;
+}
+const { title, extraClass } = Astro.props;
+---
+
+<aside class={`w-full md:w-1/3 flex flex-col px-3 ${extraClass}`}>
+  {title && <h4 class="pt-2">{title}</h4>}
+  <slot />
+</aside>

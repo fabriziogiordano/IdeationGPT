@@ -1,0 +1,3 @@
+# Access to and use of TerreDaMare.it is governed by our Terms of Use. See https://terredamare.it/terms
+
+User-agent: *

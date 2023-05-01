@@ -21,11 +21,14 @@ module.exports = {
       //     "900": "#1e3a8a"
       //   }
       // },
-    //   extend: {
-    //     backgroundImage: {
-    //       hero: "url('//maps.terredamare.com/bg0.webp')",
-    //     },
-    //   },
+      extend: {
+        colors: {
+          darkBlue: "#002C6A", // "#002559"
+        }
+        // backgroundImage: {
+        //   hero: "url('//maps.terredamare.com/bg0.webp')",
+        // },
+      },
     },
     plugins: [
       // require('flowbite/plugin'),

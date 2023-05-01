@@ -1,57 +1,25 @@
 ---
 import Layout from "~/layouts/Layout.astro";
-import type { DataItem } from "~/types";
+import Container from "~/layouts/Container.astro";
+import Main from "~/layouts/Main.astro";
+import Aside from "~/layouts/Aside.astro";
 
-import { runQuery } from "~/libs/query";
-
-const data: DataItem[] = [];
-
-const audiences = await runQuery("audiences");
-for (const audience of audiences) {
-  const pain_points = await runQuery("pain_points", { audience_id: audience.id });
-  for (const pain_point of pain_points) {
-    const solutions = await runQuery("solutions", { audience_id: audience.id, pain_point_id: pain_point.id });
-    data.push({
-      audience,
-      pain_points: [
-        {
-          ...pain_point,
-          solutions,
-        },
-      ],
-    });
-  }
-}
+import HomePage from "~/components/HomePage.astro";
+import Hero from "~/components/Hero.astro";
 
 ---
 
-<Layout title="Welcome">
-  {
-    data.map(({ audience, pain_points }) => {
-      return (
-        <>
-          <div class="mb-2 text-lg font-semibold text-gray-900">Audience: {audience.title}</div>
-          {pain_points.map((pain_point) => {
-            return (
-              <>
-                <div class="mb-2 text-gray-900">Pain point: {pain_point.title}</div>
-
-                {pain_point.solutions.map((solution) => {
-                  return (
-                    <>
-                      <div class="mb-2 text-red-900">Solution title: {solution.title}</div>
-                      <div class="mb-2 text-blue-900">Solution description: {solution.description}</div>
-                      <div class="mb-2 text-blue-900">Solution features: {solution.features}</div>
-                      <div class="mb-2 text-blue-900">Solution competitors: {solution.competitors}</div>
-                      <div class="mb-2 text-blue-900">Solution differentiator: {solution.differentiator}</div>
-                    </>
-                  );
-                })}
-              </>
-            );
-          })}
-        </>
-      );
-    })
-  }
+<Layout title="Welcome" description="BASE">
+  <Hero background="">
+    <Fragment slot="title">TITLE</Fragment>
+    <Fragment slot="description">DESCRIPTION</Fragment>
+  </Hero>
+  <Container>
+    <Main>
+      <HomePage />
+    </Main>
+    <Aside title="Sidebar">
+      Some nice stats here would be great
+    </Aside>
+  </Container>
 </Layout>

@@ -1,3 +1,6 @@
+# macOS-specific files
+.DS_Store
+
 node_modules/
 .env
 service_account_credentials.json

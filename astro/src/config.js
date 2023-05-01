@@ -8,7 +8,9 @@ export const ROOT_PATH = path.join(__dirname, '..');
 export const PROD = process?.env?.NODE_ENV === 'production' ? true : false;
 
 
-export const SITE_URL = 'https://aidea.day';
+export const SITE_URL = 'https://strikebulb.com';
+export const SITE_TITLE = 'StrikeBulb';
+export const SITE_DESCRIPTION = 'Ideas that come up as a strike in a buld!';
 
 export const GOOGLE_TAG_MANAGER_ID = {};
 export const GOOGLE_TAG_MANAGER = "";

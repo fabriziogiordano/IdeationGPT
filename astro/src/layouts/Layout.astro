@@ -1,24 +1,57 @@
 ---
 import "~/assets/styles/base.css";
 
+import Header from "~/components/Header.astro";
+import Footer from "~/components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL, GOOGLE_TAG_MANAGER, GOOGLE_AD_SENSE } from "../config.js";
+
 export interface Props {
-	title: string;
+  title: string;
+  description: string;
 }
+let { title, description } = Astro.props;
+title = `${title} - ${SITE_TITLE}`;
+description = description || SITE_DESCRIPTION;
+const canonical = Astro.url.toString().replace(/\/$/, '');
 
-
-const { title } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>{title}</title>
+    <meta content={description} name="description" />
+
+    <meta content="index,follow" name="robots" />
+
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content={title} property="og:title" />
+    <meta content={description} property="og:description" />
+    <meta content={SITE_URL} property="og:url" />
+    <meta content="website" property="og:type" />
+    <meta content={`${SITE_URL}/og_image.png`} property="og:image" />
+    <meta content={title} property="og:image:alt" />
+
+    <!-- <link href={Astro.request.url.href} rel="canonical" /> -->
+    <link href="/favicon.ico" rel="shortcut icon" />
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
+    <link href="/favicon.svg" rel="mask-icon" color="#fff" />
+
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <link rel="canonical" href={canonical} />
+    <link rel="preconnect" href="https://partner.googleadservices.com" />
+    <link rel="preconnect" href="https://googleads.g.doubleclick.net" />
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+
+    <Fragment set:html={GOOGLE_TAG_MANAGER} />
+    <Fragment set:html={GOOGLE_AD_SENSE} />
+  </head>
+  <body>
+    <Header />
+    <slot />
+    <Footer />
+  </body>
 </html>
