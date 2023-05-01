@@ -54,6 +54,9 @@ async function mainApp() {
             title text,
             slug text,
             description text,
+            pros text,
+            const text,
+            description text,
             features text,
             competitors text,
             differentiator text

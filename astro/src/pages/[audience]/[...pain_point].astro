@@ -6,7 +6,7 @@ import Container from "~/layouts/Container.astro";
 import Main from "~/layouts/Main.astro";
 import Aside from "~/layouts/Aside.astro";
 
-import Solution from "~/components/Solution.astro";
+// import Solution from "~/components/Solution.astro";
 
 import { runQuery } from "~/libs/query";
 
@@ -47,10 +47,14 @@ const { audience, pain_point, solutions } = Astro.props;
       <h2>
         <a href={`/${audience.slug}/${pain_point.slug}`}>{pain_point.title}</a>
       </h2>
-      
+
       {
         solutions.map((solution) => {
-          return <Solution audience={audience} pain_point={pain_point} solution={solution} />;
+          return (
+            <h3>
+              <a href={`/${audience.slug}/${pain_point.slug}/${solution.slug}`}>{solution.title}</a>
+            </h3>
+          );
         })
       }
     </Main>

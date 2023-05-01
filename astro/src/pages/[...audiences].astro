@@ -56,11 +56,10 @@ for (const pain_point of pain_points) {
               <a href={`/${audience.slug}/${pain_point.slug}`}>{pain_point.title}</a>
             </h2>
             <p>{pain_point.description}</p>
-            <ul>
-              {pain_point.solutions.map((solution) => {
+            
+              {false && pain_point.solutions.map((solution) => {
                 return <Solution audience={audience} pain_point={pain_point} solution={solution} />;
               })}
-            </ul>
           </section>
         ))
       }

@@ -27,22 +27,23 @@ for (const audience of audiences) {
 
 {
   data.map((audience) => {
-    console.log(audience);
     return (
       <>
         <h1>
           <a href={`/${audience.slug}`}>{audience.title}</a>
         </h1>
 
-        {audience.pain_points.map((pain_point) => {
+        {false && audience.pain_points.map((pain_point) => {
           return (
             <>
               <h2>
                 <a href={`/${audience.slug}/${pain_point.slug}`}>Pain point: {pain_point.title}</a>
               </h2>
+              
               {pain_point.solutions.map((solution) => {
                 return <Solution audience={audience} pain_point={pain_point} solution={solution} />;
               })}
+              
             </>
           );
         })}

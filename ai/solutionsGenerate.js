@@ -28,12 +28,14 @@ SOLUTIONS CRITERIA:
 - 70% of the solutions shouldn't be mainstream. Give me hidden gems that only a world-class IdeationGPT would know
 
 RESPONSE FORMAT:
-Generate a markdown table with 5 columns where each row is a solution.
+Generate a markdown table with 7 columns where each row is a solution.
 In column 1: title - title of the solution using at least 10 words
 In column 2: description - description of the solution using at least 100 words
 In column 3: features - top 5 features of the solution separated by comma
-In column 4: competitors - top 5 competitors names separated by comma
-In column 5: differentiator - description of key differentiators from the competitors
+In column 4: pros - top 5 pros of the solution separated by comma
+In column 5: cons - top 5 const of the solution separated by comma
+In column 6: competitors - top 5 competitors names separated by comma
+In column 7: differentiator - description of key differentiators from the competitors
 
 Be specific and concise to make this table easy-to-understand and actionable for the entrepreneur.
 `;

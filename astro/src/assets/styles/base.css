@@ -30,6 +30,10 @@
   header nav {
     @apply bg-darkBlue border-gray-200 px-2 sm:px-4 py-2.5;
   }
+
+  section {
+    @apply md:mb-8;
+  }
 }
 
 a::before {
